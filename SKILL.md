@@ -15,6 +15,8 @@ Preserve the user's wording and goals. Do not rewrite the entire roadmap when a 
 
 For the detailed session, assessment, scoring, and file-update protocol, read [references/coaching-protocol.md](references/coaching-protocol.md) whenever running or reviewing a learning session. It is not required for a simple question about the roadmap.
 
+Reusable curriculum belongs under `references/curriculum/`. When coaching a Phase 1 topic, read only the matching curriculum note linked from [references/curriculum/phase-1/overview.md](references/curriculum/phase-1/overview.md). Keep learner-specific misconceptions, corrections, answers, progress, and reports in the private learning workspace rather than the skill repository.
+
 ## Operating modes
 
 Infer the smallest suitable mode from the request:
