@@ -38,13 +38,14 @@ When supervising a full learning session:
 4. Identify the next incomplete outcome, its prerequisites, and any demonstrated knowledge gaps.
 5. Create or update a concise note for each active gap only when existing notes do not adequately address it.
 6. State one concrete session objective and observable completion criteria.
-7. Create a short sequence of explanation, guided practice, independent practice, and assessment appropriate to the objective.
-8. Ask one focused question or assign one bounded exercise at a time when interaction is required.
+7. Provide or update a useful learning note before assessment, then allow the user to read it and ask questions.
+8. Assess with up to three questions that progress from easy recall to moderate application to hard transfer or diagnosis. Ask them together when practical so the user can demonstrate the full range efficiently.
 9. Evaluate the user's answer or artifact and explain the evidence behind the evaluation.
 10. Give a targeted hint or corrective exercise when understanding is incomplete; update the relevant note when the response reveals a durable misconception or missing prerequisite.
-11. Reassess with a different question or scenario. After three unsuccessful attempts on the same concept, stop the quiz loop, diagnose the underlying prerequisite, and propose a different teaching approach.
-12. Pass the roadmap item only after sufficient independent evidence, then update the roadmap and session report.
-13. End with current status, demonstrated strengths, remaining gaps, and the next action.
+11. If the easy question is not answered adequately, stop the ladder and enter an education phase before reassessing. For mixed results, offer targeted education or a provisional advance with a documented warning and review checkpoint.
+12. Reassess with a different question or scenario. After three unsuccessful attempts on the same concept, stop the quiz loop, diagnose the underlying prerequisite, and propose a different teaching approach.
+13. Pass the roadmap item only after sufficient independent evidence, then update the roadmap and session report. A provisional advance does not complete the checkbox.
+14. End with current status, demonstrated strengths, remaining gaps, and the next action.
 
 ## Completion standard
 
@@ -63,6 +64,7 @@ Use these evidence levels consistently:
 - **Not started:** no meaningful attempt or evidence.
 - **Introduced:** explanation or demonstration completed.
 - **Practiced:** the user completed guided work with material help.
+- **Provisional:** the user may study the next item, but a documented gap remains and the current checkbox stays incomplete.
 - **Demonstrated:** the user independently applied the concept and explained important decisions.
 - **Retained:** the user demonstrated it again later or in a different context.
 

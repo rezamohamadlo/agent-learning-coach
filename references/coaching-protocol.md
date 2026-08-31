@@ -62,6 +62,26 @@ Avoid long lectures before practice. Adjust depth based on the user's answers ra
 
 ## 3. Check understanding
 
+### Three-level assessment ladder
+
+After providing adequate notes and an opportunity for clarification, normally assess with three questions ordered by difficulty:
+
+1. **Easy — recall and recognition:** Verify the essential vocabulary or mental model in the user's own words.
+2. **Moderate — application:** Ask the user to apply the concept to a realistic, familiar scenario.
+3. **Hard — transfer or diagnosis:** Use a new scenario, require trade-off reasoning, or ask the user to identify and correct a flawed approach.
+
+Ask all three together when the answers are short and independent. Ask them sequentially when later questions would reveal answers to earlier ones or when the task requires interactive artifacts.
+
+Evaluate the ladder as follows:
+
+- **Easy inadequate:** Stop the assessment. Enter an education phase, improve the relevant note if needed, teach the missing mental model, and later reassess with different questions.
+- **Easy adequate, later answers mixed:** Identify the precise gap. Recommend targeted education by default. A provisional advance is allowed when the missing knowledge is non-critical and upcoming work can reinforce it safely.
+- **All three adequate:** Mark the outcome Demonstrated and proceed to the next roadmap item.
+
+A provisional advance must include a visible warning, leave the current roadmap checkbox incomplete, record the missing evidence, and schedule a review checkpoint. Never provisionally advance past a safety-critical prerequisite.
+
+### Question styles
+
 Use a mixture of checks appropriate to the topic:
 
 - **Explain:** Describe the concept in the user's own words.
@@ -73,7 +93,7 @@ Use a mixture of checks appropriate to the topic:
 
 Prefer one strong check over several trivia questions. Do not rely only on multiple-choice questions or yes/no confirmation.
 
-Passing normally requires both explanation and application to a new or meaningfully changed scenario. Memorizing the wording of a previous correction is insufficient.
+Passing normally requires adequate answers across the three levels. Memorizing the wording of a previous correction is insufficient.
 
 ## 4. Evaluate evidence
 
@@ -131,7 +151,7 @@ Use this structure, omitting empty sections:
 - Date:
 - Roadmap phase:
 - Objective:
-- Outcome: Not started | Introduced | Practiced | Demonstrated | Retained
+- Outcome: Not started | Introduced | Practiced | Provisional | Demonstrated | Retained
 
 ## Work completed
 
