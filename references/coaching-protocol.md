@@ -1,0 +1,165 @@
+# Coaching Protocol
+
+Read this reference when conducting or reviewing a learning session.
+
+## 1. Establish the session
+
+Extract from the roadmap:
+
+- current phase;
+- incomplete items;
+- prerequisites;
+- previous evidence;
+- unresolved problems; and
+- the most recent next action.
+
+Infer the likely current stage from this evidence, but treat it as tentative. Show the user:
+
+- the inferred phase and item;
+- the evidence supporting the inference;
+- any uncertainty or conflict in the records; and
+- the proposed next step.
+
+Obtain confirmation or correction before beginning a full coaching or assessment session. If the user corrects the position, preserve the correction in the session report and update the roadmap only when appropriate. Do not force this confirmation for a narrow factual question.
+
+Choose one primary objective after confirmation. A session may reinforce a prerequisite, but it should not silently change the user's larger goal.
+
+Use this compact contract:
+
+```text
+Objective:
+Why now:
+Expected effort (estimate):
+Completion evidence:
+```
+
+## 2. Construct the detailed plan
+
+Before teaching, identify prerequisite gaps. Inspect `agent-learning/notes/` for relevant material. Create or revise a gap note only when the existing material is missing, misleading, or insufficient for the observed gap. A useful gap note contains:
+
+```text
+Concept:
+Why it matters now:
+Essential mental model:
+Common mistake observed:
+Small example:
+Practice prompt:
+Pass evidence:
+```
+
+Keep the note concise and reusable. Do not copy an entire general tutorial into the learning workspace.
+
+Select only the parts needed for the objective:
+
+1. **Recall:** Ask what the user already knows before teaching when prior knowledge matters.
+2. **Mental model:** Explain the minimum concepts and relationships needed for the task.
+3. **Guided example:** Work through one example and make decisions visible.
+4. **Independent application:** Give the user a similar but non-identical task.
+5. **Assessment:** Check explanation, transfer, and error recognition.
+6. **Reflection:** Ask what changed in the user's understanding and what remains uncertain.
+
+Avoid long lectures before practice. Adjust depth based on the user's answers rather than assuming beginner or expert level.
+
+## 3. Check understanding
+
+Use a mixture of checks appropriate to the topic:
+
+- **Explain:** Describe the concept in the user's own words.
+- **Compare:** Distinguish it from a nearby concept, such as a skill versus a tool.
+- **Apply:** Use it in a new realistic scenario.
+- **Diagnose:** Find and explain a flaw in an example.
+- **Predict:** State what will happen before running an experiment.
+- **Reflect:** Identify uncertainty, trade-offs, or limitations.
+
+Prefer one strong check over several trivia questions. Do not rely only on multiple-choice questions or yes/no confirmation.
+
+Passing normally requires both explanation and application to a new or meaningfully changed scenario. Memorizing the wording of a previous correction is insufficient.
+
+## 4. Evaluate evidence
+
+Evaluate four dimensions when relevant:
+
+| Dimension | Question |
+|---|---|
+| Correctness | Is the explanation or artifact technically sound? |
+| Reasoning | Can the user justify important choices and trade-offs? |
+| Transfer | Can the user apply the idea to a different example? |
+| Independence | How much prompting or correction was required? |
+
+Use evidence levels from `SKILL.md`. Record limitations honestly. A technically correct artifact produced mostly by the coach is evidence of exposure, not independent mastery.
+
+When an answer is incomplete:
+
+1. Name the specific gap.
+2. Preserve what was correct.
+3. Give the smallest useful hint.
+4. Ask for a revised answer or a focused corrective exercise.
+5. Reassess using the same completion criterion but a different question, example, or scenario.
+
+Track unsuccessful attempts at the concept level. After three unsuccessful attempts in one session:
+
+1. Stop asking equivalent questions.
+2. Diagnose whether the blocker is a prerequisite, terminology, task complexity, or teaching approach.
+3. Record the unresolved gap without marking the roadmap item complete.
+4. Propose a smaller prerequisite exercise or a different teaching format.
+5. Let the user choose whether to continue immediately or resume later.
+
+An unsuccessful attempt is one that fails the same completion criterion after meaningful feedback. Clarification requests and accidental formatting mistakes do not automatically count.
+
+## 5. Update the roadmap
+
+Make focused changes:
+
+- update the current phase when the prior phase's exit criteria are satisfied;
+- check only items supported by evidence;
+- update overall progress conservatively;
+- add or update the weekly progress row;
+- add important architectural learning decisions to the decision log;
+- replace immediate next actions that are finished or obsolete; and
+- link the new session report using a path relative to `agent-learning/` when useful.
+- record the next confirmed or proposed position so the following invocation can infer progress accurately.
+
+If overall progress is expressed as a percentage, compute it from defined milestones or clearly label it as an estimate. Do not invent precision.
+
+## 6. Write the session report
+
+Use this structure, omitting empty sections:
+
+```markdown
+# Learning Session: <topic>
+
+- Date:
+- Roadmap phase:
+- Objective:
+- Outcome: Not started | Introduced | Practiced | Demonstrated | Retained
+
+## Work completed
+
+## Understanding evidence
+
+## Attempt history
+
+## Strengths demonstrated
+
+## Gaps and corrections
+
+## Files or artifacts
+
+## Current position and next checkpoint
+
+## Recommended next step
+```
+
+Keep reports factual. Quote the user's answers only when a short excerpt is important evidence; otherwise summarize them.
+
+## 7. Close the session
+
+Give a concise closing report containing:
+
+- the outcome and evidence level;
+- what was updated;
+- one required next step;
+- optional enrichment, if useful; and
+- any unresolved question or blocker.
+
+Remind the user to invoke the skill for the next session only when that is genuinely useful. Do not imply autonomous monitoring between conversations.

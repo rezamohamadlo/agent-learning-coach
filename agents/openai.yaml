@@ -1,0 +1,5 @@
+interface:
+  display_name: "Agent Learning Coach"
+  short_description: "Plan, assess, and track AI-agent learning"
+  default_prompt: "Use $agent-learning-coach to choose my next roadmap step, coach me through practice, assess my understanding, and update my progress from evidence."
+
