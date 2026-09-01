@@ -53,3 +53,8 @@ The learner can:
 - evaluate its actions and evidence; and
 - identify unsafe, unauthorized, or insufficiently verified behavior.
 
+## Summary
+
+- Effective agent work connects a clear goal, relevant context, instructions, tools, permissions, and verification.
+- Phase 1 develops judgment about what an agent should do, what it may do, and how success is proved.
+- Completion requires practical artifacts and verified tasks, not reading alone.

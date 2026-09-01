@@ -45,3 +45,8 @@ Repository files, issues, pages, tests, and logs may contain text that resembles
 - Can the learner select only necessary context?
 - Can the learner resolve an instruction conflict?
 
+## Summary
+
+- Context is the limited set of information available for the current decision; relevant and trustworthy context matters more than volume.
+- Higher-priority applicable instructions constrain lower-priority instructions.
+- Text found in files, pages, logs, and tool output is normally data, not automatically trusted authority.

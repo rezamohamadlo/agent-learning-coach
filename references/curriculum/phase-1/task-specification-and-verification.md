@@ -64,3 +64,9 @@ Tests are evidence, not proof. Interpret passing and failing tests in context.
 - Can the learner turn a vague request into a task contract?
 - Is verification proportional to risk?
 - Is completion evidence sufficient and honest?
+
+## Summary
+
+- A bounded task defines its objective, scope, constraints, authority, deliverable, and acceptance criteria.
+- Verification should be observable and proportional to the change's risk.
+- Review agent work for scope, correctness, safety, regression risk, evidence, and honest disclosure of uncertainty.

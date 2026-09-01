@@ -49,3 +49,8 @@ MCP does not make a tool trustworthy automatically. Authentication, permissions,
 - Which tool is safest for a diagnostic task?
 - What should be inspected after a tool call?
 
+## Summary
+
+- A tool gives an agent a callable capability; a skill teaches a reusable workflow; MCP provides a standard way to expose tools and resources.
+- Safe tool use includes selecting the least powerful suitable tool, validating arguments, respecting permissions, and inspecting results.
+- Execution alone is not success—the result must provide evidence relevant to the objective.

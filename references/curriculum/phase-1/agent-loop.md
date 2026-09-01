@@ -56,3 +56,8 @@ Every iteration must preserve authority and scope. A diagnostic request authoriz
 - What evidence justifies stopping?
 - Which actions would exceed the user's authorization?
 
+## Summary
+
+- An agent repeatedly observes, reasons, acts, and inspects until it has evidence to stop.
+- **Act** performs something; **Inspect** determines what actually happened and whether it advanced the objective.
+- Every new result becomes context for the next decision, while permissions and stopping conditions remain in force.

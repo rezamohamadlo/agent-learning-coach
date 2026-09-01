@@ -43,3 +43,8 @@ A sandbox limits accessible resources. An approval permits a specific action bey
 - When is approval required?
 - What safer alternative exists for a destructive action?
 
+## Summary
+
+- Capability describes what an agent can technically do; authority describes what it is permitted to do for the task.
+- Risk depends on the exact target, operation, environment, impact, recoverability, and verification plan.
+- Prefer narrow, read-only, and reversible actions; obtain explicit approval immediately before consequential actions.

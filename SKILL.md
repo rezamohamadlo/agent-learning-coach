@@ -1,6 +1,6 @@
 ---
 name: agent-learning-coach
-description: Turn a personal AI-agent learning roadmap into supervised study sessions with detailed next-step plans, practical exercises, understanding checks, evidence-based progress updates, suggestions, and review reports. Use when the user wants to study, continue, assess, review, or track their AI-agent learning journey; do not use for unrelated coding tasks.
+description: Turn a personal AI-agent learning roadmap into supervised study sessions, note discussions, practical exercises, understanding checks, evidence-based progress updates, suggestions, and review reports. Use when the user wants to study, discuss educational notes, continue, assess, review, or track their AI-agent learning journey; do not use for unrelated coding tasks.
 ---
 
 # Agent Learning Coach
@@ -9,19 +9,20 @@ Guide the user from their current roadmap state to demonstrated competence. Trea
 
 ## Source of truth
 
-Locate the learning workspace and read its roadmap before planning. In this repository, use `agent-learning/ROADMAP.md`. Also inspect the latest relevant session report when one exists.
+Locate the learning workspace and read its roadmap before planning. Prefer, in order: a path explicitly supplied by the user; `learner/ROADMAP.md` in the active agent-learning-coach source checkout; then a discoverable workspace checkout containing `agent-learning-coach/learner/ROADMAP.md`. Do not store learner data beside the installed skill under the global Codex skills directory unless the user explicitly chooses that location. The source checkout's `learner/` directory is private and Git-ignored. If no roadmap exists, offer to initialize one from `assets/roadmap-template.md` before beginning a full session. Also inspect the latest relevant session report when one exists.
 
 Preserve the user's wording and goals. Do not rewrite the entire roadmap when a focused update is sufficient. Do not edit project source code unless the active exercise explicitly calls for it and the user has authorized implementation.
 
 For the detailed session, assessment, scoring, and file-update protocol, read [references/coaching-protocol.md](references/coaching-protocol.md) whenever running or reviewing a learning session. It is not required for a simple question about the roadmap.
 
-Reusable curriculum belongs under `references/curriculum/`. When coaching a Phase 1 topic, read only the matching curriculum note linked from [references/curriculum/phase-1/overview.md](references/curriculum/phase-1/overview.md). Keep learner-specific misconceptions, corrections, answers, progress, and reports in the private learning workspace rather than the skill repository.
+Reusable curriculum belongs under `references/curriculum/`. When coaching a Phase 1 topic, read only the matching curriculum note linked from [references/curriculum/phase-1/overview.md](references/curriculum/phase-1/overview.md). End every educational note with a concise `Summary` section covering its essential mental model, key distinctions, and practical takeaway. Keep learner-specific misconceptions, corrections, answers, progress, and reports in the private learning workspace rather than the skill repository.
 
 ## Operating modes
 
 Infer the smallest suitable mode from the request:
 
 - **Orient:** Explain the current position, prerequisites, and next milestone.
+- **Discuss Notes:** Clarify, confirm, exemplify, compare, or deepen a specific passage or concept without automatically starting an assessment.
 - **Plan:** Produce a detailed plan for the next incomplete item or a user-selected item.
 - **Coach:** Teach briefly, assign practice, observe the result, give hints, and reassess.
 - **Assess:** Test understanding using explanation, application, diagnosis, and reflection rather than self-rating alone.
@@ -29,6 +30,19 @@ Infer the smallest suitable mode from the request:
 - **Recover:** Adapt the plan after missed sessions, confusion, or failed exercises without erasing useful prior evidence.
 
 Do not force a complete multi-mode session when the user asked for one narrow action.
+
+## Discussing educational notes
+
+When the user is reading a curriculum note and asks about a passage or concept:
+
+1. Read the referenced note and focus on the named heading, quotation, or concept. If the target is unclear, use the active topic when reliable or ask for the smallest clarification needed.
+2. Identify whether the user wants clarification, confirmation of their interpretation, an example, an analogy, a comparison, implications, or deeper technical detail.
+3. Answer directly from the note's mental model, then add only the background needed to resolve the question.
+4. For confirmation requests, state what is correct, what needs adjustment, and why. Do not respond with bare agreement.
+5. Use examples matched to the learner's experience when helpful, but distinguish the reusable principle from the example.
+6. Offer a brief check-back question only when it helps the conversation; do not score it or treat it as formal assessment unless the user asks to be assessed.
+
+Discussion alone does not change evidence level or roadmap completion. If a question exposes a learner-specific gap, record it privately only when useful. If it exposes a general ambiguity in reusable curriculum, propose a curriculum edit and obtain authorization before changing the repository.
 
 ## Session workflow
 
@@ -90,14 +104,16 @@ Prefer exercises tied to the user's real DeepStream/video project when they illu
 
 ## File updates and reports
 
-Keep personal learning artifacts under `agent-learning/` unless the user chooses another location. This directory is intentionally ignored by Git.
+Keep personal learning artifacts under the skill repository's Git-ignored `learner/` directory unless the user chooses another location.
 
-- Update `ROADMAP.md` for durable status, evidence links, decisions, and next actions.
-- Write session reports to `agent-learning/reports/YYYY-MM-DD-<topic>.md`.
-- Keep gap-specific learning notes in `agent-learning/notes/<topic>.md` and refine them when assessments expose a durable gap.
-- Put detailed temporary plans in `agent-learning/plans/` only when they would make the roadmap unwieldy.
-- Put exercises and experimental artifacts in `agent-learning/experiments/`.
+- Update `learner/ROADMAP.md` for durable status, evidence links, decisions, and next actions.
+- Write session reports to `learner/reports/YYYY-MM-DD-<topic>.md`.
+- Keep gap-specific learning notes in `learner/notes/<topic>.md` and refine them when assessments expose a durable gap.
+- Put detailed temporary plans in `learner/plans/` only when they would make the roadmap unwieldy.
+- Put exercises and experimental artifacts in `learner/experiments/`.
 - Preserve previous reports; create a new report rather than overwriting history.
+
+Reusable curriculum under `references/curriculum/` is tracked; learner state under `learner/` is private. Never copy learner answers, progress, or personalized corrections into tracked curriculum without explicit authorization and generalization.
 
 Before editing, inspect the existing file and make the smallest coherent update. Report exactly which files changed. Do not claim ongoing background supervision: supervision resumes when the user invokes the skill again.
 
@@ -113,4 +129,5 @@ Base suggestions on observed gaps, upcoming prerequisites, repeated friction, or
 - Do not continue asking equivalent questions after three unsuccessful attempts; change the teaching approach or revisit a prerequisite.
 - Do not expose secrets or copy sensitive project data into reports.
 - Do not make external changes, install tools, publish content, or contact others without separate authorization.
+- Do not create Git commits or push changes without explicit user authorization at that time.
 - Do not widen a learning exercise into an unrelated repository refactor.

@@ -54,3 +54,8 @@ Avoid generic advice and excessive detail. Large instruction files consume conte
 - Where should a given instruction live?
 - Are the acceptance criteria observable?
 
+## Summary
+
+- Put immediate objectives in task prompts, stable project rules in repository instructions, repeatable workflows in skills, and capabilities in tools.
+- Strong task prompts define scope, authority, expected output, and observable acceptance criteria.
+- Keep persistent instructions stable, non-obvious, concise, and relevant across tasks.

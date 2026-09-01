@@ -35,7 +35,7 @@ Completion evidence:
 
 ## 2. Construct the detailed plan
 
-Before teaching, identify prerequisite gaps. Inspect `agent-learning/notes/` for relevant material. Create or revise a gap note only when the existing material is missing, misleading, or insufficient for the observed gap. A useful gap note contains:
+Before teaching, identify prerequisite gaps. Inspect `learner/notes/` for relevant material. Create or revise a gap note only when the existing material is missing, misleading, or insufficient for the observed gap. A useful gap note contains:
 
 ```text
 Concept:
@@ -61,6 +61,17 @@ Select only the parts needed for the objective:
 Avoid long lectures before practice. Adjust depth based on the user's answers rather than assuming beginner or expert level.
 
 ## 3. Check understanding
+
+Discussion and assessment are different modes. Questions asked while reading notes are learning interactions, not failed assessment attempts. Do not start the three-level ladder, score the response, or update roadmap evidence unless the user requests assessment or clearly agrees to begin it.
+
+When discussing a note:
+
+- anchor the answer to the relevant heading or passage;
+- separate the core principle from a product-specific implementation or illustrative example;
+- confirm interpretations by identifying correct and incorrect parts explicitly;
+- provide one concrete example before adding several variations;
+- state uncertainty when the note does not establish the answer; and
+- return naturally to reading or discussion instead of forcing a quiz.
 
 ### Three-level assessment ladder
 
@@ -136,7 +147,7 @@ Make focused changes:
 - add or update the weekly progress row;
 - add important architectural learning decisions to the decision log;
 - replace immediate next actions that are finished or obsolete; and
-- link the new session report using a path relative to `agent-learning/` when useful.
+- link the new session report using a path relative to `learner/` when useful.
 - record the next confirmed or proposed position so the following invocation can infer progress accurately.
 
 If overall progress is expressed as a percentage, compute it from defined milestones or clearly label it as an estimate. Do not invent precision.
