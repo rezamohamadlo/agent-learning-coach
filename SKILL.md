@@ -31,6 +31,19 @@ Infer the smallest suitable mode from the request:
 
 Do not force a complete multi-mode session when the user asked for one narrow action.
 
+## Skill-maintenance prefix
+
+If the first non-whitespace characters of a user prompt are `@#`, treat the remainder as a request to update or refine the agent-learning-coach skill:
+
+- Do not interpret the prompt as an assessment answer, clarification response, or failed attempt.
+- Pause the active learning activity without discarding its current position or evidence.
+- Apply the skill-creation workflow to the editable source repository, preserving unrelated pending changes.
+- Synchronize the installed copy after validation when authorized by the requested update.
+- Do not commit or push unless the user explicitly authorizes that action at that time.
+- Resume the paused learning activity using the updated behavior after completing the maintenance request.
+
+The prefix is routing syntax and is not part of the requested change.
+
 ## Discussing educational notes
 
 When the user is reading a curriculum note and asks about a passage or concept:
@@ -55,7 +68,7 @@ When supervising a full learning session:
 5. Create or update a concise note for each active gap only when existing notes do not adequately address it.
 6. State one concrete session objective and observable completion criteria.
 7. Provide or update a useful learning note before assessment, then allow the user to read it and ask questions.
-8. Assess with up to three questions that progress from easy recall to moderate application to hard transfer or diagnosis. Ask them together when practical so the user can demonstrate the full range efficiently.
+8. Assess with up to three multiple-choice questions that progress from easy recall to moderate application to hard transfer or diagnosis. Every question must include a final `I don't know` choice. Ask them together when practical so the user can demonstrate the full range efficiently.
 9. Evaluate the user's answer or artifact and explain the evidence behind the evaluation.
 10. Give a targeted hint or corrective exercise when understanding is incomplete; update the relevant note when the response reveals a durable misconception or missing prerequisite.
 11. If the easy question is not answered adequately, stop the ladder and enter an education phase before reassessing. For mixed results, offer targeted education or a provisional advance with a documented warning and review checkpoint.

@@ -77,11 +77,22 @@ When discussing a note:
 
 After providing adequate notes and an opportunity for clarification, normally assess with three questions ordered by difficulty:
 
-1. **Easy — recall and recognition:** Verify the essential vocabulary or mental model in the user's own words.
-2. **Moderate — application:** Ask the user to apply the concept to a realistic, familiar scenario.
-3. **Hard — transfer or diagnosis:** Use a new scenario, require trade-off reasoning, or ask the user to identify and correct a flawed approach.
+1. **Easy — recall and recognition:** Verify the essential vocabulary or mental model.
+2. **Moderate — application:** Ask the user to select the correct application in a realistic, familiar scenario.
+3. **Hard — transfer or diagnosis:** Use a new scenario, trade-off, or flawed approach that requires selecting the best diagnosis or correction.
 
 Ask all three together when the answers are short and independent. Ask them sequentially when later questions would reveal answers to earlier ones or when the task requires interactive artifacts.
+
+Every formal assessment question must:
+
+- use a multiple-choice format with one best answer unless the concept genuinely requires selecting multiple answers;
+- provide plausible distractors that reveal meaningful misconceptions rather than trivia or wording tricks;
+- contain three to five substantive choices;
+- add `I don't know` as the final choice for that question;
+- avoid making the correct answer obvious through length, grammar, or repeated wording; and
+- state clearly when more than one selection is allowed.
+
+Treat `I don't know` as an honest request for education, not as guessing, misconduct, or a separate failed attempt. If it is selected for the easy question, enter the education phase. If it is selected later, handle the result as mixed evidence and teach the specific gap.
 
 Evaluate the ladder as follows:
 
@@ -102,7 +113,7 @@ Use a mixture of checks appropriate to the topic:
 - **Predict:** State what will happen before running an experiment.
 - **Reflect:** Identify uncertainty, trade-offs, or limitations.
 
-Prefer one strong check over several trivia questions. Do not rely only on multiple-choice questions or yes/no confirmation.
+Prefer scenario-based choices over trivia or yes/no confirmation. When multiple-choice success could reasonably result from guessing, use a later practical artifact or delayed retention check before assigning **Retained** evidence.
 
 Passing normally requires adequate answers across the three levels. Memorizing the wording of a previous correction is insufficient.
 
