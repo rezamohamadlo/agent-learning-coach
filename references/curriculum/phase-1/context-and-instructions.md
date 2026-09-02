@@ -1,5 +1,9 @@
 # Context and Instruction Priority
 
+## Previous-note recap
+
+- Agent loop: observe, reason, act, inspect, repeat/stop.
+
 ## Context
 
 Context is the information available to the model for its current decision. It can include the user request, conversation history, instructions, repository files, tool results, and retrieved documents.

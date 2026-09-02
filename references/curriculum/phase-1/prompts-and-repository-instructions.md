@@ -1,5 +1,10 @@
 # Prompts and Persistent Instructions
 
+## Previous-note recap
+
+- Agent loop: observe, reason, act, inspect, repeat/stop.
+- Context and instructions: relevant context, instruction priority, untrusted data.
+
 ## Choosing the right location
 
 A prompt communicates a current task. Persistent instructions describe behavior across tasks. Repository instructions describe stable conventions for a codebase or directory.
@@ -29,8 +34,8 @@ A useful request normally states:
 Example:
 
 ```text
-Diagnose why the focused recording-uploader test fails.
-Inspect only relevant uploader and test files.
+Diagnose why the focused invoice-total test fails.
+Inspect only the relevant calculation and test files.
 Do not edit files or change external services.
 Report the supported cause, evidence, and remaining uncertainty.
 ```

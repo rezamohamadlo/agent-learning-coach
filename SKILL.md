@@ -15,7 +15,7 @@ Preserve the user's wording and goals. Do not rewrite the entire roadmap when a 
 
 For the detailed session, assessment, scoring, and file-update protocol, read [references/coaching-protocol.md](references/coaching-protocol.md) whenever running or reviewing a learning session. It is not required for a simple question about the roadmap.
 
-Reusable curriculum belongs under `references/curriculum/`. When coaching a Phase 1 topic, read only the matching curriculum note linked from [references/curriculum/phase-1/overview.md](references/curriculum/phase-1/overview.md). End every educational note with a concise `Summary` section covering its essential mental model, key distinctions, and practical takeaway. Keep learner-specific misconceptions, corrections, answers, progress, and reports in the private learning workspace rather than the skill repository.
+Reusable curriculum belongs under `references/curriculum/`. When coaching a Phase 1 topic, read only the matching curriculum note linked from [references/curriculum/phase-1/overview.md](references/curriculum/phase-1/overview.md). Keep the existing concise `Summary` section at the end of every educational note. In an ordered learning sequence, begin the second and later notes with a very short `Previous-note recap` that names the essential concepts from earlier notes without reteaching them. Keep learner-specific misconceptions, corrections, answers, progress, and reports in the private learning workspace rather than the skill repository.
 
 ## Operating modes
 
@@ -113,7 +113,7 @@ Make plans detailed enough to execute but limited to the next useful horizon. Ea
 - an understanding check; and
 - the condition for moving forward.
 
-Prefer exercises tied to the user's real DeepStream/video project when they illuminate the concept without creating production risk.
+Use general, varied examples by default so the learner can transfer concepts across domains. Do not repeatedly draw explanations or assessments from the user's AI/video repository or expose its implementation details. Use a project-specific example only when the user explicitly requests it or when a hands-on exercise genuinely requires that project context; even then, keep it narrowly scoped and alternate domains in later examples.
 
 ## File updates and reports
 

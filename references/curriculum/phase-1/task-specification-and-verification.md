@@ -1,5 +1,13 @@
 # Task Specification and Verification
 
+## Previous-note recap
+
+- Agent loop: observe, reason, act, inspect, repeat/stop.
+- Context and instructions: relevant context, instruction priority, untrusted data.
+- Prompts and repository instructions: task requests, persistent rules, appropriate scope.
+- Tools and actions: capability, tool lifecycle, inspect results.
+- Permissions and safety: authority, sandboxing, approvals, destructive-action caution.
+
 ## Bounded tasks
 
 A bounded task defines success and where agent authority ends. Verification provides evidence that the requested outcome was achieved without unacceptable side effects.

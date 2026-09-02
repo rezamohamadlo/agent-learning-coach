@@ -1,5 +1,11 @@
 # Tools and Agent Actions
 
+## Previous-note recap
+
+- Agent loop: observe, reason, act, inspect, repeat/stop.
+- Context and instructions: relevant context, instruction priority, untrusted data.
+- Prompts and repository instructions: task requests, persistent rules, appropriate scope.
+
 ## Mental model
 
 A language model generates decisions and text. Tools allow an agent to observe or change systems outside the model by reading files, running tests, querying APIs, searching documentation, or editing code.

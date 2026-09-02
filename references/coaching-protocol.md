@@ -45,9 +45,10 @@ Common mistake observed:
 Small example:
 Practice prompt:
 Pass evidence:
+Summary:
 ```
 
-Keep the note concise and reusable. Do not copy an entire general tutorial into the learning workspace.
+Keep the note concise and reusable. End it with a `## Summary` section containing the essential mental model, key distinctions, and practical takeaway. For the second and later notes in an ordered sequence, add `## Previous-note recap` immediately after the title. Use brief concept names or one-line memory cues for earlier notes, such as `Agent loop: observe, reason, act, inspect, repeat/stop`; do not reteach those notes. Do not copy an entire general tutorial into the learning workspace.
 
 Select only the parts needed for the objective:
 
@@ -59,6 +60,8 @@ Select only the parts needed for the objective:
 6. **Reflection:** Ask what changed in the user's understanding and what remains uncertain.
 
 Avoid long lectures before practice. Adjust depth based on the user's answers rather than assuming beginner or expert level.
+
+Use general examples and rotate domains so understanding is not tied to one project. Do not use details from the learner's AI/video repository as the recurring source of explanations, examples, or assessment scenarios. Use that repository only when explicitly requested or necessary for an authorized hands-on exercise.
 
 ## 3. Check understanding
 

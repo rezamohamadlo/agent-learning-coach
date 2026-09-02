@@ -1,5 +1,12 @@
 # Permissions and Safe Execution
 
+## Previous-note recap
+
+- Agent loop: observe, reason, act, inspect, repeat/stop.
+- Context and instructions: relevant context, instruction priority, untrusted data.
+- Prompts and repository instructions: task requests, persistent rules, appropriate scope.
+- Tools and actions: capability, tool lifecycle, inspect results.
+
 ## Capability versus authority
 
 A tool may technically allow an action, but the agent should perform it only when the user authorized that action within the task's scope.
