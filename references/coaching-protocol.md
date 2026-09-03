@@ -163,6 +163,8 @@ Make focused changes:
 - replace immediate next actions that are finished or obsolete; and
 - link the new session report using a path relative to `learner/` when useful.
 - record the next confirmed or proposed position so the following invocation can infer progress accurately.
+- record an upcoming periodic checkpoint when the learner is approaching a phase boundary or another review trigger.
+- after completing an item, update the current progress counts and schedule interpretation using [progress-reporting.md](progress-reporting.md).
 
 If overall progress is expressed as a percentage, compute it from defined milestones or clearly label it as an estimate. Do not invent precision.
 
@@ -192,10 +194,18 @@ Use this structure, omitting empty sections:
 
 ## Current position and next checkpoint
 
+## Progress against plan
+
 ## Recommended next step
 ```
 
 Keep reports factual. Quote the user's answers only when a short excerpt is important evidence; otherwise summarize them.
+
+### Maintain the strengths-and-gaps profile
+
+When a formal assessment, practical artifact, or substantive discussion changes durable evidence, update `learner/reviews/strengths-and-gaps.md` using the schema in [periodic-assessments.md](periodic-assessments.md). Do not classify every question as a weakness. Record a question only when it reveals a misconception, unresolved uncertainty, or a useful transfer insight. Record wrong answers with the concept tested, the observed reasoning gap, the correction, and the reassessment result; do not preserve sensitive project details or unnecessary verbatim answers.
+
+Move corrected gaps into retention candidates instead of deleting their history. Strengths must cite observable evidence rather than personality judgments. Make the smallest update needed and link the supporting session report.
 
 ## 7. Close the session
 
@@ -203,6 +213,9 @@ Give a concise closing report containing:
 
 - the outcome and evidence level;
 - what was updated;
+- phase progress split into learning, build, and exit evidence where the roadmap provides those categories;
+- position against the weekly timetable, including uncertainty when exact comparison is not supported;
+- a short evidence-based interpretation of how far the learner has come;
 - one required next step;
 - optional enrichment, if useful; and
 - any unresolved question or blocker.

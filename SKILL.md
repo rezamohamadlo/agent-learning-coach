@@ -13,7 +13,7 @@ Locate the learning workspace and read its roadmap before planning. Prefer, in o
 
 Preserve the user's wording and goals. Do not rewrite the entire roadmap when a focused update is sufficient. Do not edit project source code unless the active exercise explicitly calls for it and the user has authorized implementation.
 
-For the detailed session, assessment, scoring, and file-update protocol, read [references/coaching-protocol.md](references/coaching-protocol.md) whenever running or reviewing a learning session. It is not required for a simple question about the roadmap.
+For the detailed session, assessment, scoring, and file-update protocol, read [references/coaching-protocol.md](references/coaching-protocol.md) whenever running or reviewing a learning session. It is not required for a simple question about the roadmap. After completing a roadmap item or when the user asks how they are progressing, also read [references/progress-reporting.md](references/progress-reporting.md). For a phase-boundary or other periodic review, also read [references/periodic-assessments.md](references/periodic-assessments.md).
 
 Reusable curriculum belongs under `references/curriculum/`. When coaching a Phase 1 topic, read only the matching curriculum note linked from [references/curriculum/phase-1/overview.md](references/curriculum/phase-1/overview.md). Keep the existing concise `Summary` section at the end of every educational note. In an ordered learning sequence, begin the second and later notes with a very short `Previous-note recap` that names the essential concepts from earlier notes without reteaching them. Keep learner-specific misconceptions, corrections, answers, progress, and reports in the private learning workspace rather than the skill repository.
 
@@ -27,6 +27,7 @@ Infer the smallest suitable mode from the request:
 - **Coach:** Teach briefly, assign practice, observe the result, give hints, and reassess.
 - **Assess:** Test understanding using explanation, application, diagnosis, and reflection rather than self-rating alone.
 - **Review:** Inspect evidence, identify gaps, update progress files, and produce a report.
+- **Periodic Review:** Recheck retention and transfer across previously studied topics, prioritizing evidence-backed gaps before closing a phase.
 - **Recover:** Adapt the plan after missed sessions, confusion, or failed exercises without erasing useful prior evidence.
 
 Do not force a complete multi-mode session when the user asked for one narrow action.
@@ -74,7 +75,17 @@ When supervising a full learning session:
 11. If the easy question is not answered adequately, stop the ladder and enter an education phase before reassessing. For mixed results, offer targeted education or a provisional advance with a documented warning and review checkpoint.
 12. Reassess with a different question or scenario. After three unsuccessful attempts on the same concept, stop the quiz loop, diagnose the underlying prerequisite, and propose a different teaching approach.
 13. Pass the roadmap item only after sufficient independent evidence, then update the roadmap and session report. A provisional advance does not complete the checkbox.
-14. End with current status, demonstrated strengths, remaining gaps, and the next action.
+14. After completing an item, calculate and show an evidence-based progress snapshot against the roadmap's phase and weekly timetable using [references/progress-reporting.md](references/progress-reporting.md).
+15. Update the learner's strengths-and-gaps profile when the session produced durable evidence relevant to later review.
+16. End with current status, demonstrated strengths, remaining gaps, schedule position, and the next action.
+
+## Periodic assessments
+
+Use a periodic assessment at each phase boundary before declaring the phase complete. Also propose one earlier when several outcomes have accumulated without a retention check, a misconception recurs across sessions, or the learner returns after a substantial break. Do not interrupt a narrow discussion with an unannounced review.
+
+Build periodic assessments from recorded evidence rather than generic trivia. Include unresolved gaps, corrected misconceptions that need a fresh retention check, representative phase outcomes, and at least one older prerequisite when relevant. Treat learner questions as gap evidence only when they reveal confusion or a misconception; thoughtful clarification questions can instead be evidence of sound reasoning.
+
+Keep a living private profile at `learner/reviews/strengths-and-gaps.md` and preserve each periodic result in a dated session report. Read [references/periodic-assessments.md](references/periodic-assessments.md) for triggers, assessment design, profile fields, and update rules.
 
 ## Completion standard
 
@@ -120,7 +131,8 @@ Use general, varied examples by default so the learner can transfer concepts acr
 Keep personal learning artifacts under the skill repository's Git-ignored `learner/` directory unless the user chooses another location.
 
 - Update `learner/ROADMAP.md` for durable status, evidence links, decisions, and next actions.
-- Write session reports to `learner/reports/YYYY-MM-DD-<topic>.md`.
+- Write session reports to `learner/reports/YYYY-MM-DD-<topic>.md`, including a progress-against-plan snapshot when an item was completed.
+- Keep the evidence-backed review profile in `learner/reviews/strengths-and-gaps.md`.
 - Keep gap-specific learning notes in `learner/notes/<topic>.md` and refine them when assessments expose a durable gap.
 - Put detailed temporary plans in `learner/plans/` only when they would make the roadmap unwieldy.
 - Put exercises and experimental artifacts in `learner/experiments/`.

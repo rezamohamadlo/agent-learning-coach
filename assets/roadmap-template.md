@@ -11,6 +11,9 @@ This is a private, living roadmap for learning AI-agent concepts through study, 
 - Next review date: YYYY-MM-DD
 - Current evidence level: Not started
 - Next checkpoint: Read the Phase 1 overview and confirm the starting position.
+- Periodic review: At each phase boundary; earlier only when accumulated evidence, repeated gaps, or a substantial break justifies it.
+- Current phase progress: Learn 0/6; Build 0/4; Exit criteria 0/3.
+- Schedule status: Not assessed; compare actual evidence with the weekly plan after the first completed item.
 
 ## Main goals
 
@@ -77,17 +80,23 @@ This is a private, living roadmap for learning AI-agent concepts through study, 
 - [ ] Study retrieval, memory, prompt injection, and orchestration.
 - [ ] Use multiple agents only when evaluation shows measurable value.
 
-## Weekly progress log
+## Weekly plan and progress
 
-| Week | Dates | Focus | Evidence | Problems | Next action |
-|---|---|---|---|---|---|
-| 1 | | | | | |
+| Week | Dates | Planned focus | Actual outcome | Evidence | Schedule status | Problems | Next action |
+|---|---|---|---|---|---|---|---|
+| 1 | | | | | Not assessed | | |
 
 ## Decision log
 
 | Date | Decision | Reason | Evidence | Revisit when |
 |---|---|---|---|---|
 | | | | | |
+
+## Periodic assessment log
+
+| Date | Scope | Outcome | Strengths/gaps profile | Report | Next review trigger |
+|---|---|---|---|---|---|
+| | | | `reviews/strengths-and-gaps.md` | | End of Phase 1 |
 
 ## Session index
 
