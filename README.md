@@ -27,7 +27,7 @@ An item is not completed merely because it was explained or read. Completion nor
 ## What it provides
 
 - Roadmap orientation and next-step planning
-- Focused teaching and note discussion
+- Focused teaching and note discussion, with questions and clarified answers integrated into the related private learning note
 - Guided practice followed by independent assessment
 - Multiple-choice checks that progress from recall to application and transfer
 - Corrective teaching and fresh reassessment when understanding is incomplete
@@ -135,7 +135,7 @@ Use $agent-learning-coach to review my progress against the weekly plan.
 1. The coach reads the roadmap, relevant note, and latest report.
 2. You confirm or correct the inferred learning position.
 3. The coach states one objective, estimated effort, and observable completion evidence.
-4. You read and discuss a concise learning note.
+4. You read and discuss a concise learning note. The coach updates that note from your questions and the clarified answers during the discussion, without waiting for assessment. Repeated explanations are merged, and the final summary stays concise. These updates stay in `learner/notes/` and do not automatically count as demonstrated understanding.
 5. You complete practice and an assessment.
 6. The coach explains the evidence, teaches any gap, and reassesses with a new scenario.
 7. Only demonstrated outcomes are marked complete.
@@ -186,6 +186,19 @@ When working inside an active coaching conversation, prefix a request with `@#` 
 ```
 
 Maintenance should update the editable source, validate the result, and synchronize the installed copy when authorized. It must not commit or push unless the user explicitly requests that action.
+
+### Documentation synchronization
+
+Every repository modification includes a README review. Update this README in the same change whenever the modification affects:
+
+- the project's purpose or supported use cases;
+- coaching behavior or learning workflow;
+- setup, invocation, or repository structure;
+- learner privacy and stored artifacts;
+- assessment, reporting, or progress behavior; or
+- the maintenance and contribution process.
+
+Purely internal changes do not require artificial README edits, but maintainers must verify that the existing documentation remains accurate and state that result when handing off the change. This keeps public guidance synchronized without turning the README into a changelog.
 
 ## Scope and safety
 

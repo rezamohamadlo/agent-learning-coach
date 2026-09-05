@@ -39,6 +39,7 @@ If the first non-whitespace characters of a user prompt are `@#`, treat the rema
 - Do not interpret the prompt as an assessment answer, clarification response, or failed attempt.
 - Pause the active learning activity without discarding its current position or evidence.
 - Apply the skill-creation workflow to the editable source repository, preserving unrelated pending changes.
+- Review `README.md` for every repository modification. Update it in the same change whenever behavior, workflow, setup, structure, privacy, reporting, or the project process changes. For an internal change that does not affect users, verify that the README remains accurate and report that no textual update was needed.
 - Synchronize the installed copy after validation when authorized by the requested update.
 - Do not commit or push unless the user explicitly authorizes that action at that time.
 - Resume the paused learning activity using the updated behavior after completing the maintenance request.
@@ -54,7 +55,8 @@ When the user is reading a curriculum note and asks about a passage or concept:
 3. Answer directly from the note's mental model, then add only the background needed to resolve the question.
 4. For confirmation requests, state what is correct, what needs adjustment, and why. Do not respond with bare agreement.
 5. Use examples matched to the learner's experience when helpful, but distinguish the reusable principle from the example.
-6. Offer a brief check-back question only when it helps the conversation; do not score it or treat it as formal assessment unless the user asks to be assessed.
+6. Use the user's question and the clarified answer to update the related private learning note in the same turn. Follow the discussion-note update rules in `references/coaching-protocol.md`; capture useful explanations, examples, and corrections even when the question reveals no misconception. Do not wait for assessment or a separate request to save the explanation.
+7. Offer a brief check-back question only when it helps the conversation; do not score it or treat it as formal assessment unless the user asks to be assessed.
 
 Discussion alone does not change evidence level or roadmap completion. If a question exposes a learner-specific gap, record it privately only when useful. If it exposes a general ambiguity in reusable curriculum, propose a curriculum edit and obtain authorization before changing the repository.
 
@@ -133,7 +135,7 @@ Keep personal learning artifacts under the skill repository's Git-ignored `learn
 - Update `learner/ROADMAP.md` for durable status, evidence links, decisions, and next actions.
 - Write session reports to `learner/reports/YYYY-MM-DD-<topic>.md`, including a progress-against-plan snapshot when an item was completed.
 - Keep the evidence-backed review profile in `learner/reviews/strengths-and-gaps.md`.
-- Keep gap-specific learning notes in `learner/notes/<topic>.md` and refine them when assessments expose a durable gap.
+- Keep topic and gap-specific learning notes in `learner/notes/<topic>.md`; refine them from discussion questions and answers as well as assessment corrections.
 - Put detailed temporary plans in `learner/plans/` only when they would make the roadmap unwieldy.
 - Put exercises and experimental artifacts in `learner/experiments/`.
 - Preserve previous reports; create a new report rather than overwriting history.

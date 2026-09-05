@@ -76,6 +76,17 @@ When discussing a note:
 - state uncertainty when the note does not establish the answer; and
 - return naturally to reading or discussion instead of forcing a quiz.
 
+### Discussion-note updates
+
+For each learning question, use both the question's intent and the final clarified answer to refine the related note under `learner/notes/` during the same turn. This applies to comparisons, analogies, implementation questions, and confirmations, not only misconceptions.
+
+- Read the existing note and integrate the explanation near the relevant concept, or add a concise question-and-answer subsection when easier to find. Preserve useful examples and analogy limitations; summarize rather than append a conversation transcript.
+- Merge repeated questions into the existing explanation. If it already fully covers the answer, avoid duplicate text and point to the relevant section.
+- If only a tracked curriculum note exists, create a focused private companion note with a link to it. Keep personal discussion out of reusable curriculum unless a separate curriculum change is authorized.
+- Preserve the brief previous-note recap and keep `Summary` last, updating it when the discussion adds an essential distinction.
+- Retain uncertainty and source links for product-specific claims. Incorporate later corrections instead of preserving a superseded answer as fact.
+- Briefly link the updated note in the response. Saving a discussion does not by itself change assessment evidence, roadmap completion, or the strengths-and-gaps profile.
+
 ### Three-level assessment ladder
 
 After providing adequate notes and an opportunity for clarification, normally assess with three questions ordered by difficulty:
