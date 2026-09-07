@@ -4,6 +4,7 @@ This is a private, living roadmap for learning AI-agent concepts through study, 
 
 ## Current status
 
+- Calendar: Jalali (Solar Hijri), YYYY-MM-DD; timezone: Asia/Tehran
 - Start date: YYYY-MM-DD
 - Target duration: 12 weeks
 - Current phase: Phase 1 — Agent foundations

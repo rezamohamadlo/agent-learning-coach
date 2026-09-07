@@ -27,6 +27,26 @@ Verification method:
 
 Small tasks may not need every heading, but the ideas should remain clear.
 
+### Visual workflow: the eight components
+
+Consider these eight components before implementation, using the detail the task needs. The arrows show a useful planning order; headings can be combined or omitted when the task remains clear.
+
+```mermaid
+flowchart TD
+    O["1. Objective<br/>What outcome do we want?"]
+    C["2. Context<br/>What facts and inputs matter?"]
+    I["3. In scope<br/>What work belongs here?"]
+    X["4. Out of scope<br/>What work is excluded?"]
+    P["5. Constraints and permissions<br/>What rules and authority apply?"]
+    D["6. Expected deliverable<br/>What should be handed back?"]
+    A["7. Acceptance criteria<br/>What observable conditions mean success?"]
+    V["8. Verification method<br/>How will we check those conditions?"]
+    O --> C --> I --> X --> P --> D --> A --> V
+    V -. "If a criterion cannot be checked, clarify it" .-> A
+```
+
+For example: fix negative pagination limits → inspect endpoint behavior → change validation and tests → exclude pagination redesign → preserve the response format and add no dependencies → provide a patch and test report → negative limits return HTTP 400 and valid limits still work → run focused endpoint tests and inspect the diff.
+
 ## Acceptance criteria
 
 Good criteria are observable, such as:

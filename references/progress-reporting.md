@@ -20,6 +20,8 @@ Do not combine unequal checkboxes into a precise percentage unless the roadmap d
 
 ## Compare with the timetable
 
+Display report date ranges and roadmap schedules in Jalali `YYYY-MM-DD`. Use calendar-aware conversion for elapsed-time calculations; changing calendars must not change event days or week counts.
+
 Prefer explicit planned dates and weekly targets. If only a start date and relative phase weeks exist, derive the current roadmap week from elapsed calendar time and label it as a schedule estimate. Compare the current phase and completed evidence with the planned phase or weekly focus.
 
 Use one of these labels:

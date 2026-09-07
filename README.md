@@ -4,6 +4,10 @@ Agent Learning Coach is a reusable AI-agent skill that turns a personal learning
 
 The project is designed for people learning how AI agents work while building practical judgment about prompts, instructions, skills, tools, permissions, verification, evaluation, and agent workflows.
 
+The coach communicates in English by default, including during skill maintenance, unless you explicitly request another language.
+
+Reports and assessments use Jalali (Solar Hijri) dates in `YYYY-MM-DD` format with Latin digits, including report filenames, evidence dates, review checkpoints, and roadmap schedules. Today's date uses Asia/Tehran by default. Calendar conversion preserves historical event days and updates report links; external source dates remain as published.
+
 ## Why this project exists
 
 A checklist can show what someone intended to study, but it cannot prove what they understand. This coach treats a roadmap as both a plan and an evidence record:
@@ -39,6 +43,8 @@ An item is not completed merely because it was explained or read. Completion nor
 - Historical session reports that preserve learning evidence
 
 The bundled reusable curriculum currently covers Phase 1 agent foundations. The roadmap extends beyond Phase 1 so later curriculum and practical work can be added as the learner advances.
+
+The task-specification lesson includes a Mermaid workflow connecting the eight task-contract components, from objective to verification method.
 
 ## Evidence model
 

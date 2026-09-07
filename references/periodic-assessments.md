@@ -77,6 +77,8 @@ Update entries instead of accumulating duplicates. Move a corrected active gap t
 
 ## Reporting
 
+All assessment dates, last-checked dates, and dated review targets use Jalali `YYYY-MM-DD`, as do the report filename prefixes below. Label the calendar in the profile and report.
+
 Write each periodic result to `learner/reports/YYYY-MM-DD-phase-<n>-periodic-review.md`, adapting the normal session-report structure. Include:
 
 - scope and trigger;

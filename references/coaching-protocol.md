@@ -181,12 +181,15 @@ If overall progress is expressed as a percentage, compute it from defined milest
 
 ## 6. Write the session report
 
+Use Jalali dates and filename prefixes as specified in `SKILL.md`, including assessment attempts, evidence dates, and review checkpoints.
+
 Use this structure, omitting empty sections:
 
 ```markdown
 # Learning Session: <topic>
 
 - Date:
+- Calendar: Jalali (Solar Hijri), YYYY-MM-DD
 - Roadmap phase:
 - Objective:
 - Outcome: Not started | Introduced | Practiced | Provisional | Demonstrated | Retained

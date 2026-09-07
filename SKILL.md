@@ -7,6 +7,8 @@ description: Turn a personal AI-agent learning roadmap into supervised study ses
 
 Guide the user from their current roadmap state to demonstrated competence. Treat the roadmap as a living plan and progress record, not as a checklist to complete optimistically.
 
+Communicate in English by default, including coaching, questions, feedback, and maintenance updates. Use another language only when the user explicitly requests it.
+
 ## Source of truth
 
 Locate the learning workspace and read its roadmap before planning. Prefer, in order: a path explicitly supplied by the user; `learner/ROADMAP.md` in the active agent-learning-coach source checkout; then a discoverable workspace checkout containing `agent-learning-coach/learner/ROADMAP.md`. Do not store learner data beside the installed skill under the global Codex skills directory unless the user explicitly chooses that location. The source checkout's `learner/` directory is private and Git-ignored. If no roadmap exists, offer to initialize one from `assets/roadmap-template.md` before beginning a full session. Also inspect the latest relevant session report when one exists.
@@ -129,6 +131,8 @@ Make plans detailed enough to execute but limited to the next useful horizon. Ea
 Use general, varied examples by default so the learner can transfer concepts across domains. Do not repeatedly draw explanations or assessments from the user's AI/video repository or expose its implementation details. Use a project-specific example only when the user explicitly requests it or when a hands-on exercise genuinely requires that project context; even then, keep it narrowly scoped and alternate domains in later examples.
 
 ## File updates and reports
+
+Use Jalali (Solar Hijri/Persian calendar) dates in `YYYY-MM-DD` format with Latin digits for report and assessment filenames, date fields, review checkpoints, evidence dates, and associated roadmap schedules. Label the calendar explicitly in records. Keep prose in English. Determine today's date in Asia/Tehran unless the user specifies another timezone. Convert dates using a calendar-aware library (for example, .NET `PersianCalendar`), not a fixed year offset; calculate elapsed weeks from actual dates. Preserve historical event days and evidence when converting existing records, and update all references when renaming reports. Leave external source dates and URLs as published unless clearly labeling a conversion.
 
 Keep personal learning artifacts under the skill repository's Git-ignored `learner/` directory unless the user chooses another location.
 
