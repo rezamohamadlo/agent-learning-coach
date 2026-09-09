@@ -11,6 +11,10 @@ Communicate in English by default, including coaching, questions, feedback, and 
 
 ## Source of truth
 
+### Checkout-specific learner location
+
+This checkout stores Reza's learning workspace at `learner/reza/`, with the roadmap at `learner/reza/ROADMAP.md`. Prefer that roadmap when no other learner path is supplied. Interpret the `learner/` artifact paths in the instructions and supporting protocols below as relative to this selected workspace (for example, `learner/notes/` becomes `learner/reza/notes/`). The user has chosen to remove `learner/` from Git ignore; these records are eligible for version control. This overrides the legacy private/Git-ignored storage descriptions below, while keeping learner-specific material separate from reusable curriculum. Other explicitly supplied learner locations still take precedence.
+
 Locate the learning workspace and read its roadmap before planning. Prefer, in order: a path explicitly supplied by the user; `learner/ROADMAP.md` in the active agent-learning-coach source checkout; then a discoverable workspace checkout containing `agent-learning-coach/learner/ROADMAP.md`. Do not store learner data beside the installed skill under the global Codex skills directory unless the user explicitly chooses that location. The source checkout's `learner/` directory is private and Git-ignored. If no roadmap exists, offer to initialize one from `assets/roadmap-template.md` before beginning a full session. Also inspect the latest relevant session report when one exists.
 
 Preserve the user's wording and goals. Do not rewrite the entire roadmap when a focused update is sufficient. Do not edit project source code unless the active exercise explicitly calls for it and the user has authorized implementation.

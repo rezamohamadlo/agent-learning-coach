@@ -31,14 +31,14 @@ An item is not completed merely because it was explained or read. Completion nor
 ## What it provides
 
 - Roadmap orientation and next-step planning
-- Focused teaching and note discussion, with questions and clarified answers integrated into the related private learning note
+- Focused teaching and note discussion, with questions and clarified answers integrated into the related personal learning note
 - Guided practice followed by independent assessment
 - Multiple-choice checks that progress from recall to application and transfer
 - Corrective teaching and fresh reassessment when understanding is incomplete
 - Evidence levels from `Not started` through `Retained`
 - Progress snapshots after completed items
 - Weekly timetable comparisons without invented precision
-- A private strengths-and-gaps profile based on real questions, mistakes, corrections, and artifacts
+- A personal strengths-and-gaps profile based on real questions, mistakes, corrections, and artifacts
 - Periodic assessments, normally at each phase boundary
 - Historical session reports that preserve learning evidence
 
@@ -73,7 +73,7 @@ agent-learning-coach/
 │   ├── progress-reporting.md        Per-step and timetable progress rules
 │   ├── periodic-assessments.md      Retention-review workflow
 │   └── curriculum/phase-1/          Reusable foundation notes
-└── learner/                         Private, Git-ignored learner state
+└── learner/reza/                    Reza's learner state, eligible for Git tracking
     ├── ROADMAP.md
     ├── notes/
     ├── experiments/
@@ -81,7 +81,7 @@ agent-learning-coach/
     └── reviews/strengths-and-gaps.md
 ```
 
-Reusable curriculum and coaching behavior are tracked in Git. Personal answers, misconceptions, progress, and reports stay under the ignored `learner/` directory.
+Reusable curriculum and coaching behavior are tracked in Git. Reza's personal answers, misconceptions, progress, and reports live under `learner/reza/`. The `learner/` directory is not Git-ignored, so these records can be added to version control.
 
 ## Getting started
 
@@ -94,22 +94,22 @@ cd agent-learning-coach
 
 Keep this checkout as the editable learning workspace. Make its reusable skill available to your agent using the skill-installation method supported by your environment. If Codex provides `$skill-installer`, it can install a skill from the GitHub repository; otherwise, use your Codex environment's configured local skills directory.
 
-Keep learner data in this source checkout or another explicitly chosen private workspace—not in a published skill bundle.
+Keep learner data in this source checkout or another explicitly chosen workspace. This checkout uses `learner/reza/`.
 
-### 2. Initialize private learner state
+### 2. Initialize learner state
 
 On PowerShell:
 
 ```powershell
-New-Item -ItemType Directory -Path learner -Force
-Copy-Item assets/roadmap-template.md learner/ROADMAP.md
+New-Item -ItemType Directory -Path learner/reza -Force
+Copy-Item assets/roadmap-template.md learner/reza/ROADMAP.md
 ```
 
 On macOS or Linux:
 
 ```bash
-mkdir -p learner
-cp assets/roadmap-template.md learner/ROADMAP.md
+mkdir -p learner/reza
+cp assets/roadmap-template.md learner/reza/ROADMAP.md
 ```
 
 Edit the start date, target duration, goals, and weekly plan so schedule comparisons have meaningful inputs.
@@ -119,7 +119,7 @@ Edit the start date, target duration, goals, and weekly plan so schedule compari
 Invoke the skill from the repository checkout:
 
 ```text
-Use $agent-learning-coach to continue my roadmap.
+Use $agent-learning-coach to continue my roadmap at learner/reza/ROADMAP.md.
 ```
 
 The coach will inspect the roadmap and recent evidence, propose a tentative current position, and ask you to confirm it before beginning a full session.
@@ -141,7 +141,7 @@ Use $agent-learning-coach to review my progress against the weekly plan.
 1. The coach reads the roadmap, relevant note, and latest report.
 2. You confirm or correct the inferred learning position.
 3. The coach states one objective, estimated effort, and observable completion evidence.
-4. You read and discuss a concise learning note. The coach updates that note from your questions and the clarified answers during the discussion, without waiting for assessment. Repeated explanations are merged, and the final summary stays concise. These updates stay in `learner/notes/` and do not automatically count as demonstrated understanding.
+4. You read and discuss a concise learning note. The coach updates that note from your questions and the clarified answers during the discussion, without waiting for assessment. Repeated explanations are merged, and the final summary stays concise. These updates stay in `learner/reza/notes/` and do not automatically count as demonstrated understanding.
 5. You complete practice and an assessment.
 6. The coach explains the evidence, teaches any gap, and reassesses with a new scenario.
 7. Only demonstrated outcomes are marked complete.
