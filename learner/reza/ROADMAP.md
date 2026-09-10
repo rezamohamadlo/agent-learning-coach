@@ -9,15 +9,66 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 - Start date: 1405-06-09
 - Target duration: 12 weeks
 - Current phase: Phase 1 — Agent foundations
-- Overall progress: 7 learning outcomes demonstrated and 1 writing/build outcome completed; percentage deferred until milestone weights are defined
+- Overall progress: 7 learning outcomes demonstrated and 2 writing/build outcomes completed; percentage deferred until milestone weights are defined
 - Weekly study/build ratio: 30% study, 70% practice
 - Next review date: YYYY-MM-DD
 - Current evidence: Agent loop, context/instruction priority, prompts/persistent/repository instructions, tools/agent actions, permissions/safety, task scope/constraints/acceptance criteria, and reviewing diffs/verification evidence — Demonstrated
-- Next checkpoint: Draft the AI-generated-code review checklist. Reusable task-request template writing is complete; independent verification design remains a practice target during bounded task work.
+- Next checkpoint: Paused at the learner's request. Resume Build 3 — draft project-level agent instructions for review before installation; project context is not yet selected. Builds 1 and 2 are complete. Prioritize the starred build templates and worked examples below for future review. Independent verification design and defect-versus-missing-evidence diagnosis remain separate practice targets.
 - Periodic review: Complete a Phase 1 retention and transfer assessment before marking the phase exit criteria complete; use `reviews/strengths-and-gaps.md` to select targeted checks.
-- Current phase progress: Learn 7/7 demonstrated; Build 1/4 completed; Exit criteria 0/3 demonstrated.
+- Current phase progress: Learn 7/7 demonstrated; Build 2/4 completed; Exit criteria 0/3 demonstrated.
 - Schedule status: Estimated roadmap Week 2 (1405-06-16 to 1405-06-22), within the planned Phase 1 window; exact ahead/behind status is unknown because the weekly plan names broad focuses rather than measurable due outcomes.
-- Evidence trend: Seven conceptual outcomes demonstrated and one template-writing outcome completed across eight reports (1405-06-10 to 1405-06-17). The learner authored and revised a reusable request and applied it to two examples with feedback. Independent verification design, remaining builds, and phase-exit evidence remain pending.
+- Evidence trend: Seven conceptual outcomes demonstrated and two writing outcomes completed across 10 reports (1405-06-10 to 1405-06-19). The learner authored review questions, applied them to username validation, and the coach consolidated the final checklist. Known-defect versus missing-evidence diagnosis remains an active gap; no new independent mastery or Retained evidence is claimed.
+
+## Priority review: build templates and worked examples
+
+**Starred by the learner for future review — 1405-06-19 (Jalali; Asia/Tehran).** The learner finds the build templates and concrete samples especially useful. Prioritize these when reviewing or preparing practical work; this is a learning preference, not a new assessment result.
+
+| Priority material | Direct links | When to revisit |
+|---|---|---|
+| **Build 1 — reusable task-request template** | [Template](notes/task-specification-and-verification.md#combined-reusable-request-draft) · [Book-search example](notes/task-specification-and-verification.md#applied-build-practice-book-search-request) · [Reservation example](notes/task-specification-and-verification.md#applied-build-practice-reservations) | Before assigning a bounded coding task; adapt scope, expected behavior, and verification to the new request |
+| **Build 2 — reusable code-review checklist** | [Final checklist](notes/reviewing-diffs-and-evidence.md#final-reusable-code-review-checklist) · [Username example and feedback](notes/reviewing-diffs-and-evidence.md#username-review-practice-first-response) · [Fix-versus-verify example](notes/reviewing-diffs-and-evidence.md#how-to-use-the-decision-rule) | Before accepting an agent's code change; compare requirements, changes, and actual evidence |
+
+Future review approach: start with a saved template and one worked example, then apply it to a small new case if the learner wants practice. Keep useful templates and examples easy to find as later build items are completed. Earlier practice labels are historical; Builds 1 and 2 are completed writing outcomes with coaching.
+
+**Paused here:** Builds 1 and 2 complete. Build 3 (draft project-level agent instructions) is next; no draft or project choice has been made. Resume there when requested, without starting another exercise now.
+
+## Visual progress roadmap
+
+Snapshot: 1405-06-19 (Jalali; Asia/Tehran). Weeks show the planned sequence, not proof of completion. Status comes from the phase checkboxes and latest session evidence; no overall percentage is assigned.
+
+```mermaid
+flowchart TB
+    P1["Phase 1: Agent foundations · Weeks 1–2<br/>CURRENT · In progress<br/>Learn 7/7 · Build 2/4 · Exit criteria 0/3"]
+    P2["Phase 2: First reusable skills · Weeks 3–4<br/>Not started"]
+    P3["Phase 3: Tools and MCP · Weeks 5–6<br/>Not started"]
+    P4["Phase 4: Single-agent workflow · Weeks 7–8<br/>Not started"]
+    P5["Phase 5: Evaluations and reliability · Weeks 9–10<br/>Not started"]
+    P6["Phase 6: Portability and advanced patterns · Weeks 11–12<br/>Not started"]
+    P1 --> P2 --> P3 --> P4 --> P5 --> P6
+```
+
+### Phase 1 detail
+
+Legend: ✓ Completed or demonstrated · ◐ In progress · ○ Not completed.
+
+| Area | Visual progress | Recorded status |
+|---|---|---|
+| Learning outcomes | ✓ ✓ ✓ ✓ ✓ ✓ ✓ | 7/7 demonstrated |
+| Build outcomes | ✓ ✓ ○ ○ | 2/4 completed |
+| Exit criteria | ○ ○ ○ | 0/3 demonstrated |
+
+| Build item | Status | Remaining work |
+|---|---|---|
+| 1. Reusable task-request template | ✓ Completed | Independent verification design remains a separate practice target |
+| 2. AI-generated-code review checklist | ✓ Completed | Writing criterion met with coach refinements; independent review-decision practice remains separate |
+| 3. Draft project-level agent instructions | ○ Not started | Write a draft for review before installation |
+| 4. Three bounded coding tasks | ○ Not started | Complete tasks with explicit acceptance criteria and verification evidence |
+
+Keep the checklist-writing outcome separate from the active learning gap: independently distinguishing a known defect from missing evidence. Revisit that gap during practical work or the Phase 1 review; do not require independent mastery merely to finish writing the checklist.
+
+Evidence: [Latest session report](reports/1405-06-19-code-review-checklist-completed.md) · [Checklist draft and feedback](notes/reviewing-diffs-and-evidence.md) · [Strengths and gaps](reviews/strengths-and-gaps.md).
+
+This is a saved snapshot. Refresh it alongside future roadmap status updates.
 
 ## Learning coach
 
@@ -82,7 +133,7 @@ Create these subdirectories only when they are needed.
 ### Build
 
 - [x] Write a reusable task-request template. — Writing criterion met through learner-authored draft and revisions with feedback; see `notes/task-specification-and-verification.md` and `reports/1405-06-17-task-request-template.md`. Independent verification design remains Practiced.
-- [ ] Write a checklist for reviewing AI-generated code.
+- [x] Write a checklist for reviewing AI-generated code. — Writing criterion met by the learner-authored draft and application, consolidated with coach refinements; see `notes/reviewing-diffs-and-evidence.md` and `reports/1405-06-19-code-review-checklist-completed.md`. Independent defect-versus-evidence diagnosis remains an active practice gap.
 - [ ] Draft project-level agent instructions, without installing them until reviewed.
 - [ ] Complete three bounded coding tasks with explicit acceptance criteria.
 
@@ -240,7 +291,7 @@ Add one row at the end of every week.
 | Week | Dates | Focus | Built or learned | Evidence | Problems | Next action |
 |---|---|---|---|---|---|---|
 | 1 | 1405-06-09 to 1405-06-15 | Agent foundations | Demonstrated agent loop, context/instruction priority, prompt placement, skill/tool distinctions, tool selection, verification before retries, and permissions/safety | `reports/1405-06-10-agent-loop.md`; `reports/1405-06-11-context-and-instructions.md`; `reports/1405-06-12-prompts-and-repository-instructions.md`; `reports/1405-06-14-tools-and-actions.md`; `reports/1405-06-15-permissions-and-safety.md` | Corrected earlier gaps; discarded answer-leaked tools quiz and passed fresh assessment | Practice task scope, constraints, and acceptance criteria |
-| 2 | 1405-06-16 to 1405-06-22 | Agent foundations and Phase 1 evidence | Task specification and diff review demonstrated; reusable task-request template written and applied with feedback | `reports/1405-06-16-task-specification.md`; `reports/1405-06-17-reviewing-diffs-and-evidence.md`; `reports/1405-06-17-task-request-template.md` | Delayed retention and independent verification design pending | Draft the AI-generated-code review checklist |
+| 2 | 1405-06-16 to 1405-06-22 | Agent foundations and Phase 1 evidence | Task specification and diff review demonstrated; task-request template and code-review checklist written with feedback | `reports/1405-06-16-task-specification.md`; `reports/1405-06-17-reviewing-diffs-and-evidence.md`; `reports/1405-06-17-task-request-template.md`; `reports/1405-06-19-code-review-checklist-practice.md`; `reports/1405-06-19-code-review-checklist-completed.md` | Independent verification design, defect-versus-missing-evidence diagnosis, and delayed retention pending | Draft project-level agent instructions for review before installation |
 | 3 | | First skill | | | | |
 | 4 | | Skill evaluation | | | | |
 | 5 | | Tools | | | | |
@@ -287,6 +338,8 @@ Record important decisions so later changes have context.
 - [x] Study tools and agent actions.
 - [x] Study permissions, sandboxing, approvals, and destructive-action safety.
 - [x] Practice defining task scope, constraints, and acceptance criteria.
-- [ ] Write the reusable task-request template.
+- [x] Write the reusable task-request template.
+- [x] Write the AI-generated-code review checklist with coach refinements.
+- [ ] Draft project-level agent instructions for review before installation.
 - [ ] Select one real recording-lifecycle problem as the first skill example.
 - [ ] Draft three evaluation cases before implementing the first skill.

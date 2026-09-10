@@ -21,11 +21,19 @@ This private profile summarizes durable learning evidence for future periodic as
 
 | Diff and verification review | Selected coverage limits, corrected a delivery threshold, and required relevant verification after a later shared-code edit; 3/3 multiple-choice answers without written reasoning | Demonstrated | 1405-06-17 | `../reports/1405-06-17-reviewing-diffs-and-evidence.md` |
 
+## Writing outcomes completed with guidance
+
+- **Code-review checklist — 1405-06-19:** The learner supplied the original checklist, additions about actual test results and coverage, and concrete username-validation questions. The coach consolidated the final wording, including the decision rule. Build 2's writing criterion is complete; this does not establish independent mastery of the active gap below. Source: `../reports/1405-06-19-code-review-checklist-completed.md`.
+
 ## Active gaps
 
 Task specification reassessment on 1405-06-16 passed after targeted teaching. Corrected concepts remain retention candidates; no delayed retention is claimed. See `../reports/1405-06-16-task-specification.md`.
 
-No unresolved gap is currently recorded. Tools assessment on 1405-06-14 passed after replacing an answer-leaked quiz; deployment distinctions were discussed but not independently assessed.
+Tools assessment on 1405-06-14 passed after replacing an answer-leaked quiz; deployment distinctions were discussed but not independently assessed.
+
+| Concept | Evidence from question, answer, or artifact | Needed correction | Next check | Source report |
+|---|---|---|---|---|
+| Observed defect versus missing evidence | On 1405-06-19, correctly withheld acceptance of _reza but asked for more cases after its acceptance already violated the requirement. Independently identified coverage, error-message, preservation, and constraint checks earlier in the exercise. | Known incorrect behavior requires correction followed by verification; absent checks require evidence. Correction explained, not independently reassessed. | Fresh practical check during bounded coding work and Phase 1 periodic review. Checklist writing is complete separately. Preserve earlier Demonstrated evidence; withhold Retained. | `../reports/1405-06-19-code-review-checklist-practice.md` |
 
 ## Retention candidates
 

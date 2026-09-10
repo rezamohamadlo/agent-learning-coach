@@ -8,6 +8,16 @@
 - Tools and actions: capability, tool lifecycle, inspect results.
 - Permissions and safety: authority, sandboxing, approvals, destructive-action caution.
 
+## Priority review material
+
+**Starred for future review at the learner's request — 1405-06-19 (Jalali).**
+
+- [Reusable task-request template](#combined-reusable-request-draft)
+- [Worked example: book search](#applied-build-practice-book-search-request)
+- [Worked example: reservations](#applied-build-practice-reservations)
+
+Use before assigning a coding task. Adapt the placeholders and verification to the actual request. Build 1's writing outcome is complete; earlier practice-status wording below is historical, as explained in the completion-record correction.
+
 ## Concept
 
 A bounded task tells the agent what success means and where its authority ends. Verification provides evidence that the requested outcome was achieved without unacceptable side effects.

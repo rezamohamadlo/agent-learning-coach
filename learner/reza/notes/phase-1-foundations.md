@@ -57,8 +57,19 @@ You should be able to:
 - evaluate its actions and evidence; and
 - identify unsafe, unauthorized, or insufficiently verified behavior.
 
+## How the roadmap's Build sections work
+
+Each phase separates learning concepts (Learn), producing usable artifacts or executed work (Build), and demonstrating the phase's broader abilities (Exit criteria). Build is the practical application of that phase's concepts; an artifact may be a document, code, tool, or evaluation record.
+
+In Phase 1, the task-request template helps specify work before execution; the code-review checklist helps judge the result; draft project-level instructions capture recurring repository guidance and remain uninstalled until reviewed; three bounded coding tasks provide experience specifying, running, and verifying real changes. The template and code-review checklist writing outcomes are complete with coaching. The project-instructions draft and three bounded coding tasks remain pending.
+
+The learner authors drafts, makes decisions, and interprets evidence. The coach provides explanations, examples, feedback, and appropriately authorized execution support. A coach-written artifact alone does not establish learner competence. Completion follows the item's wording: writing a usable template can satisfy a writing outcome with feedback, while completing coding tasks requires actual task results and relevant verification evidence. Finishing Build does not automatically satisfy every exit criterion; independent understanding and the Phase 1 retention/transfer review still need evidence.
+
+Later Build sections progress through reusable skills, tools and MCP, a single-agent workflow, repeatable evaluations, and portability with a justified advanced experiment. Work proceeds one useful outcome at a time, with prerequisites and evidence determining readiness.
+
 ## Summary
 
 - Effective agent work connects a clear goal, relevant context, instructions, tools, permissions, and verification.
 - Phase 1 develops judgment about what an agent should do, may do, and must verify.
-- Completion requires demonstrated understanding and practical evidence, not reading alone.
+- Build produces usable artifacts and practical evidence; completion follows each item's stated criterion.
+- Build completion and phase-exit competence are assessed separately; reading alone does not establish either.
