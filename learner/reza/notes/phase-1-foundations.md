@@ -43,7 +43,7 @@ By the end of this phase, create:
 
 - a reusable task-request template;
 - a checklist for reviewing agent-generated work;
-- a draft of project-level agent instructions; and
+- a project-independent draft of agent operating instructions; and
 - evidence from three bounded, verified coding tasks.
 
 These artifacts demonstrate that the concepts can be applied, not merely explained.
@@ -61,7 +61,7 @@ You should be able to:
 
 Each phase separates learning concepts (Learn), producing usable artifacts or executed work (Build), and demonstrating the phase's broader abilities (Exit criteria). Build is the practical application of that phase's concepts; an artifact may be a document, code, tool, or evaluation record.
 
-In Phase 1, the task-request template helps specify work before execution; the code-review checklist helps judge the result; draft project-level instructions capture recurring repository guidance and remain uninstalled until reviewed; three bounded coding tasks provide experience specifying, running, and verifying real changes. The template and code-review checklist writing outcomes are complete with coaching. The project-instructions draft and three bounded coding tasks remain pending.
+In Phase 1, the task-request template helps specify work before execution; the code-review checklist helps judge the result; project-independent operating instructions capture reusable guidance for bounded work, safety, and verification and remain unreused until reviewed; three bounded coding tasks provide experience specifying, running, and verifying real changes. The template, code-review checklist, and operating-instructions writing outcomes are complete with coaching. The three bounded coding tasks remain pending.
 
 The learner authors drafts, makes decisions, and interprets evidence. The coach provides explanations, examples, feedback, and appropriately authorized execution support. A coach-written artifact alone does not establish learner competence. Completion follows the item's wording: writing a usable template can satisfy a writing outcome with feedback, while completing coding tasks requires actual task results and relevant verification evidence. Finishing Build does not automatically satisfy every exit criterion; independent understanding and the Phase 1 retention/transfer review still need evidence.
 
