@@ -9,15 +9,15 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 - Start date: 1405-06-09
 - Target duration: 12 weeks
 - Current phase: Phase 1 — Agent foundations
-- Overall progress: 7 learning outcomes demonstrated and 3 writing/build outcomes completed; percentage deferred until milestone weights are defined
+- Overall progress: 7 learning outcomes demonstrated; 4/4 revised Build outcomes complete, including 3 guided simulations (Practiced). Actual implementation remains unverified; no overall percentage assigned.
 - Weekly study/build ratio: 30% study, 70% practice
 - Next review date: YYYY-MM-DD
 - Current evidence: Agent loop, context/instruction priority, prompts/persistent/repository instructions, tools/agent actions, permissions/safety, task scope/constraints/acceptance criteria, and reviewing diffs/verification evidence — Demonstrated
-- Next checkpoint: Build 4 — complete the first of three bounded coding tasks when a project becomes available. Builds 1, 2, and 3 are complete as writing outcomes. Prioritize the starred build templates and worked examples below for future review. Independent verification design and defect-versus-missing-evidence diagnosis remain separate practice targets.
+- Next checkpoint: Phase 1 retention and transfer review, including state preservation, defect diagnosis, and final-change verification. Three hypothetical exercises are complete with coaching. Actual verified task execution remains a separate pending follow-up.
 - Periodic review: Complete a Phase 1 retention and transfer assessment before marking the phase exit criteria complete; use `reviews/strengths-and-gaps.md` to select targeted checks.
-- Current phase progress: Learn 7/7 demonstrated; Build 3/4 completed; Exit criteria 0/3 demonstrated.
+- Current phase progress: Learn 7/7 demonstrated; Build 4/4 completed under the revised simulation scope; Exit criteria 0/3 demonstrated.
 - Schedule status: Estimated roadmap Week 2 (1405-06-16 to 1405-06-22), within the planned Phase 1 window; exact ahead/behind status is unknown because the weekly plan names broad focuses rather than measurable due outcomes.
-- Evidence trend: Seven conceptual outcomes demonstrated and three writing outcomes completed across 11 reports (1405-06-10 to 1405-06-21). The learner authored review questions, applied them to username validation, and drafted reusable operating instructions with review feedback. Known-defect versus missing-evidence diagnosis remains an active gap; no new independent mastery or Retained evidence is claimed.
+- Evidence trend: Seven conceptual outcomes, three writing outcomes, and three hypothetical exercises recorded across 14 reports (1405-06-10 to 1405-06-21). Shipping defect diagnosis was independent; state-preservation correction required coaching. No executed code or Retained evidence is claimed. See [completion report](reports/1405-06-21-build-simulations-completed.md).
 
 ## Priority review: build templates and worked examples
 
@@ -30,7 +30,7 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 
 Future review approach: start with a saved template and one worked example, then apply it to a small new case if the learner wants practice. Keep useful templates and examples easy to find as later build items are completed. Earlier practice labels are historical; Builds 1, 2, and 3 are completed writing outcomes with coaching.
 
-**Paused here:** Builds 1, 2, and 3 complete as writing outcomes. The learner chose hypothetical practice while no local project is available. The first [guided simulation](reports/1405-06-21-hypothetical-late-fees.md) is complete at Practiced level; no coding task was executed. Next: a fresh hypothetical review distinguishing an observed defect from missing verification. Build 4's three executed tasks remain pending.
+**Paused here:** The revised Build section is complete: three writing artifacts and three guided task-specification/review simulations. Next is the Phase 1 retention and transfer review. Actual implementation and test execution remain unverified. See [scope and evidence](reports/1405-06-21-build-simulations-completed.md).
 
 ## Visual progress roadmap
 
@@ -38,7 +38,7 @@ Snapshot: 1405-06-21 (Jalali; Asia/Tehran). Weeks show the planned sequence, not
 
 ```mermaid
 flowchart TB
-    P1["Phase 1: Agent foundations · Weeks 1–2<br/>CURRENT · In progress<br/>Learn 7/7 · Build 3/4 · Exit criteria 0/3"]
+    P1["Phase 1: Agent foundations · Weeks 1–2<br/>CURRENT · Exit review pending<br/>Learn 7/7 · Revised Build 4/4 · Exit criteria 0/3<br/>3 guided simulations complete"]
     P2["Phase 2: First reusable skills · Weeks 3–4<br/>Not started"]
     P3["Phase 3: Tools and MCP · Weeks 5–6<br/>Not started"]
     P4["Phase 4: Single-agent workflow · Weeks 7–8<br/>Not started"]
@@ -54,7 +54,7 @@ Legend: ✓ Completed or demonstrated · ◐ In progress · ○ Not completed.
 | Area | Visual progress | Recorded status |
 |---|---|---|
 | Learning outcomes | ✓ ✓ ✓ ✓ ✓ ✓ ✓ | 7/7 demonstrated |
-| Build outcomes | ✓ ✓ ✓ ○ | 3/4 completed |
+| Build outcomes | ✓ ✓ ✓ ✓ | 4/4 revised outcomes complete; simulations Practiced |
 | Exit criteria | ○ ○ ○ | 0/3 demonstrated |
 
 | Build item | Status | Remaining work |
@@ -62,11 +62,11 @@ Legend: ✓ Completed or demonstrated · ◐ In progress · ○ Not completed.
 | 1. Reusable task-request template | ✓ Completed | Independent verification design remains a separate practice target |
 | 2. AI-generated-code review checklist | ✓ Completed | Writing criterion met with coach refinements; independent review-decision practice remains separate |
 | 3. Draft project-independent agent operating instructions | ✓ Completed | Draft reviewed; writing outcome demonstrated without installation |
-| 4. Three bounded coding tasks | ○ Not started | Complete tasks with explicit acceptance criteria and verification evidence |
+| 4. Three bounded task-specification/review simulations | ✓ Completed with coaching | Late fees, shipping, and task renaming complete. Actual execution is a separate pending follow-up |
 
 Keep the checklist-writing outcome separate from the active learning gap: independently distinguishing a known defect from missing evidence. Revisit that gap during practical work or the Phase 1 review; do not require independent mastery merely to finish writing the checklist.
 
-Evidence: [Latest session report](reports/1405-06-19-code-review-checklist-completed.md) · [Checklist draft and feedback](notes/reviewing-diffs-and-evidence.md) · [Strengths and gaps](reviews/strengths-and-gaps.md).
+Evidence: [Latest completion report](reports/1405-06-21-build-simulations-completed.md) · [Late fees](experiments/hypothetical-task-1.md) · [Shipping](experiments/hypothetical-task-2.md) · [Renaming](experiments/hypothetical-task-3.md) · [Strengths and gaps](reviews/strengths-and-gaps.md).
 
 This is a saved snapshot. Refresh it alongside future roadmap status updates.
 
@@ -135,7 +135,7 @@ Create these subdirectories only when they are needed.
 - [x] Write a reusable task-request template. — Writing criterion met through learner-authored draft and revisions with feedback; see `notes/task-specification-and-verification.md` and `reports/1405-06-17-task-request-template.md`. Independent verification design remains Practiced.
 - [x] Write a checklist for reviewing AI-generated code. — Writing criterion met by the learner-authored draft and application, consolidated with coach refinements; see `notes/reviewing-diffs-and-evidence.md` and `reports/1405-06-19-code-review-checklist-completed.md`. Independent defect-versus-evidence diagnosis remains an active practice gap.
 - [x] Draft project-independent agent operating instructions for bounded work, safety, and verification; review before reuse. — See `notes/agent-operating-instructions.md`.
-- [ ] Complete three bounded coding tasks with explicit acceptance criteria.
+- [x] Complete three bounded hypothetical task-specification/review exercises with explicit requirements and coached correction requests. — Revised from three executed coding tasks to match hypothetical practice: [late fees](experiments/hypothetical-task-1.md), [shipping](experiments/hypothetical-task-2.md), and [renaming](experiments/hypothetical-task-3.md). Practiced, not independently demonstrated implementation. See [completion report](reports/1405-06-21-build-simulations-completed.md).
 
 ### Exit criteria
 
@@ -291,7 +291,7 @@ Add one row at the end of every week.
 | Week | Dates | Focus | Built or learned | Evidence | Problems | Next action |
 |---|---|---|---|---|---|---|
 | 1 | 1405-06-09 to 1405-06-15 | Agent foundations | Demonstrated agent loop, context/instruction priority, prompt placement, skill/tool distinctions, tool selection, verification before retries, and permissions/safety | `reports/1405-06-10-agent-loop.md`; `reports/1405-06-11-context-and-instructions.md`; `reports/1405-06-12-prompts-and-repository-instructions.md`; `reports/1405-06-14-tools-and-actions.md`; `reports/1405-06-15-permissions-and-safety.md` | Corrected earlier gaps; discarded answer-leaked tools quiz and passed fresh assessment | Practice task scope, constraints, and acceptance criteria |
-| 2 | 1405-06-16 to 1405-06-22 | Agent foundations and Phase 1 evidence | Task specification and diff review demonstrated; task-request template and code-review checklist written with feedback | `reports/1405-06-16-task-specification.md`; `reports/1405-06-17-reviewing-diffs-and-evidence.md`; `reports/1405-06-17-task-request-template.md`; `reports/1405-06-19-code-review-checklist-practice.md`; `reports/1405-06-19-code-review-checklist-completed.md` | Independent verification design, defect-versus-missing-evidence diagnosis, and delayed retention pending | Draft project-independent agent operating instructions for review before reuse |
+| 2 | 1405-06-16 to 1405-06-22 | Agent foundations and Phase 1 evidence | Task specification and review demonstrated; three writing artifacts and three guided simulations complete | Reports dated 1405-06-16 through 1405-06-21; [build completion](reports/1405-06-21-build-simulations-completed.md) | State preservation needed coaching; independent transfer, retention, and execution pending | Phase 1 retention and transfer review |
 | 3 | | First skill | | | | |
 | 4 | | Skill evaluation | | | | |
 | 5 | | Tools | | | | |
@@ -342,4 +342,8 @@ Record important decisions so later changes have context.
 - [x] Write the AI-generated-code review checklist with coach refinements.
 - [x] Draft project-independent agent operating instructions for review before reuse. — Completed as a reviewed writing outcome; see `notes/agent-operating-instructions.md` and `reports/1405-06-21-agent-operating-instructions.md`.
 - [ ] Select one real recording-lifecycle problem as the first skill example.
+- [x] Complete the first guided hypothetical task: specify, review, and request verification for overdue library fees. — Practiced; see [exercise and final request](experiments/hypothetical-task-1.md) and [report](reports/1405-06-21-hypothetical-late-fees.md).
+- [x] Complete the shipping and task-renaming hypothetical reviews with feedback. — Three exercises complete under revised Build 4 scope; independent transfer remains a review target.
+- [ ] Complete the Phase 1 retention and transfer review.
+- [ ] Obtain actual implementation and test-execution evidence for a bounded task; the original three-executed-task practice target remains deferred outside the revised Build item.
 - [ ] Draft three evaluation cases before implementing the first skill.

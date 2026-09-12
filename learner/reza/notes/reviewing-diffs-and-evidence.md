@@ -163,6 +163,10 @@ Historical stopping point before the later checklist completion: session closed 
 
 Completion record: [Build 2 writing outcome](../reports/1405-06-19-code-review-checklist-completed.md). The final checklist above supersedes historical next-practice instructions; preserve them as learning history.
 
+## Discussion: preserving a value during an operation
+
+In the [task-renaming exercise](../experiments/hypothetical-task-3.md), `completed` means whether the underlying task is finished, not whether renaming succeeded. Preserving it means True stays True and False stays False, for both accepted and rejected renames. A successful rename changes the title only; rejection raises `ValueError("Title is required")` and leaves the original task unchanged. Verify exact error text as well as rejection. This clarification is discussion evidence, not independent mastery.
+
 ## Summary
 
 - Compare the request, actual diff, and verification evidence.
