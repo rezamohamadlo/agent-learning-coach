@@ -37,6 +37,8 @@ Tools assessment on 1405-06-14 passed after replacing an answer-leaked quiz; dep
 
 ## Retention candidates
 
+Guided practice update — 1405-06-21: In the hypothetical late-fee task, the learner identified missing cap checks, requested verification after feedback, and justified acceptance after expanded simulated results. The cap-versus-input-limit confusion was clarified and correctly applied within the same session. Independent defect-versus-missing-evidence transfer remains pending; no Retained evidence is claimed. Source: `../reports/1405-06-21-hypothetical-late-fees.md`.
+
 | Concept | Earlier issue and correction | Fresh check needed | Target checkpoint | Source report |
 |---|---|---|---|---|
 | Diff review and final-patch evidence | Clarified that passing example tests omitted the defective boundary; then passed topic assessment | Review a fresh patch and explain the distinction between an observed defect and missing verification evidence | Phase 1 periodic assessment | `../reports/1405-06-17-reviewing-diffs-and-evidence.md` |

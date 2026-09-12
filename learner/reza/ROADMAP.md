@@ -30,7 +30,7 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 
 Future review approach: start with a saved template and one worked example, then apply it to a small new case if the learner wants practice. Keep useful templates and examples easy to find as later build items are completed. Earlier practice labels are historical; Builds 1, 2, and 3 are completed writing outcomes with coaching.
 
-**Paused here:** Builds 1, 2, and 3 complete as writing outcomes. Build 4 (three bounded coding tasks) is next, but it requires a suitable project. Resume there when one is available, without changing unrelated scope.
+**Paused here:** Builds 1, 2, and 3 complete as writing outcomes. The learner chose hypothetical practice while no local project is available. The first [guided simulation](reports/1405-06-21-hypothetical-late-fees.md) is complete at Practiced level; no coding task was executed. Next: a fresh hypothetical review distinguishing an observed defect from missing verification. Build 4's three executed tasks remain pending.
 
 ## Visual progress roadmap
 
