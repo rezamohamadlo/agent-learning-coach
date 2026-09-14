@@ -13,11 +13,11 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 - Weekly study/build ratio: 30% study, 70% practice
 - Next review date: YYYY-MM-DD
 - Current evidence: Agent loop, context/instruction priority, prompts/persistent/repository instructions, tools/agent actions, permissions/safety, task scope/constraints/acceptance criteria, and reviewing diffs/verification evidence — Demonstrated
-- Next checkpoint: Phase 1 retention and transfer review, including state preservation, defect diagnosis, and final-change verification. Three hypothetical exercises are complete with coaching. Actual verified task execution remains a separate pending follow-up.
-- Periodic review: Complete a Phase 1 retention and transfer assessment before marking the phase exit criteria complete; use `reviews/strengths-and-gaps.md` to select targeted checks.
-- Current phase progress: Learn 7/7 demonstrated; Build 4/4 completed under the revised simulation scope; Exit criteria 0/3 demonstrated.
+- Next checkpoint: Explain agent components without notes, then obtain an actual verified result from a bounded task. Recheck state preservation during that task.
+- Periodic review: Six-question review completed on 1405-06-22; 6/6 correct. Phase remains open for component explanation and actual execution. See [review](reports/1405-06-22-phase-1-periodic-review.md).
+- Current phase progress: Learn 7/7 demonstrated; Build 4/4 completed under the revised simulation scope; Exit criteria 1/3 demonstrated.
 - Schedule status: Estimated roadmap Week 2 (1405-06-16 to 1405-06-22), within the planned Phase 1 window; exact ahead/behind status is unknown because the weekly plan names broad focuses rather than measurable due outcomes.
-- Evidence trend: Seven conceptual outcomes, three writing outcomes, and three hypothetical exercises recorded across 14 reports (1405-06-10 to 1405-06-21). Shipping defect diagnosis was independent; state-preservation correction required coaching. No executed code or Retained evidence is claimed. See [completion report](reports/1405-06-21-build-simulations-completed.md).
+- Evidence trend: Seven conceptual outcomes, three writing artifacts, three guided simulations, and a six-question review across 15 reports (1405-06-10 to 1405-06-22). Final-change verification has conceptual Retained evidence; actual execution remains unverified. See [review](reports/1405-06-22-phase-1-periodic-review.md).
 
 ## Priority review: build templates and worked examples
 
@@ -30,15 +30,15 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 
 Future review approach: start with a saved template and one worked example, then apply it to a small new case if the learner wants practice. Keep useful templates and examples easy to find as later build items are completed. Earlier practice labels are historical; Builds 1, 2, and 3 are completed writing outcomes with coaching.
 
-**Paused here:** The revised Build section is complete: three writing artifacts and three guided task-specification/review simulations. Next is the Phase 1 retention and transfer review. Actual implementation and test execution remain unverified. See [scope and evidence](reports/1405-06-21-build-simulations-completed.md).
+**Paused here:** The six-question review is complete. Next: explain agent components without notes, then complete a bounded task with actual verification. See [review](reports/1405-06-22-phase-1-periodic-review.md).
 
 ## Visual progress roadmap
 
-Snapshot: 1405-06-21 (Jalali; Asia/Tehran). Weeks show the planned sequence, not proof of completion. Status comes from the phase checkboxes and latest session evidence; no overall percentage is assigned.
+Snapshot: 1405-06-22 (Jalali; Asia/Tehran). Weeks show the planned sequence, not proof of completion. Status comes from the phase checkboxes and latest session evidence; no overall percentage is assigned.
 
 ```mermaid
 flowchart TB
-    P1["Phase 1: Agent foundations · Weeks 1–2<br/>CURRENT · Exit review pending<br/>Learn 7/7 · Revised Build 4/4 · Exit criteria 0/3<br/>3 guided simulations complete"]
+    P1["Phase 1: Agent foundations · Weeks 1–2<br/>CURRENT · Two exit requirements pending<br/>Learn 7/7 · Revised Build 4/4 · Exit criteria 1/3<br/>3 guided simulations complete"]
     P2["Phase 2: First reusable skills · Weeks 3–4<br/>Not started"]
     P3["Phase 3: Tools and MCP · Weeks 5–6<br/>Not started"]
     P4["Phase 4: Single-agent workflow · Weeks 7–8<br/>Not started"]
@@ -55,7 +55,7 @@ Legend: ✓ Completed or demonstrated · ◐ In progress · ○ Not completed.
 |---|---|---|
 | Learning outcomes | ✓ ✓ ✓ ✓ ✓ ✓ ✓ | 7/7 demonstrated |
 | Build outcomes | ✓ ✓ ✓ ✓ | 4/4 revised outcomes complete; simulations Practiced |
-| Exit criteria | ○ ○ ○ | 0/3 demonstrated |
+| Exit criteria | ✓ ○ ○ | 1/3 demonstrated |
 
 | Build item | Status | Remaining work |
 |---|---|---|
@@ -64,7 +64,7 @@ Legend: ✓ Completed or demonstrated · ◐ In progress · ○ Not completed.
 | 3. Draft project-independent agent operating instructions | ✓ Completed | Draft reviewed; writing outcome demonstrated without installation |
 | 4. Three bounded task-specification/review simulations | ✓ Completed with coaching | Late fees, shipping, and task renaming complete. Actual execution is a separate pending follow-up |
 
-Keep the checklist-writing outcome separate from the active learning gap: independently distinguishing a known defect from missing evidence. Revisit that gap during practical work or the Phase 1 review; do not require independent mastery merely to finish writing the checklist.
+The review supports choosing correction for a known defect and checks for missing evidence. Revisit this decision during actual practical work; checklist completion remains a separate writing outcome.
 
 Evidence: [Latest completion report](reports/1405-06-21-build-simulations-completed.md) · [Late fees](experiments/hypothetical-task-1.md) · [Shipping](experiments/hypothetical-task-2.md) · [Renaming](experiments/hypothetical-task-3.md) · [Strengths and gaps](reviews/strengths-and-gaps.md).
 
@@ -141,7 +141,7 @@ Create these subdirectories only when they are needed.
 
 - [ ] I can describe the components of an agent without referring to notes.
 - [ ] I can give an agent a bounded task and obtain a verified result.
-- [ ] I can identify unsafe or insufficiently verified agent behavior.
+- [x] I can identify unsafe or insufficiently verified agent behavior. — See [periodic review](reports/1405-06-22-phase-1-periodic-review.md).
 
 ## Phase 2 — First reusable skills (Weeks 3–4)
 
@@ -291,7 +291,7 @@ Add one row at the end of every week.
 | Week | Dates | Focus | Built or learned | Evidence | Problems | Next action |
 |---|---|---|---|---|---|---|
 | 1 | 1405-06-09 to 1405-06-15 | Agent foundations | Demonstrated agent loop, context/instruction priority, prompt placement, skill/tool distinctions, tool selection, verification before retries, and permissions/safety | `reports/1405-06-10-agent-loop.md`; `reports/1405-06-11-context-and-instructions.md`; `reports/1405-06-12-prompts-and-repository-instructions.md`; `reports/1405-06-14-tools-and-actions.md`; `reports/1405-06-15-permissions-and-safety.md` | Corrected earlier gaps; discarded answer-leaked tools quiz and passed fresh assessment | Practice task scope, constraints, and acceptance criteria |
-| 2 | 1405-06-16 to 1405-06-22 | Agent foundations and Phase 1 evidence | Task specification and review demonstrated; three writing artifacts and three guided simulations complete | Reports dated 1405-06-16 through 1405-06-21; [build completion](reports/1405-06-21-build-simulations-completed.md) | State preservation needed coaching; independent transfer, retention, and execution pending | Phase 1 retention and transfer review |
+| 2 | 1405-06-16 to 1405-06-22 | Agent foundations and Phase 1 evidence | Seven learning outcomes, revised Build 4/4, review 6/6; Exit 1/3 | [Periodic review](reports/1405-06-22-phase-1-periodic-review.md) | Component explanation and actual verified execution pending; full state-preservation coverage remains a practice target | Explain components without notes, then a bounded practical task |
 | 3 | | First skill | | | | |
 | 4 | | Skill evaluation | | | | |
 | 5 | | Tools | | | | |
@@ -344,6 +344,6 @@ Record important decisions so later changes have context.
 - [ ] Select one real recording-lifecycle problem as the first skill example.
 - [x] Complete the first guided hypothetical task: specify, review, and request verification for overdue library fees. — Practiced; see [exercise and final request](experiments/hypothetical-task-1.md) and [report](reports/1405-06-21-hypothetical-late-fees.md).
 - [x] Complete the shipping and task-renaming hypothetical reviews with feedback. — Three exercises complete under revised Build 4 scope; independent transfer remains a review target.
-- [ ] Complete the Phase 1 retention and transfer review.
+- [x] Complete the Phase 1 retention and transfer review. — Six correct choices; remaining exit requirements recorded in the review report.
 - [ ] Obtain actual implementation and test-execution evidence for a bounded task; the original three-executed-task practice target remains deferred outside the revised Build item.
 - [ ] Draft three evaluation cases before implementing the first skill.

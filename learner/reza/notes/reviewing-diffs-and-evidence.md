@@ -167,6 +167,18 @@ Completion record: [Build 2 writing outcome](../reports/1405-06-19-code-review-c
 
 In the [task-renaming exercise](../experiments/hypothetical-task-3.md), `completed` means whether the underlying task is finished, not whether renaming succeeded. Preserving it means True stays True and False stays False, for both accepted and rejected renames. A successful rename changes the title only; rejection raises `ValueError("Title is required")` and leaves the original task unchanged. Verify exact error text as well as rejection. This clarification is discussion evidence, not independent mastery.
 
+## Discussion: covering situations defined by the rules
+
+On 1405-06-22 (Jalali; Asia/Tehran), during the Phase 1 review, the learner correctly selected correction and verification for export X, which omitted a selected column, and additional evidence for export Y, which had only a single-column test. They explained that X has a known problem while Y needs checks of other situations.
+
+The learner clarified that "every possible scenario" meant the different situations defined by the requirements, not every possible input value. The coach initially read the phrase too broadly. This is a clarification of the learner's intended meaning, not evidence of an exhaustive-testing misconception or a failed attempt.
+
+Cover the distinct situations required by the rules using representative cases, relevant boundaries, and important combinations. For the export example, check both inclusion of multiple selected columns and their selected order. One passing input does not establish coverage of those rules. The three first-round selections were correct; the overall Phase 1 review remains in progress.
+
+## Review: testing after simplification
+
+On 1405-06-22 (Jalali; Asia/Tehran), the learner correctly chose inspection and relevant tests after a later change to a discount calculation. They explained that simplifying code does not necessarily preserve its logic. Earlier passing results apply to the earlier code; inspect and test the final version before accepting it. All six review choices were correct; see [review report](../reports/1405-06-22-phase-1-periodic-review.md) for evidence limits and remaining phase requirements.
+
 ## Summary
 
 - Compare the request, actual diff, and verification evidence.

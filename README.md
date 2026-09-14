@@ -6,6 +6,8 @@ The project is designed for people learning how AI agents work while building pr
 
 The coach communicates in English by default, including during skill maintenance, unless you explicitly request another language.
 
+The coach uses clear English suited to B2–C1 learners: familiar words, short sentences, and brief explanations of unfamiliar technical terms. You can request a different level. Simpler wording keeps the same technical content and assessment difficulty; answers are judged by meaning rather than grammar.
+
 Reports and assessments use Jalali (Solar Hijri) dates in `YYYY-MM-DD` format with Latin digits, including report filenames, evidence dates, review checkpoints, and roadmap schedules. Today's date uses Asia/Tehran by default. Calendar conversion preserves historical event days and updates report links; external source dates remain as published.
 
 ## Why this project exists

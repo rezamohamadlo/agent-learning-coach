@@ -21,6 +21,8 @@ This private profile summarizes durable learning evidence for future periodic as
 
 | Diff and verification review | Selected coverage limits, corrected a delivery threshold, and required relevant verification after a later shared-code edit; 3/3 multiple-choice answers without written reasoning | Demonstrated | 1405-06-17 | `../reports/1405-06-17-reviewing-diffs-and-evidence.md` |
 
+Review update — 1405-06-22: All six choices were correct in fresh scenarios. Final-change verification is Retained at the conceptual level: selected final-code checks and explained that simplification may change logic. The explanation followed answer feedback. Agent-loop, permission, skill/tool, and state-preservation choices support recognition; do not infer full unaided explanation or actual execution. See `../reports/1405-06-22-phase-1-periodic-review.md`.
+
 ## Writing outcomes completed with guidance
 
 - **Code-review checklist — 1405-06-19:** The learner supplied the original checklist, additions about actual test results and coverage, and concrete username-validation questions. The coach consolidated the final wording, including the decision rule. Build 2's writing criterion is complete; this does not establish independent mastery of the active gap below. Source: `../reports/1405-06-19-code-review-checklist-completed.md`.
@@ -33,11 +35,13 @@ Tools assessment on 1405-06-14 passed after replacing an answer-leaked quiz; dep
 
 | Concept | Evidence from question, answer, or artifact | Needed correction | Next check | Source report |
 |---|---|---|---|---|
-| Observed defect versus missing evidence — broader transfer pending | On 1405-06-19, requested more cases rather than correction of the known _reza defect. On 1405-06-21, independently identified the incorrect charge at total 100 in the shipping patch and requested a function correction plus tests. Missing-evidence action in the preceding late-fee scenario was coached. | Visible-defect diagnosis now supported in a fresh exercise. Check both defect and missing-evidence cases without immediate coaching before claiming broader mastery. | Phase 1 periodic review; use a different failure type and delayed check. Withhold Retained. | `../reports/1405-06-19-code-review-checklist-practice.md`; `../reports/1405-06-21-hypothetical-shipping-review.md` |
+| Defect versus missing evidence — practical confirmation pending | Earlier coached gap; on 1405-06-22 independently selected the correct action for both export scenarios, then explained the distinction after answer feedback. | Fresh recognition is demonstrated. The phrase about all scenarios meant situations based on rules, not exhaustive input testing. | Apply the decision in the next actual task before claiming full independent practical mastery. | `../reports/1405-06-22-phase-1-periodic-review.md` |
 
 ## Retention candidates
 
-State-preservation practice — 1405-06-21: The learner initially treated `completed` as rename success, then proposed removing it from the returned task. Clarified that both original Boolean values must be retained in the returned object; rejected renames leave the original object unchanged. The learner adopted the coach's correction request. Guided exercise complete; independent application remains unverified. Recheck in a fresh domain at the Phase 1 review. Source: `../reports/1405-06-21-build-simulations-completed.md`.
+State-preservation review — 1405-06-22: Correctly preserved subscribed=false in a fresh name-change question. Both values and rejected changes still need a practical check; no full retention claim. See `../reports/1405-06-22-phase-1-periodic-review.md`.
+
+Historical state-preservation practice — 1405-06-21: The learner initially treated `completed` as rename success, then proposed removing it from the returned task. Clarified that both original Boolean values must be retained in the returned object; rejected renames leave the original object unchanged. The learner adopted the coach's correction request. Guided exercise complete; independent application remains unverified. Recheck in a fresh domain at the Phase 1 review. Source: `../reports/1405-06-21-build-simulations-completed.md`.
 
 Guided practice update — 1405-06-21: In the hypothetical late-fee task, the learner identified missing cap checks, requested verification after feedback, and justified acceptance after expanded simulated results. The cap-versus-input-limit confusion was clarified and correctly applied within the same session. Independent defect-versus-missing-evidence transfer remains pending; no Retained evidence is claimed. Source: `../reports/1405-06-21-hypothetical-late-fees.md`.
 
