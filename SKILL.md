@@ -74,20 +74,24 @@ When supervising a full learning session:
 
 1. Read the roadmap, relevant notes, and latest relevant report.
 2. Infer the user's likely current position from recorded evidence and label the inference as tentative.
-3. Show the proposed position and evidence, then obtain the user's confirmation or correction before choosing the next step.
-4. Identify the next incomplete outcome, its prerequisites, and any demonstrated knowledge gaps.
-5. Create or update a concise note for each active gap only when existing notes do not adequately address it.
-6. State one concrete session objective and observable completion criteria.
-7. Provide or update a useful learning note before assessment, then allow the user to read it and ask questions.
-8. Assess with up to three multiple-choice questions that progress from easy recall to moderate application to hard transfer or diagnosis. Every question must include a final `I don't know` choice. Ask them together when practical so the user can demonstrate the full range efficiently.
-9. Evaluate the user's answer or artifact and explain the evidence behind the evaluation.
-10. Give a targeted hint or corrective exercise when understanding is incomplete; update the relevant note when the response reveals a durable misconception or missing prerequisite.
-11. If the easy question is not answered adequately, stop the ladder and enter an education phase before reassessing. For mixed results, offer targeted education or a provisional advance with a documented warning and review checkpoint.
-12. Reassess with a different question or scenario. After three unsuccessful attempts on the same concept, stop the quiz loop, diagnose the underlying prerequisite, and propose a different teaching approach.
-13. Pass the roadmap item only after sufficient independent evidence, then update the roadmap and session report. A provisional advance does not complete the checkbox.
-14. After completing an item, calculate and show an evidence-based progress snapshot against the roadmap's phase and weekly timetable using [references/progress-reporting.md](references/progress-reporting.md).
-15. Update the learner's strengths-and-gaps profile when the session produced durable evidence relevant to later review.
-16. End with current status, demonstrated strengths, remaining gaps, schedule position, and the next action.
+3. At the beginning of the session, show a progress-and-timing snapshot: phase and item counts, completed evidence, current weekly-program position, schedule label, supporting dates or uncertainty, and the proposed next milestone.
+4. Show the proposed position and evidence, then obtain the user's confirmation or correction before choosing the next step.
+5. Identify the next incomplete outcome, its prerequisites, and any demonstrated knowledge gaps.
+6. Create or update a concise note for each active gap only when existing notes do not adequately address it.
+7. State one concrete session objective and observable completion criteria.
+8. Provide or update a useful learning note before assessment, then allow the user to read it and ask questions.
+9. Assess with up to three multiple-choice questions that progress from easy recall to moderate application to hard transfer or diagnosis. Every question must include a final `I don't know` choice. Ask them together when practical so the user can demonstrate the full range efficiently.
+10. Evaluate the user's answer or artifact and explain the evidence behind the evaluation.
+11. Give a targeted hint or corrective exercise when understanding is incomplete; update the relevant note when the response reveals a durable misconception or missing prerequisite.
+12. If the easy question is not answered adequately, stop the ladder and enter an education phase before reassessing. For mixed results, offer targeted education or a provisional advance with a documented warning and review checkpoint.
+13. Reassess with a different question or scenario. After three unsuccessful attempts on the same concept, stop the quiz loop, diagnose the underlying prerequisite, and propose a different teaching approach.
+14. Pass the roadmap item only after sufficient independent evidence, then update the roadmap and session report. A provisional advance does not complete the checkbox.
+15. After completing an item, calculate and show an evidence-based progress snapshot against the roadmap's phase and weekly timetable using [references/progress-reporting.md](references/progress-reporting.md).
+16. After each passed roadmap item or section, provide a performance review before closing the session. Cover time (actual elapsed time when observable, otherwise state that it is unavailable), quality (correctness, reasoning, transfer, independence, and evidence quality), efficiency (attempts, hints, rework, and unnecessary actions), and reliability or safety (verification coverage, authorization handling, and unresolved risk). Compare with the estimate only when the dates or duration support an honest comparison; do not invent numeric scores.
+17. Update the learner's strengths-and-gaps profile when the session produced durable evidence relevant to later review.
+18. Before closing, synchronize every affected progress representation in the roadmap, not just the current-status bullets. Check the phase visual snapshot, phase detail tables, phase checkboxes, weekly progress log, immediate next actions, evidence links, counts, pending requirements, schedule status, and next checkpoint. Search the roadmap for stale counts or old status wording after editing.
+19. At the end of the session, show the updated progress-and-timing snapshot, including what changed during the session, evidence level, schedule position against the weekly program, uncertainty, and the next required action.
+20. End with current status, demonstrated strengths, remaining gaps, schedule position, the performance review, and the next action.
 
 ## Periodic assessments
 
@@ -153,6 +157,7 @@ Keep personal learning artifacts under the skill repository's Git-ignored `learn
 Reusable curriculum under `references/curriculum/` is tracked; learner state under `learner/` is private. Never copy learner answers, progress, or personalized corrections into tracked curriculum without explicit authorization and generalization.
 
 Before editing, inspect the existing file and make the smallest coherent update. Report exactly which files changed. Do not claim ongoing background supervision: supervision resumes when the user invokes the skill again.
+After presenting a completed-item performance review, ask for explicit permission before staging or committing learner or skill changes to Git. Name the files and proposed Git action. Treat pushing, publishing, or other remote actions as a separate permission request. Read-only status and diff inspection do not require this confirmation. Never infer permission from the learning-session confirmation or from a general request to assess progress.
 
 ## Suggestions
 

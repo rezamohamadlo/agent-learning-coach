@@ -12,12 +12,12 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 - Overall progress: 7 learning outcomes demonstrated; 4/4 revised Build outcomes complete, including 3 guided simulations (Practiced). Actual implementation remains unverified; no overall percentage assigned.
 - Weekly study/build ratio: 30% study, 70% practice
 - Next review date: YYYY-MM-DD
-- Current evidence: Agent loop, context/instruction priority, prompts/persistent/repository instructions, tools/agent actions, permissions/safety, task scope/constraints/acceptance criteria, and reviewing diffs/verification evidence — Demonstrated
-- Next checkpoint: Explain agent components without notes, then obtain an actual verified result from a bounded task. Recheck state preservation during that task.
+- Current evidence: Agent loop, context/instruction priority, prompts/persistent/repository instructions, tools/agent actions, permissions/safety, task scope/constraints/acceptance criteria, reviewing diffs/verification evidence, and the major components of an agent — Demonstrated
+- Next checkpoint: Obtain an actual verified result from a bounded task. Recheck state preservation during that task.
 - Periodic review: Six-question review completed on 1405-06-22; 6/6 correct. Phase remains open for component explanation and actual execution. See [review](reports/1405-06-22-phase-1-periodic-review.md).
-- Current phase progress: Learn 7/7 demonstrated; Build 4/4 completed under the revised simulation scope; Exit criteria 1/3 demonstrated.
-- Schedule status: Estimated roadmap Week 2 (1405-06-16 to 1405-06-22), within the planned Phase 1 window; exact ahead/behind status is unknown because the weekly plan names broad focuses rather than measurable due outcomes.
-- Evidence trend: Seven conceptual outcomes, three writing artifacts, three guided simulations, and a six-question review across 15 reports (1405-06-10 to 1405-06-22). Final-change verification has conceptual Retained evidence; actual execution remains unverified. See [review](reports/1405-06-22-phase-1-periodic-review.md).
+- Current phase progress: Learn 7/7 demonstrated; Build 4/4 completed under the revised simulation scope; Exit criteria 2/3 demonstrated.
+- Schedule status: Replanned into the next study window because the remaining Phase 1 practical exit evidence was not completed by 1405-06-22; exact ahead/behind status remains unknown because the weekly plan names broad focuses rather than measurable due outcomes.
+- Evidence trend: Seven conceptual outcomes, three writing artifacts, three guided simulations, and retention/transfer checks across 16 reports (1405-06-10 to 1405-06-23). Actual execution remains unverified. See [session report](reports/1405-06-23-agent-components.md).
 
 ## Priority review: build templates and worked examples
 
@@ -38,7 +38,7 @@ Snapshot: 1405-06-22 (Jalali; Asia/Tehran). Weeks show the planned sequence, not
 
 ```mermaid
 flowchart TB
-    P1["Phase 1: Agent foundations · Weeks 1–2<br/>CURRENT · Two exit requirements pending<br/>Learn 7/7 · Revised Build 4/4 · Exit criteria 1/3<br/>3 guided simulations complete"]
+    P1["Phase 1: Agent foundations · Weeks 1–2<br/>CURRENT · One exit requirement pending<br/>Learn 7/7 · Revised Build 4/4 · Exit criteria 2/3<br/>3 guided simulations complete"]
     P2["Phase 2: First reusable skills · Weeks 3–4<br/>Not started"]
     P3["Phase 3: Tools and MCP · Weeks 5–6<br/>Not started"]
     P4["Phase 4: Single-agent workflow · Weeks 7–8<br/>Not started"]
@@ -55,7 +55,7 @@ Legend: ✓ Completed or demonstrated · ◐ In progress · ○ Not completed.
 |---|---|---|
 | Learning outcomes | ✓ ✓ ✓ ✓ ✓ ✓ ✓ | 7/7 demonstrated |
 | Build outcomes | ✓ ✓ ✓ ✓ | 4/4 revised outcomes complete; simulations Practiced |
-| Exit criteria | ✓ ○ ○ | 1/3 demonstrated |
+| Exit criteria | ✓ ✓ ○ | 2/3 demonstrated |
 
 | Build item | Status | Remaining work |
 |---|---|---|
@@ -139,7 +139,7 @@ Create these subdirectories only when they are needed.
 
 ### Exit criteria
 
-- [ ] I can describe the components of an agent without referring to notes.
+- [x] I can describe the components of an agent without referring to notes. — Demonstrated in a fresh assessment; see [session report](reports/1405-06-23-agent-components.md).
 - [ ] I can give an agent a bounded task and obtain a verified result.
 - [x] I can identify unsafe or insufficiently verified agent behavior. — See [periodic review](reports/1405-06-22-phase-1-periodic-review.md).
 
@@ -292,7 +292,7 @@ Add one row at the end of every week.
 |---|---|---|---|---|---|---|
 | 1 | 1405-06-09 to 1405-06-15 | Agent foundations | Demonstrated agent loop, context/instruction priority, prompt placement, skill/tool distinctions, tool selection, verification before retries, and permissions/safety | `reports/1405-06-10-agent-loop.md`; `reports/1405-06-11-context-and-instructions.md`; `reports/1405-06-12-prompts-and-repository-instructions.md`; `reports/1405-06-14-tools-and-actions.md`; `reports/1405-06-15-permissions-and-safety.md` | Corrected earlier gaps; discarded answer-leaked tools quiz and passed fresh assessment | Practice task scope, constraints, and acceptance criteria |
 | 2 | 1405-06-16 to 1405-06-22 | Agent foundations and Phase 1 evidence | Seven learning outcomes, revised Build 4/4, review 6/6; Exit 1/3 | [Periodic review](reports/1405-06-22-phase-1-periodic-review.md) | Component explanation and actual verified execution pending; full state-preservation coverage remains a practice target | Explain components without notes, then a bounded practical task |
-| 3 | | First skill | | | | |
+| 3 | 1405-06-23 onward | Complete Phase 1 exit evidence | Agent components explained without notes; practical verified task still pending | [Agent components session](reports/1405-06-23-agent-components.md) | Authorization and verification distinction corrected; actual execution and state-preservation check remain open | Run one bounded task and verify the result |
 | 4 | | Skill evaluation | | | | |
 | 5 | | Tools | | | | |
 | 6 | | MCP | | | | |

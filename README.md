@@ -141,13 +141,17 @@ Use $agent-learning-coach to review my progress against the weekly plan.
 ## A typical session
 
 1. The coach reads the roadmap, relevant note, and latest report.
-2. You confirm or correct the inferred learning position.
-3. The coach states one objective, estimated effort, and observable completion evidence.
-4. You read and discuss a concise learning note. The coach updates that note from your questions and the clarified answers during the discussion, without waiting for assessment. Repeated explanations are merged, and the final summary stays concise. These updates stay in `learner/reza/notes/` and do not automatically count as demonstrated understanding.
-5. You complete practice and an assessment.
-6. The coach explains the evidence, teaches any gap, and reassesses with a new scenario.
-7. Only demonstrated outcomes are marked complete.
-8. The roadmap, session report, strengths/gaps profile, and schedule snapshot are updated when warranted.
+2. At the beginning, the coach shows progress and timing against the weekly program, including uncertainty when the plan is not measurable.
+3. You confirm or correct the inferred learning position.
+4. The coach states one objective, estimated effort, and observable completion evidence.
+5. You read and discuss a concise learning note. The coach updates that note from your questions and the clarified answers during the discussion, without waiting for assessment. Repeated explanations are merged, and the final summary stays concise. These updates stay in `learner/reza/notes/` and do not automatically count as demonstrated understanding.
+6. You complete practice and an assessment.
+7. The coach explains the evidence, teaches any gap, and reassesses with a new scenario.
+8. Only demonstrated outcomes are marked complete.
+9. At the end, the coach shows the updated progress and timing against the weekly program, including the change from the session and the next checkpoint.
+10. The coach reports performance for each passed item or section, covering available time evidence, quality, efficiency, independence, verification, and safety without inventing numeric scores.
+11. The coach synchronizes every affected roadmap section: current status, visual snapshot, detail tables and checkboxes, weekly log, immediate next actions, evidence links, counts, pending requirements, schedule status, and next checkpoint.
+12. The roadmap, session report, strengths/gaps profile, and schedule snapshot are updated when warranted.
 
 The coach does not monitor progress in the background. Supervision resumes when you invoke the skill again.
 
@@ -164,6 +168,10 @@ Next checkpoint: <one required action>
 ```
 
 Schedule labels are `Ahead`, `On track`, `Behind`, `Replanned`, or `Unknown`. The coach uses `Unknown` when dates or weekly targets are too vague for an honest comparison.
+
+Performance reviews distinguish observable evidence from estimates. They report actual elapsed time when available, compare it with the planned estimate only when defensible, and summarize correctness, reasoning, transfer, independence, attempts, rework, verification, and safety.
+
+When progress changes, the coach searches the roadmap for stale counts and status wording after editing. This prevents the visual roadmap or phase tables from disagreeing with the current-status summary.
 
 Periodic assessments normally happen before a phase is declared complete. They use fresh questions and scenarios based on:
 
@@ -194,6 +202,8 @@ When working inside an active coaching conversation, prefix a request with `@#` 
 ```
 
 Maintenance should update the editable source, validate the result, and synchronize the installed copy when authorized. It must not commit or push unless the user explicitly requests that action.
+
+After a passed roadmap item or section, the coach asks for explicit permission before staging or committing the named files to Git. Pushing or publishing requires separate permission; a general request to assess progress is not Git authorization.
 
 ### Documentation synchronization
 

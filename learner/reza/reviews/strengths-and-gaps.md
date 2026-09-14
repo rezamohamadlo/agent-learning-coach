@@ -23,6 +23,8 @@ This private profile summarizes durable learning evidence for future periodic as
 
 Review update — 1405-06-22: All six choices were correct in fresh scenarios. Final-change verification is Retained at the conceptual level: selected final-code checks and explained that simplification may change logic. The explanation followed answer feedback. Agent-loop, permission, skill/tool, and state-preservation choices support recognition; do not infer full unaided explanation or actual execution. See `../reports/1405-06-22-phase-1-periodic-review.md`.
 
+Component explanation update — 1405-06-23: The learner independently described the model, context, instructions, goal, tools, state, and verification, then correctly reassessed the distinction between authorization and verification in a fresh scenario. This supports Demonstrated evidence for the Phase 1 component-explanation exit criterion; practical execution remains unverified. See `../reports/1405-06-23-agent-components.md`.
+
 ## Writing outcomes completed with guidance
 
 - **Code-review checklist — 1405-06-19:** The learner supplied the original checklist, additions about actual test results and coverage, and concrete username-validation questions. The coach consolidated the final wording, including the decision rule. Build 2's writing criterion is complete; this does not establish independent mastery of the active gap below. Source: `../reports/1405-06-19-code-review-checklist-completed.md`.
