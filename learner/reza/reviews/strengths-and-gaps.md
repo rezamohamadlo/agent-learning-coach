@@ -25,6 +25,8 @@ Review update — 1405-06-22: All six choices were correct in fresh scenarios. F
 
 Component explanation update — 1405-06-23: The learner independently described the model, context, instructions, goal, tools, state, and verification, then correctly reassessed the distinction between authorization and verification in a fresh scenario. This supports Demonstrated evidence for the Phase 1 component-explanation exit criterion; practical execution remains unverified. See `../reports/1405-06-23-agent-components.md`.
 
+Practical verification update — 1405-06-25: The learner's earlier bounded request led to five actual passing test methods. After guided input-preservation clarification, they independently identified that list identity and unchanged input do not establish correct returned output, then accepted the complete coverage summary. This supports Demonstrated evidence-aware acceptance and the bounded-task verified-result exit criterion. The code/tests were coach-authored; no independent test-authoring or Retained copying-semantics claim. Phase 1 is complete. See `../reports/1405-06-25-phase-1-completed.md`.
+
 ## Writing outcomes completed with guidance
 
 - **Code-review checklist — 1405-06-19:** The learner supplied the original checklist, additions about actual test results and coverage, and concrete username-validation questions. The coach consolidated the final wording, including the decision rule. Build 2's writing criterion is complete; this does not establish independent mastery of the active gap below. Source: `../reports/1405-06-19-code-review-checklist-completed.md`.
@@ -37,9 +39,11 @@ Tools assessment on 1405-06-14 passed after replacing an answer-leaked quiz; dep
 
 | Concept | Evidence from question, answer, or artifact | Needed correction | Next check | Source report |
 |---|---|---|---|---|
-| Defect versus missing evidence — practical confirmation pending | Earlier coached gap; on 1405-06-22 independently selected the correct action for both export scenarios, then explained the distinction after answer feedback. | Fresh recognition is demonstrated. The phrase about all scenarios meant situations based on rules, not exhaustive input testing. | Apply the decision in the next actual task before claiming full independent practical mastery. | `../reports/1405-06-22-phase-1-periodic-review.md` |
+| Independent verification design | The learner supplied a bounded request; the coach refined coverage and authored the executed tests. Final evidence-aware acceptance was demonstrated on 1405-06-25. | Design checks from a new contract without relying on a supplied coverage list. | Draft the first Phase 2 skill's three evaluation cases before implementation. | `../reports/1405-06-25-phase-1-completed.md` |
 
 ## Retention candidates
+
+Practical follow-up — 1405-06-25: Input/output preservation and evidence sufficiency were reinforced on the actual task. Earlier known-defect/missing-evidence review passed on 1405-06-22; today's final response correctly challenged incomplete output evidence and accepted full coverage. Treat these as fresh transfer/retention targets, not unresolved phase blockers. The clarification request concerned ambiguous question wording and was not a failed attempt. Recheck during the first Phase 2 skill evaluation.
 
 State-preservation review — 1405-06-22: Correctly preserved subscribed=false in a fresh name-change question. Both values and rejected changes still need a practical check; no full retention claim. See `../reports/1405-06-22-phase-1-periodic-review.md`.
 
@@ -49,7 +53,8 @@ Guided practice update — 1405-06-21: In the hypothetical late-fee task, the le
 
 | Concept | Earlier issue and correction | Fresh check needed | Target checkpoint | Source report |
 |---|---|---|---|---|
-| Diff review and final-patch evidence | Clarified that passing example tests omitted the defective boundary; then passed topic assessment | Review a fresh patch and explain the distinction between an observed defect and missing verification evidence | Phase 1 periodic assessment | `../reports/1405-06-17-reviewing-diffs-and-evidence.md` |
+| Diff review and evidence sufficiency | Earlier boundary correction and Phase 1 periodic review passed; actual task acceptance on 1405-06-25 distinguished incomplete assertions from full coverage | Diagnose a fresh known defect versus missing evidence and justify the review decision | First Phase 2 skill evaluation | `../reports/1405-06-22-phase-1-periodic-review.md`; `../reports/1405-06-25-phase-1-completed.md` |
+| Input preservation versus output correctness | Guided clarification followed by correct unchanged-input recognition and an independent challenge that two assertions omit returned-output correctness | Explain and evaluate separate input/output checks in a new domain; recheck both Boolean values and rejection paths | First Phase 2 skill evaluation | `../reports/1405-06-25-phase-1-completed.md` |
 | Acceptance criterion versus verification method; authorized scope | Initially selected test execution as a criterion and an unrelated subsystem redesign; after teaching, correctly selected observable upload behavior and a bounded fix | Explain both distinctions and apply them independently in a fresh task contract | Phase 1 periodic assessment | `../reports/1405-06-16-task-specification.md` |
 | Diagnostic action versus final reporting | Initially treated preparation of the report as the diagnostic action; later selected the correct evidence-producing action | Diagnose a new failure by separating action, inspection, and final report | Phase 1 periodic assessment | `../reports/1405-06-10-agent-loop.md` |
 | Information categories versus mandatory artifacts | Questions initially assumed every large project needs six separate locations; corrected to need-based placement and conventional discovery | Classify which artifacts a new project actually needs without creating every category | Phase 1 periodic assessment | `../reports/1405-06-12-prompts-and-repository-instructions.md` |

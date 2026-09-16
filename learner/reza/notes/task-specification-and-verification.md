@@ -185,6 +185,27 @@ Review at least:
 
 Tests are evidence, not proof. Passing tests may omit important behavior; failing tests may be unrelated. Interpret them in context.
 
+## Discussion: different object, preserved input, correct output
+
+In the task-renaming review, the learner correctly pointed out that these two checks do not establish correct returned data:
+
+```python
+assert result is not tasks
+assert tasks == before
+```
+
+They establish different facts:
+
+| Check | What it establishes |
+|---|---|
+| `result is not tasks` | The returned list is a different object; its contents may still be equal or share task dictionaries. |
+| `tasks == before` | The original input still equals an independent snapshot saved before the call. |
+| `result == expected` | The returned data matches the required output, including the new title and fields that must stay unchanged. |
+
+Use `deepcopy(tasks)` for the before-call snapshot in this exercise. A correct returned title alone cannot show that the original stayed unchanged. Conversely, unchanged input and a different returned object cannot show that the returned title is correct. The actual task-renaming test checks all three properties.
+
+The learner accepted the complete reported coverage while challenging the abbreviated two-assertion example. This is evidence-aware review, not a misconception. See [completion report](../reports/1405-06-25-phase-1-completed.md).
+
 ## Common mistakes
 
 - Asking for implementation before agreeing on the outcome.
@@ -205,4 +226,5 @@ Tests are evidence, not proof. Passing tests may omit important behavior; failin
 - A bounded task defines its objective, scope, constraints, authority, deliverable, and acceptance criteria.
 - Deliverables describe the work handed back; acceptance criteria describe conditions it must satisfy. Context can make a deliverable implicit.
 - Verification should be observable and proportional to risk.
+- Distinguish object identity, input preservation, and output correctness; evidence for one does not establish the others.
 - Review agent work for scope, correctness, safety, regression risk, evidence, and honest uncertainty.
