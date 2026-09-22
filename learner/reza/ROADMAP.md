@@ -8,16 +8,16 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 
 - Start date: 1405-06-09
 - Target duration: 12 weeks
-- Current phase: Phase 2 — First reusable skills (ready to start)
+- Current phase: Phase 2 — First reusable skills (in progress)
 - Overall progress: Phase 1 complete under its revised Build scope: 7/7 learning outcomes, 4/4 Build outcomes including 3 guided simulations (Practiced), and 3/3 exit criteria. Actual task-renaming execution and learner acceptance review are complete. No overall percentage assigned.
 - Weekly study/build ratio: 30% study, 70% practice
-- Next review date: 1405-06-29 (Week 3 checkpoint; Jalali, Asia/Tehran)
-- Current evidence: Agent loop, context/instruction priority, prompts/persistent/repository instructions, tools/agent actions, permissions/safety, task scope/constraints/acceptance criteria, reviewing diffs/verification evidence, and the major components of an agent — Demonstrated
-- Next checkpoint: Study and demonstrate skill discovery/triggering and use/do-not-use conditions; then draft the first skill contract and three evaluation cases.
+- Next review date: 1405-07-05 (Week 4 checkpoint; Jalali, Asia/Tehran). The 1405-06-29 Week 3 checkpoint is overdue.
+- Current evidence: Phase 1 outcomes and agent components, plus Phase 2 skill discovery/triggering — Demonstrated. Independent trigger-condition writing remains open.
+- Next checkpoint: Independently write `use when` and `do not use when` conditions; then draft the first skill contract and three evaluation cases.
 - Periodic review: Six-question review completed on 1405-06-22; 6/6 correct. Component explanation and actual bounded-task acceptance subsequently demonstrated; Phase 1 closed on 1405-06-25. Recheck preservation and evidence sufficiency during the first Phase 2 skill evaluation; next phase-boundary review at the end of Phase 2. See [review](reports/1405-06-22-phase-1-periodic-review.md) and [completion](reports/1405-06-25-phase-1-completed.md).
-- Current phase progress: Phase 2 Learn 0/5; Build 0/4; required-content checklist 0/8; Exit criteria 0/3. Phase 1 finished at Learn 7/7; revised Build 4/4; Exit 3/3.
-- Schedule status: Replanned on 1405-06-25 with measurable weekly targets below, preserving the original 12-week end date. First new deadline: 1405-06-29; no new-baseline deadline has elapsed. Weekly capacity is unknown, so feasibility will be reviewed at that checkpoint.
-- Evidence trend: Seven conceptual outcomes, three writing artifacts, three guided simulations, retention/transfer checks, and one actual bounded task accepted with evidence-based reasoning. Across 18 reports (1405-06-10 to 1405-06-25), five passing test methods and the learner's distinction between partial and complete coverage support the final Phase 1 exit criterion. See [completion report](reports/1405-06-25-phase-1-completed.md).
+- Current phase progress: Phase 2 Learn 1/5 (discovery/triggering demonstrated); Build 0/4; required-content checklist 0/8; Exit criteria 0/3. Phase 1 finished at Learn 7/7; revised Build 4/4; Exit 3/3.
+- Schedule status: Behind the 1405-06-25 baseline. The 1405-06-29 Week 3 deadline passed with 1/3 targets met. Discovery/triggering was demonstrated on 1405-06-31, but independent trigger-condition writing and the first skill contract/cases remain pending. The Week 3 capacity review is overdue; its original deadline is unchanged.
+- Evidence trend: Phase 1's seven learning outcomes, three writing artifacts, three guided simulations, retention/transfer checks, and one actual bounded task accepted with evidence-based reasoning; Phase 2 discovery/triggering has now passed a three-question assessment. Across 19 reports (1405-06-10 to 1405-06-31), practical Phase 2 skill construction and evaluation remain pending. See [Phase 1 completion](reports/1405-06-25-phase-1-completed.md) and [trigger assessment](reports/1405-06-31-skill-discovery-and-triggering.md).
 
 ## Priority review: build templates and worked examples
 
@@ -30,16 +30,16 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 
 Future review approach: start with a saved template and one worked example, then apply it to a small new case if the learner wants practice. Keep useful templates and examples easy to find as later build items are completed. Earlier practice labels are historical; Builds 1, 2, and 3 are completed writing outcomes with coaching.
 
-**Paused here:** Phase 1 complete; Week 3 target 1 met. Next: Phase 2 skill discovery/triggering and use/do-not-use conditions. See [completion report](reports/1405-06-25-phase-1-completed.md).
+**Paused here:** Phase 1 complete; Phase 2 discovery/triggering demonstrated on 1405-06-31. Next: independently define `use when`/`do not use when` conditions. See [assessment report](reports/1405-06-31-skill-discovery-and-triggering.md).
 
 ## Visual progress roadmap
 
-Snapshot: 1405-06-25 (Jalali; Asia/Tehran). Phase labels retain the original planned sequence; the weekly targets below define the current schedule. Status comes from the phase checkboxes and latest session evidence; no overall percentage is assigned.
+Snapshot: 1405-06-31 (Jalali; Asia/Tehran). Phase labels retain the original planned sequence; the weekly targets below define the current schedule. Status comes from the phase checkboxes and latest session evidence; no overall percentage is assigned.
 
 ```mermaid
 flowchart TB
     P1["Phase 1: Agent foundations · Original Weeks 1–2<br/>COMPLETE · Closed in Week 3<br/>Learn 7/7 · Revised Build 4/4 · Exit criteria 3/3<br/>3 simulations + 1 actual verified task"]
-    P2["Phase 2: First reusable skills · Weeks 3–4<br/>CURRENT · Ready to start<br/>Learn 0/5 · Build 0/4 · Exit 0/3"]
+    P2["Phase 2: First reusable skills · Weeks 3–4<br/>CURRENT · In progress<br/>Learn 1/5 · Build 0/4 · Exit 0/3"]
     P3["Phase 3: Tools and MCP · Weeks 5–6<br/>Not started"]
     P4["Phase 4: Single-agent workflow · Weeks 7–8<br/>Not started"]
     P5["Phase 5: Evaluations and reliability · Weeks 9–10<br/>Not started"]
@@ -147,7 +147,7 @@ Create these subdirectories only when they are needed.
 
 ### Learn
 
-- [ ] Understand skill discovery and triggering.
+- [x] Understand skill discovery and triggering. — Demonstrated by 3/3 correct choices across recall, application, and diagnosis; see [assessment](reports/1405-06-31-skill-discovery-and-triggering.md). Delayed retention and unaided skill-metadata writing are not claimed.
 - [ ] Define clear `use when` and `do not use when` conditions.
 - [ ] Separate core instructions, references, scripts, assets, and examples.
 - [ ] Understand progressive disclosure and context efficiency.
@@ -292,7 +292,7 @@ Each numbered target is one checkpoint unit. At review, report **units met / uni
 
 | Week | Dates (deadline is final day) | Observable targets | Current status |
 |---|---|---|---|
-| 3 | 1405-06-23–1405-06-29 | **1.** Close the last Phase 1 exit criterion with a bounded request, executed checks, and learner acceptance reasoning that covers state preservation. **2.** Demonstrate Phase 2 discovery/triggering and use/do-not-use conditions. **3.** Select one real recording-lifecycle problem and draft its skill contract plus three evaluation cases before implementation. | 1/3 met; target 1 complete on 1405-06-25; targets 2–3 pending |
+| 3 | 1405-06-23–1405-06-29 | **1.** Close the last Phase 1 exit criterion with a bounded request, executed checks, and learner acceptance reasoning that covers state preservation. **2.** Demonstrate Phase 2 discovery/triggering and use/do-not-use conditions. **3.** Select one real recording-lifecycle problem and draft its skill contract plus three evaluation cases before implementation. | 1/3 met by deadline; target 1 complete on 1405-06-25. Discovery/triggering demonstrated late on 1405-06-31, but target 2 still needs independently written conditions; target 3 pending. Original deadline unchanged. |
 | 4 | 1405-06-30–1405-07-05 | **1.** Demonstrate the other three Phase 2 learning outcomes: file organization, progressive disclosure, and Codex/OpenCode formats. **2.** Build all three planned skills with the eight required content elements each. **3.** Run at least three realistic cases per skill; repeat one case per skill and compare results; at least one case must be a real repository task. **4.** Complete Phase 2 boundary review and demonstrate all three exit criteria. | 0/4 met |
 | 5 | 1405-07-06–1405-07-12 | **1.** Demonstrate schemas/tool calling, read-only versus mutating tools, and approval boundaries. **2.** Build and execute the read-only configuration inspection tool on a valid and an invalid input. **3.** Build and execute the test-result summary tool on a successful and a failed-test example; validate structured output from both tools. | 0/3 met |
 | 6 | 1405-07-13–1405-07-19 | **1.** Demonstrate MCP roles, safe authentication, and errors/retries/timeouts/idempotency. **2.** Expose one read-only diagnostic through MCP and capture an actual client call. **3.** Run invalid-input and tool-failure tests and verify authorization boundaries for mutating actions using controlled checks. **4.** Complete Phase 3 boundary review and all exit criteria. | 0/4 met |
@@ -315,8 +315,8 @@ Add one row at the end of every week.
 |---|---|---|---|---|---|---|
 | 1 | 1405-06-09 to 1405-06-15 | Agent foundations | Demonstrated agent loop, context/instruction priority, prompt placement, skill/tool distinctions, tool selection, verification before retries, and permissions/safety | `reports/1405-06-10-agent-loop.md`; `reports/1405-06-11-context-and-instructions.md`; `reports/1405-06-12-prompts-and-repository-instructions.md`; `reports/1405-06-14-tools-and-actions.md`; `reports/1405-06-15-permissions-and-safety.md` | Corrected earlier gaps; discarded answer-leaked tools quiz and passed fresh assessment | Practice task scope, constraints, and acceptance criteria |
 | 2 | 1405-06-16 to 1405-06-22 | Agent foundations and Phase 1 evidence | Seven learning outcomes, revised Build 4/4, review 6/6; Exit 1/3 | [Periodic review](reports/1405-06-22-phase-1-periodic-review.md) | Component explanation and actual verified execution pending; full state-preservation coverage remains a practice target | Explain components without notes, then a bounded practical task |
-| 3 | 1405-06-23 to 1405-06-29 | Phase 1 exit; Phase 2 triggers and first skill contract | Phase 1 complete: components, actual tests, and reasoned acceptance; weekly targets 1/3 met | [Components](reports/1405-06-23-agent-components.md); [Planning](reports/1405-06-25-weekly-targets-and-practical-verification.md); [Completion](reports/1405-06-25-phase-1-completed.md) | Guided clarification was needed; fresh preservation/coverage transfer scheduled for Phase 2; weekly capacity unknown | Phase 2 discovery/triggering; then first contract and three cases |
-| 4 | | Skill evaluation | | | | |
+| 3 | 1405-06-23 to 1405-06-29 | Phase 1 exit; Phase 2 triggers and first skill contract | Phase 1 complete; discovery/triggering demonstrated late on 1405-06-31; weekly targets 1/3 met | [Completion](reports/1405-06-25-phase-1-completed.md); [Trigger assessment](reports/1405-06-31-skill-discovery-and-triggering.md) | `Use when`/`do not use when` writing and first contract/cases pending; Week 3 review and capacity check overdue | Write trigger conditions, then select the real problem and draft contract/cases |
+| 4 | 1405-06-30 to 1405-07-05 | Skill evaluation | Discovery/triggering demonstrated on 1405-06-31; Week 4 targets 0/4 met | [Trigger assessment](reports/1405-06-31-skill-discovery-and-triggering.md) | Independent trigger conditions, skill builds, case executions, and boundary review pending | Write trigger conditions; assess remaining Phase 2 concepts |
 | 5 | | Tools | | | | |
 | 6 | | MCP | | | | |
 | 7 | | Agent workflow | | | | |
@@ -371,5 +371,5 @@ Record important decisions so later changes have context.
 - [x] Complete the Phase 1 retention and transfer review. — Six correct choices; remaining exit requirements recorded in the review report.
 - [x] Obtain actual implementation and test-execution evidence for a bounded task. — Existing task-renaming code: five test methods passed on 1405-06-25. The original three-executed-task practice target remains deferred outside the revised Build item.
 - [x] Review task-renaming evidence and explain the acceptance decision before closing Phase 1. — See [completion report](reports/1405-06-25-phase-1-completed.md).
-- [ ] Study and demonstrate skill discovery/triggering and use/do-not-use conditions (Week 3 target 2).
+- [ ] Complete Week 3 target 2: discovery/triggering demonstrated on 1405-06-31; independently write `use when` and `do not use when` conditions for a new skill.
 - [ ] Draft three evaluation cases before implementing the first skill.
