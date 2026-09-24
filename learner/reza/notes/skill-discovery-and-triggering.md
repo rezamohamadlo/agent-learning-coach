@@ -82,6 +82,44 @@ Cases:
 
 Given a proposed skill and several requests, decide which requests should trigger it. Then explain which phrase in the positive or negative conditions supports each decision.
 
+## Guided practice: meeting action extraction
+
+On 1405-07-02 (Jalali), the learner revised a trigger to name extraction of tasks, owners, or deadlines, and correctly distinguished a request for tasks from notes from a request for attendance count and meeting date. This is guided practice; independent authoring remains pending.
+
+The remaining wording adjustment is to name the input: meeting notes or transcripts. A task deadline is different from the date of the meeting. Exclusions should name concrete neighboring requests rather than referring vaguely to "other details."
+
+Refined example with coach support:
+
+- **Use when:** The user wants explicitly stated action items, their owners, or their deadlines extracted from meeting notes or transcripts.
+- **Do not use when:** The user only wants meeting metadata, such as attendance count or meeting date, or a general discussion summary without action-item extraction.
+
+For a mixed request, the skill can cover the action-item extraction portion; its scope does not automatically cover the other requested details. Missing owners or deadlines remain unspecified.
+
+## Guided practice: customer feedback summaries
+
+On 1405-07-02 (Jalali), the learner independently named categorizing customer reviews and summarizing each category as an appropriate trigger. The initial exclusion, requests for review "types" and counts per type, could overlap with grouping reviews by theme. After feedback, the learner clarified the exclusion as requests only for counts or metadata such as date, time, or collection format (online or paper).
+
+The revised exclusion is appropriate for this skill's stated scope. "Type" needs a concrete meaning: a feedback theme can belong to content analysis, while a collection format describes metadata. The word "only" matters: asking for counts alongside a theme summary does not exclude the summarization portion.
+
+Consolidated conditions:
+
+- **Use when:** The user wants supplied customer reviews grouped into themes and summarized by theme.
+- **Do not use when:** The user only wants review counts or metadata, such as submission dates, times, or collection formats, without content grouping or summarization.
+
+Evidence: positive-condition authoring was independent; the exclusion was corrected with coaching. The exercise is Practiced; a fresh independent authoring check remains before completing the roadmap target.
+
+## Independent application: applicant filter
+
+On 1405-07-02 (Jalali), the learner independently chose a skill that reads resumes and returns applicants matching a supplied requirements file. The positive example selected applicants meeting minimum requirements; the negative example requested aggregate statistics. This demonstrates trigger-condition authoring after guided practice. Earlier practice labels are historical; the independent checkpoint is now complete.
+
+Coach refinements after assessment:
+
+- Say "applicants who meet the stated requirements" rather than "legitimate applicants."
+- Exclude requests **only** for counts, dates, or summaries; mixed requests may still include filtering.
+- "Remove the rest" should mean omit from the returned list, not delete resumes or change applicant records.
+
+This was a hypothetical writing exercise, not an implemented hiring workflow. See [report](../reports/1405-07-02-trigger-condition-authoring.md).
+
 ## Pass evidence
 
 The learner can:

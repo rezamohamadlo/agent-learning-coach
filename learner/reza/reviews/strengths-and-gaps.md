@@ -21,6 +21,7 @@ This private profile summarizes durable learning evidence for future periodic as
 
 | Diff and verification review | Selected coverage limits, corrected a delivery threshold, and required relevant verification after a later shared-code edit; 3/3 multiple-choice answers without written reasoning | Demonstrated | 1405-06-17 | `../reports/1405-06-17-reviewing-diffs-and-evidence.md` |
 | Skill discovery and triggering | Correctly selected discovery metadata, a focused positive trigger, and a correction for an overly broad description (3/3); earlier discussion connected poor metadata to both trigger-error directions | Demonstrated | 1405-06-31 | `../reports/1405-06-31-skill-discovery-and-triggering.md` |
+| Trigger-condition authoring | Independently chose applicant filtering and distinguished selection against requirements from aggregate reporting | Demonstrated | 1405-07-02 | ../reports/1405-07-02-trigger-condition-authoring.md |
 
 Review update — 1405-06-22: All six choices were correct in fresh scenarios. Final-change verification is Retained at the conceptual level: selected final-code checks and explained that simplification may change logic. The explanation followed answer feedback. Agent-loop, permission, skill/tool, and state-preservation choices support recognition; do not infer full unaided explanation or actual execution. See `../reports/1405-06-22-phase-1-periodic-review.md`.
 
@@ -41,9 +42,10 @@ Tools assessment on 1405-06-14 passed after replacing an answer-leaked quiz; dep
 | Concept | Evidence from question, answer, or artifact | Needed correction | Next check | Source report |
 |---|---|---|---|---|
 | Independent verification design | The learner supplied a bounded request; the coach refined coverage and authored the executed tests. Final evidence-aware acceptance was demonstrated on 1405-06-25. | Design checks from a new contract without relying on a supplied coverage list. | Draft the first Phase 2 skill's three evaluation cases before implementation. | `../reports/1405-06-25-phase-1-completed.md` |
-| Trigger-condition authoring | Positive and negative trigger conditions were recognized in choices, but the learner has not yet written both independently for a new skill. | Draft narrow `use when` and realistic `do not use when` conditions, then test them with positive and negative cases. | Before marking Week 3 target 2 complete. | `../reports/1405-06-31-skill-discovery-and-triggering.md` |
 
 ## Retention candidates
+
+Trigger authoring, 1405-07-02: Earlier vague exclusions and theme-versus-metadata ambiguity were corrected with coaching; independent applicant-filter writing passed. Recheck mixed requests and input scope during the first skill evaluation. No actual execution or delayed retention claimed. Source: ../reports/1405-07-02-trigger-condition-authoring.md.
 
 Practical follow-up — 1405-06-25: Input/output preservation and evidence sufficiency were reinforced on the actual task. Earlier known-defect/missing-evidence review passed on 1405-06-22; today's final response correctly challenged incomplete output evidence and accepted full coverage. Treat these as fresh transfer/retention targets, not unresolved phase blockers. The clarification request concerned ambiguous question wording and was not a failed attempt. Recheck during the first Phase 2 skill evaluation.
 
