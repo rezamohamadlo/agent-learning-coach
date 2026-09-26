@@ -12,12 +12,12 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 - Overall progress: Phase 1 complete under its revised Build scope: 7/7 learning outcomes, 4/4 Build outcomes including 3 guided simulations (Practiced), and 3/3 exit criteria. Actual task-renaming execution and learner acceptance review are complete. No overall percentage assigned.
 - Weekly study/build ratio: 30% study, 70% practice
 - Next review date: 1405-07-05 (Week 4 checkpoint; Jalali, Asia/Tehran). The 1405-06-29 Week 3 checkpoint is overdue.
-- Current evidence: Phase 1 outcomes, Phase 2 discovery/triggering, and independent trigger-condition authoring: Demonstrated. [Authoring report](reports/1405-07-02-trigger-condition-authoring.md)
-- Next checkpoint: Select a real recording-lifecycle problem and draft its skill contract plus three evaluation cases.
+- Current evidence: Phase 1 outcomes, Phase 2 discovery/triggering, independent trigger-condition authoring, and stage-specific lifecycle evidence reasoning: Demonstrated. The first recording-auditor contract and three cases are drafted with coaching (Practiced). [Contract report](reports/1405-07-04-recording-lifecycle-contract.md)
+- Next checkpoint: Complete the overdue capacity review, then study skill file organization and progressive disclosure before implementing the first skill.
 - Periodic review: Six-question review completed on 1405-06-22; 6/6 correct. Component explanation and actual bounded-task acceptance subsequently demonstrated; Phase 1 closed on 1405-06-25. Recheck preservation and evidence sufficiency during the first Phase 2 skill evaluation; next phase-boundary review at the end of Phase 2. See [review](reports/1405-06-22-phase-1-periodic-review.md) and [completion](reports/1405-06-25-phase-1-completed.md).
 - Current phase progress: Phase 2 Learn 2/5 (discovery/triggering and condition authoring demonstrated); Build 0/4; required-content checklist 0/8; Exit criteria 0/3. Phase 1 finished at Learn 7/7; revised Build 4/4; Exit 3/3.
-- Schedule status: Behind. Week 3 had 1/3 targets met by 1405-06-29; now 2/3 met after trigger-condition authoring on 1405-07-02. First contract/cases and capacity review remain pending. Week 4 checkpoint remains 1405-07-05.
-- Evidence trend: Phase 1 complete; Phase 2 discovery/triggering and independent condition authoring demonstrated. Practical construction and evaluation pending. Across 20 reports (1405-06-10 to 1405-07-02). [Authoring report](reports/1405-07-02-trigger-condition-authoring.md)
+- Schedule status: Behind. Week 3 had 1/3 targets met by 1405-06-29; all 3/3 are now complete after two late completions. The capacity review remains overdue, and Week 4 targets remain 0/4 with the checkpoint on 1405-07-05.
+- Evidence trend: Phase 1 complete; Phase 2 triggering and stage-specific evidence reasoning demonstrated. One real skill contract and three evaluation cases are drafted with coaching; implementation and execution remain pending. Across 21 reports (1405-06-10 to 1405-07-04). [Contract report](reports/1405-07-04-recording-lifecycle-contract.md)
 
 ## Priority review: build templates and worked examples
 
@@ -30,11 +30,11 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 
 Future review approach: start with a saved template and one worked example, then apply it to a small new case if the learner wants practice. Keep useful templates and examples easy to find as later build items are completed. Earlier practice labels are historical; Builds 1, 2, and 3 are completed writing outcomes with coaching.
 
-**Paused here:** Phase 2 Learn 2/5. Next: select the real problem and draft its contract plus three cases. [Authoring report](reports/1405-07-02-trigger-condition-authoring.md)
+**Paused here:** Phase 2 Learn 2/5; the first contract and three cases are drafted at Practiced level. Next: capacity review, then file organization and progressive disclosure. [Contract report](reports/1405-07-04-recording-lifecycle-contract.md)
 
 ## Visual progress roadmap
 
-Snapshot: 1405-07-02 (Jalali; Asia/Tehran). Phase labels retain the original planned sequence; the weekly targets below define the current schedule. Status comes from the phase checkboxes and latest session evidence; no overall percentage is assigned.
+Snapshot: 1405-07-04 (Jalali; Asia/Tehran). Phase labels retain the original planned sequence; the weekly targets below define the current schedule. Status comes from the phase checkboxes and latest session evidence; no overall percentage is assigned.
 
 ```mermaid
 flowchart TB
@@ -277,7 +277,7 @@ Create these subdirectories only when they are needed.
 
 | Priority | Skill | Purpose | Status |
 |---|---|---|---|
-| 1 | `recording-lifecycle-auditor` | Trace recording creation, finalization, upload, retries, and deletion | Not started |
+| 1 | `recording-lifecycle-auditor` | Trace recording creation, finalization, upload, retries, and deletion | Narrow save/playback contract and three cases drafted with coaching; not implemented |
 | 2 | `deepstream-pipeline-debugger` | Trace sources, elements, pads, queues, probes, and branches | Not started |
 | 3 | `pytest-failure-diagnoser` | Reproduce, classify, diagnose, and report focused test failures | Not started |
 | 4 | `custom-parser-reviewer` | Check tensors, bounds, class mappings, memory safety, and compatibility | Not started |
@@ -292,7 +292,7 @@ Each numbered target is one checkpoint unit. At review, report **units met / uni
 
 | Week | Dates (deadline is final day) | Observable targets | Current status |
 |---|---|---|---|
-| 3 | 1405-06-23–1405-06-29 | **1.** Close the last Phase 1 exit criterion with a bounded request, executed checks, and learner acceptance reasoning that covers state preservation. **2.** Demonstrate Phase 2 discovery/triggering and use/do-not-use conditions. **3.** Select one real recording-lifecycle problem and draft its skill contract plus three evaluation cases before implementation. | 1/3 met by deadline; target 1 complete on 1405-06-25. Target 2 completed late on 1405-07-02; now 2/3 met. Target 3 pending. Original deadline unchanged. |
+| 3 | 1405-06-23–1405-06-29 | **1.** Close the last Phase 1 exit criterion with a bounded request, executed checks, and learner acceptance reasoning that covers state preservation. **2.** Demonstrate Phase 2 discovery/triggering and use/do-not-use conditions. **3.** Select one real recording-lifecycle problem and draft its skill contract plus three evaluation cases before implementation. | 1/3 met by deadline; now 3/3 complete. Target 2 completed late on 1405-07-02; target 3 completed late at Practiced level on 1405-07-04. Original deadline unchanged. |
 | 4 | 1405-06-30–1405-07-05 | **1.** Demonstrate the other three Phase 2 learning outcomes: file organization, progressive disclosure, and Codex/OpenCode formats. **2.** Build all three planned skills with the eight required content elements each. **3.** Run at least three realistic cases per skill; repeat one case per skill and compare results; at least one case must be a real repository task. **4.** Complete Phase 2 boundary review and demonstrate all three exit criteria. | 0/4 met |
 | 5 | 1405-07-06–1405-07-12 | **1.** Demonstrate schemas/tool calling, read-only versus mutating tools, and approval boundaries. **2.** Build and execute the read-only configuration inspection tool on a valid and an invalid input. **3.** Build and execute the test-result summary tool on a successful and a failed-test example; validate structured output from both tools. | 0/3 met |
 | 6 | 1405-07-13–1405-07-19 | **1.** Demonstrate MCP roles, safe authentication, and errors/retries/timeouts/idempotency. **2.** Expose one read-only diagnostic through MCP and capture an actual client call. **3.** Run invalid-input and tool-failure tests and verify authorization boundaries for mutating actions using controlled checks. **4.** Complete Phase 3 boundary review and all exit criteria. | 0/4 met |
@@ -315,8 +315,8 @@ Add one row at the end of every week.
 |---|---|---|---|---|---|---|
 | 1 | 1405-06-09 to 1405-06-15 | Agent foundations | Demonstrated agent loop, context/instruction priority, prompt placement, skill/tool distinctions, tool selection, verification before retries, and permissions/safety | `reports/1405-06-10-agent-loop.md`; `reports/1405-06-11-context-and-instructions.md`; `reports/1405-06-12-prompts-and-repository-instructions.md`; `reports/1405-06-14-tools-and-actions.md`; `reports/1405-06-15-permissions-and-safety.md` | Corrected earlier gaps; discarded answer-leaked tools quiz and passed fresh assessment | Practice task scope, constraints, and acceptance criteria |
 | 2 | 1405-06-16 to 1405-06-22 | Agent foundations and Phase 1 evidence | Seven learning outcomes, revised Build 4/4, review 6/6; Exit 1/3 | [Periodic review](reports/1405-06-22-phase-1-periodic-review.md) | Component explanation and actual verified execution pending; full state-preservation coverage remains a practice target | Explain components without notes, then a bounded practical task |
-| 3 | 1405-06-23 to 1405-06-29 | Phase 1 exit; triggers and contract | 1/3 targets met by deadline; now 2/3 after authoring completion | [Authoring report](reports/1405-07-02-trigger-condition-authoring.md) | Contract/cases and capacity review pending | Select real problem; draft contract/cases |
-| 4 | 1405-06-30 to 1405-07-05 | Skill evaluation | Discovery/triggering and condition authoring demonstrated; Week 4 targets 0/4 | [Authoring report](reports/1405-07-02-trigger-condition-authoring.md) | Other learning, builds, executions, and boundary review pending | Draft contract/cases; study remaining concepts |
+| 3 | 1405-06-23 to 1405-06-29 | Phase 1 exit; triggers and contract | 1/3 targets met by deadline; now 3/3 after late trigger and contract work | [Contract report](reports/1405-07-04-recording-lifecycle-contract.md) | All targets eventually completed; capacity review remains overdue | Review capacity and preserve the original deadline record |
+| 4 | 1405-06-30 to 1405-07-05 | Skill evaluation | Contract/cases drafted; stage-specific evidence reasoning demonstrated; Week 4 targets 0/4 | [Contract report](reports/1405-07-04-recording-lifecycle-contract.md) | File organization, progressive disclosure, formats, builds, executions, and boundary review pending | Capacity review; then file organization and progressive disclosure |
 | 5 | | Tools | | | | |
 | 6 | | MCP | | | | |
 | 7 | | Agent workflow | | | | |
@@ -365,11 +365,11 @@ Record important decisions so later changes have context.
 - [x] Write the reusable task-request template.
 - [x] Write the AI-generated-code review checklist with coach refinements.
 - [x] Draft project-independent agent operating instructions for review before reuse. — Completed as a reviewed writing outcome; see `notes/agent-operating-instructions.md` and `reports/1405-06-21-agent-operating-instructions.md`.
-- [ ] Select one real recording-lifecycle problem as the first skill example.
+- [x] Select one real recording-lifecycle problem as the first skill example. — Saving/playback lifecycle selected; [contract draft](experiments/recording-lifecycle-auditor-contract.md).
 - [x] Complete the first guided hypothetical task: specify, review, and request verification for overdue library fees. — Practiced; see [exercise and final request](experiments/hypothetical-task-1.md) and [report](reports/1405-06-21-hypothetical-late-fees.md).
 - [x] Complete the shipping and task-renaming hypothetical reviews with feedback. — Three exercises complete under revised Build 4 scope; independent transfer remains a review target.
 - [x] Complete the Phase 1 retention and transfer review. — Six correct choices; remaining exit requirements recorded in the review report.
 - [x] Obtain actual implementation and test-execution evidence for a bounded task. — Existing task-renaming code: five test methods passed on 1405-06-25. The original three-executed-task practice target remains deferred outside the revised Build item.
 - [x] Review task-renaming evidence and explain the acceptance decision before closing Phase 1. — See [completion report](reports/1405-06-25-phase-1-completed.md).
 - [x] Complete Week 3 target 2: discovery/triggering demonstrated on 1405-06-31; independent conditions demonstrated on 1405-07-02, after deadline. [Authoring report](reports/1405-07-02-trigger-condition-authoring.md)
-- [ ] Draft three evaluation cases before implementing the first skill.
+- [x] Draft three evaluation cases before implementing the first skill. — Completed with coaching at Practiced level; [contract and cases](experiments/recording-lifecycle-auditor-contract.md) and [report](reports/1405-07-04-recording-lifecycle-contract.md).

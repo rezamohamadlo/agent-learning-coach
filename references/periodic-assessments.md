@@ -36,10 +36,10 @@ State the review scope and completion evidence before asking questions. Build a 
 - includes every unresolved critical gap;
 - retests corrected misconceptions with different wording and a new scenario;
 - includes at least one earlier prerequisite when retention matters;
-- mixes recall, application, diagnosis, and practical explanation or artifact work; and
+- mixes recall, application, and diagnosis, while considering existing practical artifacts separately; and
 - avoids copying earlier questions or teaching the answer in the prompt.
 
-Use four to six checks for an ordinary phase review, adjusted downward when a practical artifact provides stronger evidence. Multiple-choice checks follow the rules in `coaching-protocol.md`, including a final `I don't know` choice. Require short reasoning or an independent artifact where guessing would otherwise be plausible.
+Use exactly three multiple-choice questions in one `Validation` section for an ordinary phase review: recall, application, and transfer or diagnosis. Each includes a final `I don't know` choice and follows `coaching-protocol.md`. Use previously produced practical artifacts as additional evidence, but do not add extra coach-authored questions.
 
 ## Evaluation and progression
 

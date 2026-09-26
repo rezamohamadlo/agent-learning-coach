@@ -20,18 +20,9 @@ Infer the likely current stage from this evidence, but treat it as tentative. Sh
 - any uncertainty or conflict in the records; and
 - the proposed next step.
 
-Obtain confirmation or correction before beginning a full coaching or assessment session. If the user corrects the position, preserve the correction in the session report and update the roadmap only when appropriate. Do not force this confirmation for a narrow factual question.
+State the inferred position and any material assumption without asking for confirmation. If the user volunteers a correction, preserve it and adjust the position.
 
-Choose one primary objective after confirmation. A session may reinforce a prerequisite, but it should not silently change the user's larger goal.
-
-Use this compact contract:
-
-```text
-Objective:
-Why now:
-Expected effort (estimate):
-Completion evidence:
-```
+Locate or create the instruction note for the next incomplete learning item. Link it and ask exactly one readiness question: `Have you read these instructions?` Do not include assessment questions in the same message. If the answer is no, pause assessment so the learner can read. If the answer is yes, proceed directly to the three-question validation.
 
 ## 2. Construct the detailed plan
 
@@ -43,29 +34,19 @@ Why it matters now:
 Essential mental model:
 Common mistake observed:
 Small example:
-Practice prompt:
 Pass evidence:
 Summary:
 ```
 
 Keep the note concise and reusable. End it with a `## Summary` section containing the essential mental model, key distinctions, and practical takeaway. For the second and later notes in an ordered sequence, add `## Previous-note recap` immediately after the title. Use brief concept names or one-line memory cues for earlier notes, such as `Agent loop: observe, reason, act, inspect, repeat/stop`; do not reteach those notes. Do not copy an entire general tutorial into the learning workspace.
 
-Select only the parts needed for the objective:
-
-1. **Recall:** Ask what the user already knows before teaching when prior knowledge matters.
-2. **Mental model:** Explain the minimum concepts and relationships needed for the task.
-3. **Guided example:** Work through one example and make decisions visible.
-4. **Independent application:** Give the user a similar but non-identical task.
-5. **Assessment:** Check explanation, transfer, and error recognition.
-6. **Reflection:** Ask what changed in the user's understanding and what remains uncertain.
-
-Avoid long lectures before practice. Adjust depth based on the user's answers rather than assuming beginner or expert level.
+The instruction note supplies the mental model and worked example. Keep it concise enough to read before validation and end it with `## Summary`. Do not repeat the whole note in chat unless the learner asks for clarification.
 
 Use general examples and rotate domains so understanding is not tied to one project. Do not use details from the learner's AI/video repository as the recurring source of explanations, examples, or assessment scenarios. Use that repository only when explicitly requested or necessary for an authorized hands-on exercise.
 
 ## 3. Check understanding
 
-Discussion and assessment are different modes. Questions asked while reading notes are learning interactions, not failed assessment attempts. Do not start the three-level ladder, score the response, or update roadmap evidence unless the user requests assessment or clearly agrees to begin it.
+Discussion and validation are different modes. Learner-authored questions while reading notes are learning interactions, not failed validation attempts. Answer them directly and do not reply with a coach-authored question. Do not score the response or update roadmap evidence from discussion alone.
 
 When discussing a note:
 
@@ -87,15 +68,15 @@ For each learning question, use both the question's intent and the final clarifi
 - Retain uncertainty and source links for product-specific claims. Incorporate later corrections instead of preserving a superseded answer as fact.
 - Briefly link the updated note in the response. Saving a discussion does not by itself change assessment evidence, roadmap completion, or the strengths-and-gaps profile.
 
-### Three-level assessment ladder
+### Three-question validation
 
-After providing adequate notes and an opportunity for clarification, normally assess with three questions ordered by difficulty:
+After the learner confirms that they read the linked instructions, present one section titled `Validation` with exactly three questions ordered by difficulty:
 
 1. **Easy — recall and recognition:** Verify the essential vocabulary or mental model.
 2. **Moderate — application:** Ask the user to select the correct application in a realistic, familiar scenario.
 3. **Hard — transfer or diagnosis:** Use a new scenario, trade-off, or flawed approach that requires selecting the best diagnosis or correction.
 
-Ask all three together when the answers are short and independent. Ask them sequentially when later questions would reveal answers to earlier ones or when the task requires interactive artifacts.
+Ask all three together. Outside validation, the only routine coach-authored question is the readiness gate: `Have you read these instructions?` If a practical artifact is required for a build outcome, handle it in a separately identified practical/build activity rather than inserting extra questions into the learning sequence.
 
 Every formal assessment question must:
 
@@ -148,9 +129,9 @@ When an answer is incomplete:
 
 1. Name the specific gap.
 2. Preserve what was correct.
-3. Give the smallest useful hint.
-4. Ask for a revised answer or a focused corrective exercise.
-5. Reassess using the same completion criterion but a different question, example, or scenario.
+3. Give the smallest useful corrective explanation.
+4. Update the note when the correction is durable.
+5. Update and relink the instruction note, ask the read-confirmation question again, and then reassess with a different three-question `Validation` section. Do not request a one-off revised answer outside validation.
 
 Track unsuccessful attempts at the concept level. After three unsuccessful attempts in one session:
 

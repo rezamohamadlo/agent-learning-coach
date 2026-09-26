@@ -17,11 +17,11 @@ A checklist can show what someone intended to study, but it cannot prove what th
 ```text
 Roadmap position
       ↓
-Focused learning note
+Linked instruction note
       ↓
-Discussion and practice
+Read confirmation
       ↓
-Independent assessment
+Three-question validation
       ↓
 Evidence, gaps, and progress update
       ↓
@@ -33,9 +33,9 @@ An item is not completed merely because it was explained or read. Completion nor
 ## What it provides
 
 - Roadmap orientation and next-step planning
-- Focused teaching and note discussion, with questions and clarified answers integrated into the related personal learning note
-- Guided practice followed by independent assessment
-- Multiple-choice checks that progress from recall to application and transfer
+- Focused teaching and note discussion, with learner questions and clarified answers integrated into the related personal learning note
+- A simple readiness gate that asks whether the linked instructions have been read
+- One validation section with exactly three multiple-choice questions progressing from recall to application and transfer
 - Corrective teaching and fresh reassessment when understanding is incomplete
 - Evidence levels from `Not started` through `Retained`
 - Progress snapshots after completed items
@@ -124,7 +124,7 @@ Invoke the skill from the repository checkout:
 Use $agent-learning-coach to continue my roadmap at learner/reza/ROADMAP.md.
 ```
 
-The coach will inspect the roadmap and recent evidence, propose a tentative current position, and ask you to confirm it before beginning a full session.
+The coach will inspect the roadmap and recent evidence, state the current learning stage, link the relevant instructions, and ask whether you have read them. You can correct the inferred position at any time.
 
 Useful requests include:
 
@@ -141,17 +141,13 @@ Use $agent-learning-coach to review my progress against the weekly plan.
 ## A typical session
 
 1. The coach reads the roadmap, relevant note, and latest report.
-2. At the beginning, the coach shows progress and timing against the weekly program, including uncertainty when the plan is not measurable.
-3. You confirm or correct the inferred learning position.
-4. The coach states one objective, estimated effort, and observable completion evidence.
-5. You read and discuss a concise learning note. The coach updates that note from your questions and the clarified answers during the discussion, without waiting for assessment. Repeated explanations are merged, and the final summary stays concise. These updates stay in `learner/reza/notes/` and do not automatically count as demonstrated understanding.
-6. You complete practice and an assessment.
-7. The coach explains the evidence, teaches any gap, and reassesses with a new scenario.
-8. Only demonstrated outcomes are marked complete.
-9. At the end, the coach shows the updated progress and timing against the weekly program, including the change from the session and the next checkpoint.
-10. The coach reports performance for each passed item or section, covering available time evidence, quality, efficiency, independence, verification, and safety without inventing numeric scores.
-11. The coach synchronizes every affected roadmap section: current status, visual snapshot, detail tables and checkboxes, weekly log, immediate next actions, evidence links, counts, pending requirements, schedule status, and next checkpoint.
-12. The roadmap, session report, strengths/gaps profile, and schedule snapshot are updated when warranted.
+2. The coach states the inferred stage and a compact progress-and-timing snapshot.
+3. The coach links the relevant instruction note and asks, `Have you read these instructions?`
+4. If you answer no, assessment pauses while you read. The coach answers any clarification you initiate without adding coaching questions.
+5. If you answer yes, the coach presents one `Validation` section containing exactly three multiple-choice questions: recall, application, and transfer or diagnosis.
+6. The coach explains the evidence. For a gap, it updates and relinks the instructions, repeats the read-confirmation gate, and later uses a fresh three-question validation.
+7. Only demonstrated outcomes are marked complete.
+8. At the end, the coach reports performance and synchronizes the roadmap, report, strengths/gaps profile, and schedule snapshot when warranted.
 
 The coach does not monitor progress in the background. Supervision resumes when you invoke the skill again.
 
@@ -186,7 +182,7 @@ Asking a thoughtful question is not automatically a weakness. Questions that det
 ## Getting the most from the coach
 
 - Make weekly targets observable. “Study tools” is a theme; “explain read-only versus mutating tools and classify three examples” is measurable.
-- Ask questions before assessment. Discussion is for learning and does not count as a failed attempt.
+- Ask your own questions whenever clarification is useful. Outside the three-question `Validation` section, the coach asks only whether you have read the linked instructions. Discussion does not count as a failed attempt.
 - Use `I don't know` rather than guessing. It signals that teaching is needed.
 - Explain why you chose an answer. Correct reasoning is stronger evidence than a lucky selection.
 - Let the coach preserve corrected gaps as retention candidates instead of hiding them.
