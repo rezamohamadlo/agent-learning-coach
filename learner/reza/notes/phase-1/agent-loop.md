@@ -1,5 +1,9 @@
 # Agent Loop
 
+## Previous-note recap
+
+The phase overview connects clear goals, relevant context, authority, actions, and verification. The loop explains how those parts work together.
+
 ## Concept
 
 An agent works through a feedback loop:

@@ -118,7 +118,7 @@ Coach refinements after assessment:
 - Exclude requests **only** for counts, dates, or summaries; mixed requests may still include filtering.
 - "Remove the rest" should mean omit from the returned list, not delete resumes or change applicant records.
 
-This was a hypothetical writing exercise, not an implemented hiring workflow. See [report](../reports/1405-07-02-trigger-condition-authoring.md).
+This was a hypothetical writing exercise, not an implemented hiring workflow. See [report](../../reports/1405-07-02-trigger-condition-authoring.md).
 
 ## Pass evidence
 

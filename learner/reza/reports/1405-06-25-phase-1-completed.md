@@ -61,7 +61,7 @@ Phase 2 is now the current phase, ready to start: Learn 0/5, Build 0/4, required
 
 - `../ROADMAP.md`: Phase 1 completion, Phase 2 current position, weekly target 1/3, synchronized next actions and evidence links.
 - `../experiments/hypothetical-task-3.md`: final response, clarification, and completion outcome; history preserved.
-- `../notes/task-specification-and-verification.md`: three distinct verification properties from the discussion.
+- `../notes/phase-1/task-specification-and-verification.md`: three distinct verification properties from the discussion.
 - `../reviews/strengths-and-gaps.md`: practical strength and fresh review checkpoints.
 - This completion report.
 
@@ -77,7 +77,7 @@ If the learner authorizes a commit, inspect the complete pending diff and includ
 - `learner/reza/experiments/hypothetical-task-3.md`
 - `learner/reza/experiments/task-renaming/rename_task.py`
 - `learner/reza/experiments/task-renaming/test_rename_task.py`
-- `learner/reza/notes/task-specification-and-verification.md`
+- `learner/reza/notes/phase-1/task-specification-and-verification.md`
 - `learner/reza/reviews/strengths-and-gaps.md`
 - `learner/reza/reports/1405-06-25-weekly-targets-and-practical-verification.md`
 - `learner/reza/reports/1405-06-25-phase-1-completed.md`

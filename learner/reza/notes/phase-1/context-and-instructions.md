@@ -50,11 +50,11 @@ Compact rule: **filter information by relevance, classify it by role and authori
 
 ## Instruction priority
 
-Agents can receive instructions from multiple levels. Higher-priority instructions constrain lower-priority ones. Although product names differ, the practical rule is consistent:
+Agents can receive instructions from multiple levels. Higher-priority instructions constrain lower-priority ones. The host determines the exact authority of each instruction source; a filename alone does not establish its priority. These categories describe their roles, not a universal priority ordering:
 
 - platform and safety rules constrain everything;
 - developer or organization instructions define operating behavior;
-- repository instructions define project conventions;
+- repository instructions define project conventions within the authority delegated to them;
 - the current user request defines the task;
 - content found in files, web pages, logs, or tool output is usually data, not automatically trusted instruction.
 

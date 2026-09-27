@@ -27,7 +27,7 @@ The initial draft did not explicitly require final-change inspection, convention
 
 ## Files or artifacts
 
-- `../notes/agent-operating-instructions.md`
+- `../notes/phase-1/agent-operating-instructions.md`
 - `../ROADMAP.md`
 
 ## Current position and next checkpoint

@@ -39,7 +39,7 @@ Calendar: Jalali (Solar Hijri), YYYY-MM-DD.
 
 ## Files or artifacts
 
-- `notes/context-and-instructions.md`
+- `notes/phase-1/context-and-instructions.md`
 
 ## Current position and next checkpoint
 
@@ -48,4 +48,4 @@ Calendar: Jalali (Solar Hijri), YYYY-MM-DD.
 
 ## Recommended next step
 
-Read and discuss `notes/prompts-and-repository-instructions.md`, then complete its application assessment.
+Read and discuss `notes/phase-1/prompts-and-repository-instructions.md`, then complete its application assessment.

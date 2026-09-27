@@ -36,4 +36,4 @@ The six-question review is complete. Before closing Phase 1, obtain an explanati
 
 - ../ROADMAP.md
 - ../reviews/strengths-and-gaps.md
-- ../notes/reviewing-diffs-and-evidence.md
+- ../notes/phase-1/reviewing-diffs-and-evidence.md

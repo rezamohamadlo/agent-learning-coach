@@ -17,6 +17,6 @@ Learn 7/7; Build 1/4; Exit criteria 0/3. Seven learning outcomes demonstrated pl
 
 ## Artifacts and next step
 
-Template and examples: `../notes/task-specification-and-verification.md`.
+Template and examples: `../notes/phase-1/task-specification-and-verification.md`.
 Roadmap: `../ROADMAP.md`.
 Next: write the AI-generated-code review checklist. Revisit independent verification design during bounded coding work. Periodic retention assessment remains pending before phase completion.

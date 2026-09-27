@@ -34,7 +34,7 @@ Calendar: Jalali (Solar Hijri), YYYY-MM-DD.
 
 ## Files or artifacts
 
-- Existing study note: `../notes/tools-and-actions.md` (unchanged).
+- Existing study note: `../notes/phase-1/tools-and-actions.md` (unchanged).
 - Updated `../ROADMAP.md` and `../reviews/strengths-and-gaps.md`.
 
 ## Progress against plan

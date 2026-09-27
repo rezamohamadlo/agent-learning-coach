@@ -32,6 +32,6 @@ Phase 1: Learn 7/7 previously demonstrated; Build 1/4 completed; Exit criteria 0
 
 ## Files or artifacts
 
-- ../notes/reviewing-diffs-and-evidence.md
+- ../notes/phase-1/reviewing-diffs-and-evidence.md
 - ../ROADMAP.md
 - ../reviews/strengths-and-gaps.md

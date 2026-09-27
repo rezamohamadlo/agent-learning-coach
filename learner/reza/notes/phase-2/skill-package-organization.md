@@ -16,6 +16,14 @@ Put material where its role is clearest, not where its file extension happens to
 
 An item can contain text and still not be an instruction. A report template is an asset; a schema explanation is a reference; an input plus expected result is an evaluation case.
 
+### Required inputs versus evaluation cases
+
+Required inputs are the information needed to perform the current task. For a document-checking skill, this might be the document to inspect and the checking rules. The core declares these requirements; the actual document is supplied for that invocation or obtained from authorized context.
+
+An evaluation case pairs a sample input with expected behavior so the skill's actual result can be checked. For example, a sample document deliberately missing a date is paired with the expected finding “Required date is missing.” This pair tests whether the skill detects the omission.
+
+The sample becomes an input when running that evaluation, but it is not required for every ordinary document check. Classify the pair by its purpose: testing behavior. A worked example can teach the same distinction without being an executed evaluation.
+
 ## Keep the core small but sufficient
 
 Core instructions should contain rules needed on every run. Moving a necessary safety boundary or decision rule into an optional reference can make behavior unreliable. Conversely, copying long platform documentation or many examples into the core wastes context on runs that do not need them.
@@ -38,6 +46,10 @@ Validation covers classification by runtime role, application to a new skill pac
 
 Correctly classify familiar items, apply the distinction to a new scenario, and diagnose at least one harmful placement decision without relying on filename alone.
 
+## Assessment record — 1405-07-05
+
+Package organization is Demonstrated after a 2/3 valid round, targeted clarification, and 3/3 fresh reassessment. The earlier answer-leaked round was discarded as a coach error. The corrected gap was required inputs versus evaluation cases; recheck it during the first skill evaluation. No implemented package or delayed retention is claimed. See the [session report](../../reports/1405-07-05-skill-package-organization.md).
+
 ## Summary
 
-Core instructions hold always-needed behavior and safety rules. References hold conditional knowledge, scripts perform deterministic operations, assets support produced outputs, and examples/evaluation cases test or illustrate behavior. Classify material by its runtime role, and make optional resources discoverable from the core.
+Core instructions hold always-needed behavior and safety rules. References hold conditional knowledge, scripts perform deterministic operations, assets support produced outputs, and examples/evaluation cases test or illustrate behavior. Required inputs support the current task; an evaluation case pairs a sample input with expected behavior to check the skill. Classify material by its runtime role, and make optional resources discoverable from the core.

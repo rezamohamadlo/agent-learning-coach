@@ -4,6 +4,8 @@ Calendar: Jalali (Solar Hijri), YYYY-MM-DD.
 
 This private profile summarizes durable learning evidence for future periodic assessments. It distinguishes unresolved gaps from corrected concepts that need a delayed retention check.
 
+The [review plan and queue](review-plan.md) turn these evidence-backed priorities into session, spaced, and phase-boundary checkpoints. Scheduling a review does not change the evidence recorded here.
+
 ## Demonstrated strengths
 
 | Concept or behavior | Evidence | Level | Last checked | Source report |
@@ -23,6 +25,8 @@ This private profile summarizes durable learning evidence for future periodic as
 | Skill discovery and triggering | Correctly selected discovery metadata, a focused positive trigger, and a correction for an overly broad description (3/3); earlier discussion connected poor metadata to both trigger-error directions | Demonstrated | 1405-06-31 | `../reports/1405-06-31-skill-discovery-and-triggering.md` |
 | Trigger-condition authoring | Independently chose applicant filtering and distinguished selection against requirements from aggregate reporting | Demonstrated | 1405-07-02 | ../reports/1405-07-02-trigger-condition-authoring.md |
 | Stage-specific lifecycle evidence | Correctly kept creation, finalization, storage, and playability separate; after correction, treated a missing finalization event as unverified rather than proof of a specific defect; passed 3/3 fresh checks | Demonstrated | 1405-07-04 | `../reports/1405-07-04-recording-lifecycle-contract.md` |
+
+Package organization update — 1405-07-05: Demonstrated through valid reference/placement answers and 3/3 fresh reassessment after correcting required inputs versus evaluation cases. Selections did not include written reasoning; no practical package authoring or delayed retention claimed. [Report](../reports/1405-07-05-skill-package-organization.md).
 
 Review update — 1405-06-22: All six choices were correct in fresh scenarios. Final-change verification is Retained at the conceptual level: selected final-code checks and explained that simplification may change logic. The explanation followed answer feedback. Agent-loop, permission, skill/tool, and state-preservation choices support recognition; do not infer full unaided explanation or actual execution. See `../reports/1405-06-22-phase-1-periodic-review.md`.
 
@@ -45,6 +49,8 @@ Tools assessment on 1405-06-14 passed after replacing an answer-leaked quiz; dep
 | Independent verification design | The learner supplied a bounded request; the coach refined earlier coverage and substantially guided the first skill's three evaluation cases. Evidence-aware interpretation was demonstrated, but independent case design remains unverified. | Design checks from a new contract without relying on a supplied coverage list or scenario sequence. | Independently add or revise a case during the first skill evaluation. | `../reports/1405-06-25-phase-1-completed.md`; `../reports/1405-07-04-recording-lifecycle-contract.md` |
 
 ## Retention candidates
+
+Package organization, 1405-07-05: Initially treated a sample with expected findings as an input required on every run. A clearer note and fresh reassessment corrected this. Recheck ordinary task inputs versus evaluation cases during the first skill evaluation and Phase 2 boundary review. The answer-leaked round was discarded; the request for clearer source material and the AA/A formatting clarification are not failed attempts. [Report](../reports/1405-07-05-skill-package-organization.md).
 
 Trigger authoring, 1405-07-02: Earlier vague exclusions and theme-versus-metadata ambiguity were corrected with coaching; independent applicant-filter writing passed. Recheck mixed requests and input scope during the first skill evaluation. No actual execution or delayed retention claimed. Source: ../reports/1405-07-02-trigger-condition-authoring.md.
 

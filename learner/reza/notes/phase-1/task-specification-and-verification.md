@@ -161,7 +161,7 @@ Status remains Practiced: the request is usable after feedback, but full indepen
 
 ### Completion-record correction
 
-The reusable-template writing item is complete: the learner authored a placeholder-based draft, revised it, and applied it to two concrete scenarios. Earlier Practiced labels describe the level of independent verification skill, but incorrectly kept the writing artifact checkbox open. Writing completion does not require an additional independent assessment. Preserve the feedback history above; independent verification design remains a practice target. See `../reports/1405-06-17-task-request-template.md`.
+The reusable-template writing item is complete: the learner authored a placeholder-based draft, revised it, and applied it to two concrete scenarios. Earlier Practiced labels describe the level of independent verification skill, but incorrectly kept the writing artifact checkbox open. Writing completion does not require an additional independent assessment. Preserve the feedback history above; independent verification design remains a practice target. See `../../reports/1405-06-17-task-request-template.md`.
 
 ## Proportional verification
 
@@ -204,7 +204,7 @@ They establish different facts:
 
 Use `deepcopy(tasks)` for the before-call snapshot in this exercise. A correct returned title alone cannot show that the original stayed unchanged. Conversely, unchanged input and a different returned object cannot show that the returned title is correct. The actual task-renaming test checks all three properties.
 
-The learner accepted the complete reported coverage while challenging the abbreviated two-assertion example. This is evidence-aware review, not a misconception. See [completion report](../reports/1405-06-25-phase-1-completed.md).
+The learner accepted the complete reported coverage while challenging the abbreviated two-assertion example. This is evidence-aware review, not a misconception. See [completion report](../../reports/1405-06-25-phase-1-completed.md).
 
 ## Common mistakes
 

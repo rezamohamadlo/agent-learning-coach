@@ -26,7 +26,7 @@ Seven learning outcomes demonstrated across seven reports dated 1405-06-10 throu
 
 ## Files or artifacts
 
-- `../notes/reviewing-diffs-and-evidence.md`
+- `../notes/phase-1/reviewing-diffs-and-evidence.md`
 - `../ROADMAP.md`
 - `../reviews/strengths-and-gaps.md`
 

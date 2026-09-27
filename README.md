@@ -44,7 +44,7 @@ An item is not completed merely because it was explained or read. Completion nor
 - Periodic assessments, normally at each phase boundary
 - Historical session reports that preserve learning evidence
 
-The bundled reusable curriculum currently covers Phase 1 agent foundations. The roadmap extends beyond Phase 1 so later curriculum and practical work can be added as the learner advances.
+The bundled reusable curriculum covers Phase 1 agent foundations. Reza's [personal learning library](learner/reza/notes/README.md) covers all six roadmap phases, with ordered lessons and two session recaps per phase: the first session reviews the previous phase and previews the upcoming phase; the last session summarizes the current phase. Phase 1 opens with a starting orientation and preview. Prepared lessons do not change completion status or substitute for practice and assessment.
 
 The task-specification lesson includes a Mermaid workflow connecting the eight task-contract components, from objective to verification method.
 
@@ -77,7 +77,8 @@ agent-learning-coach/
 │   └── curriculum/phase-1/          Reusable foundation notes
 └── learner/reza/                    Reza's learner state, eligible for Git tracking
     ├── ROADMAP.md
-    ├── notes/
+    ├── notes/README.md             All-phase learning index
+    ├── notes/phase-1/ … phase-6/   Lessons, start summaries, and end summaries
     ├── experiments/
     ├── reports/
     └── reviews/strengths-and-gaps.md
@@ -178,6 +179,8 @@ Periodic assessments normally happen before a phase is declared complete. They u
 - older prerequisites that need a retention check.
 
 Asking a thoughtful question is not automatically a weakness. Questions that detect ambiguity or connect concepts may be evidence of strong reasoning.
+
+Reza's [review plan](learner/reza/reviews/review-plan.md) adds a practical review rhythm: brief reviews during sessions, adjustable revisits around one and four weeks after learning, and cumulative phase-boundary reviews. A current queue links corrected gaps and older prerequisites to upcoming practice. Reviews take place when the learner returns; scheduling or rereading does not establish retention.
 
 ## Getting the most from the coach
 

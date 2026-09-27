@@ -23,7 +23,7 @@ The initial input list treated a player as source evidence; it was corrected to 
 ## Files or artifacts
 
 - `experiments/recording-lifecycle-auditor-contract.md`
-- `notes/skill-contract-authoring.md`
+- `notes/phase-2/skill-contract-authoring.md`
 
 ## Performance review
 

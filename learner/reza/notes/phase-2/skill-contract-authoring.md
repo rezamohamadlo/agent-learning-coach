@@ -4,6 +4,10 @@
 
 Skill discovery and triggering: lightweight metadata helps match a request; full instructions load only after a strong match.
 
+## Current artifact and learning history
+
+The fictional parcel sections below preserve the route used to learn contract authoring. The current real artifact is the [recording-lifecycle-auditor contract](../../experiments/recording-lifecycle-auditor-contract.md), drafted with coaching and three cases. Implementation and execution remain pending. Earlier prompts to draft inputs or safety rules are historical, not the current next task.
+
 ## Contract versus detailed instructions
 
 A skill contract states the boundary of the skill clearly enough to plan, trigger, evaluate, and use it. Its `Required inputs` section declares the evidence the workflow needs, such as an identifier, event records, timestamps, event types, and expected lifecycle rules.

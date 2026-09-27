@@ -16,11 +16,15 @@
 
 Use before accepting an agent's code change. Build 2's writing outcome is complete; independent review-decision practice remains separate.
 
+## Current evidence and historical practice
+
+Phase 1 is complete. Later periodic review and actual task-renaming acceptance supersede historical pending-practice instructions below. Fresh transfer and independent verification design remain review targets; see the [completion report](../../reports/1405-06-25-phase-1-completed.md). Historical examples preserve what was known at each session.
+
 ## Session objective
 
 Review a small patch against its request, identify a defect or missing evidence, and explain what must happen before accepting it. Estimated effort: 15–25 minutes. Completion requires independent application and diagnosis in fresh scenarios; reading this note alone does not complete the roadmap item.
 
-Based on [Task specification and verification](../../../references/curriculum/phase-1/task-specification-and-verification.md).
+Based on [Task specification and verification](../../../../references/curriculum/phase-1/task-specification-and-verification.md).
 
 ## Essential mental model
 
@@ -159,13 +163,13 @@ In the final hypothetical scenario, _reza was accepted despite the requirement t
 
 Outcome: Practiced. Strengths include identifying missing coverage, exact valid length limits, the required error message, preserved duplicate rejection/login behavior, and dependency/schema constraints. Adjacent invalid lengths 3 and 17 and isolation of the starting-character rule were supplied as feedback. Independent distinction between a known defect and missing evidence remains unresolved; no Retained claim is made and historical Demonstrated evidence is preserved.
 
-Historical stopping point before the later checklist completion: session closed at the learner's request. Keep the checklist draft and scenario questions. On a future learning session, briefly revisit fix-versus-verify in a different practical context before finalizing the review-decision portion; do not restart the full questionnaire. See ../reports/1405-06-19-code-review-checklist-practice.md.
+Historical stopping point before the later checklist completion: session closed at the learner's request. Keep the checklist draft and scenario questions. On a future learning session, briefly revisit fix-versus-verify in a different practical context before finalizing the review-decision portion; do not restart the full questionnaire. See ../../reports/1405-06-19-code-review-checklist-practice.md.
 
-Completion record: [Build 2 writing outcome](../reports/1405-06-19-code-review-checklist-completed.md). The final checklist above supersedes historical next-practice instructions; preserve them as learning history.
+Completion record: [Build 2 writing outcome](../../reports/1405-06-19-code-review-checklist-completed.md). The final checklist above supersedes historical next-practice instructions; preserve them as learning history.
 
 ## Discussion: preserving a value during an operation
 
-In the [task-renaming exercise](../experiments/hypothetical-task-3.md), `completed` means whether the underlying task is finished, not whether renaming succeeded. Preserving it means True stays True and False stays False, for both accepted and rejected renames. A successful rename changes the title only; rejection raises `ValueError("Title is required")` and leaves the original task unchanged. Verify exact error text as well as rejection. This clarification is discussion evidence, not independent mastery.
+In the [task-renaming exercise](../../experiments/hypothetical-task-3.md), `completed` means whether the underlying task is finished, not whether renaming succeeded. Preserving it means True stays True and False stays False, for both accepted and rejected renames. A successful rename changes the title only; rejection raises `ValueError("Title is required")` and leaves the original task unchanged. Verify exact error text as well as rejection. This clarification is discussion evidence, not independent mastery.
 
 ## Discussion: covering situations defined by the rules
 
@@ -177,7 +181,7 @@ Cover the distinct situations required by the rules using representative cases, 
 
 ## Review: testing after simplification
 
-On 1405-06-22 (Jalali; Asia/Tehran), the learner correctly chose inspection and relevant tests after a later change to a discount calculation. They explained that simplifying code does not necessarily preserve its logic. Earlier passing results apply to the earlier code; inspect and test the final version before accepting it. All six review choices were correct; see [review report](../reports/1405-06-22-phase-1-periodic-review.md) for evidence limits and remaining phase requirements.
+On 1405-06-22 (Jalali; Asia/Tehran), the learner correctly chose inspection and relevant tests after a later change to a discount calculation. They explained that simplifying code does not necessarily preserve its logic. Earlier passing results apply to the earlier code; inspect and test the final version before accepting it. All six review choices were correct; see [review report](../../reports/1405-06-22-phase-1-periodic-review.md) for evidence limits and remaining phase requirements.
 
 ## Summary
 

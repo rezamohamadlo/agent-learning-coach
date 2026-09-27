@@ -1,5 +1,9 @@
 # Phase 1: Agent Foundations
 
+## Previous-note recap
+
+The start summary sets the goal: use agents within clear boundaries and judge completion from evidence. This overview connects the concepts and practical artifacts.
+
 ## Purpose
 
 Phase 1 builds the judgment needed to use coding agents safely and effectively. The goal is not to memorize product commands. It is to understand what an agent needs, what authority it has, how it should act, and how its work is verified.
@@ -12,6 +16,10 @@ Phase 1 builds the judgment needed to use coding agents safely and effectively. 
 4. [Tools and agent actions](tools-and-actions.md)
 5. [Permissions and safe execution](permissions-and-safety.md)
 6. [Task specification and verification](task-specification-and-verification.md)
+7. [Reviewing diffs and evidence](reviewing-diffs-and-evidence.md)
+8. [Agent operating instructions](agent-operating-instructions.md)
+
+See the [phase index](README.md) for the opening and closing summaries.
 
 Read one topic at a time. After reading, ask questions before taking its three-level assessment.
 
@@ -44,7 +52,7 @@ By the end of this phase, create:
 - a reusable task-request template;
 - a checklist for reviewing agent-generated work;
 - a project-independent draft of agent operating instructions; and
-- evidence from three bounded, verified coding tasks.
+- three guided hypothetical specification/review exercises, with separate actual task-renaming execution and learner acceptance evidence.
 
 These artifacts demonstrate that the concepts can be applied, not merely explained.
 
@@ -61,9 +69,9 @@ You should be able to:
 
 Each phase separates learning concepts (Learn), producing usable artifacts or executed work (Build), and demonstrating the phase's broader abilities (Exit criteria). Build is the practical application of that phase's concepts; an artifact may be a document, code, tool, or evaluation record.
 
-In Phase 1, the task-request template helps specify work before execution; the code-review checklist helps judge the result; project-independent operating instructions capture reusable guidance for bounded work, safety, and verification and remain unreused until reviewed; three bounded coding tasks provide experience specifying, running, and verifying real changes. The template, code-review checklist, and operating-instructions writing outcomes are complete with coaching. The three bounded coding tasks remain pending.
+In Phase 1, the task-request template helps specify work before execution; the code-review checklist helps judge the result; project-independent operating instructions capture reusable guidance for bounded work, safety, and verification and remain unreused until reviewed; three guided simulations provide specification and review practice under the revised Build scope. The template, code-review checklist, and operating-instructions writing outcomes are complete with coaching. The three simulations are complete at Practiced level. A separate actual task-renaming run and learner acceptance review closed Phase 1 on 1405-06-25; this does not establish three independently executed implementations. See the [completion record](../../reports/1405-06-25-phase-1-completed.md).
 
-The learner authors drafts, makes decisions, and interprets evidence. The coach provides explanations, examples, feedback, and appropriately authorized execution support. A coach-written artifact alone does not establish learner competence. Completion follows the item's wording: writing a usable template can satisfy a writing outcome with feedback, while completing coding tasks requires actual task results and relevant verification evidence. Finishing Build does not automatically satisfy every exit criterion; independent understanding and the Phase 1 retention/transfer review still need evidence.
+The learner authors drafts, makes decisions, and interprets evidence. The coach provides explanations, examples, feedback, and appropriately authorized execution support. A coach-written artifact alone does not establish learner competence. Completion follows the item's wording: writing a usable template can satisfy a writing outcome with feedback, while completing coding tasks requires actual task results and relevant verification evidence. Finishing Build does not automatically satisfy every exit criterion; independent understanding and a retention/transfer review require their own evidence, recorded separately for this completed phase.
 
 Later Build sections progress through reusable skills, tools and MCP, a single-agent workflow, repeatable evaluations, and portability with a justified advanced experiment. Work proceeds one useful outcome at a time, with prerequisites and evidence determining readiness.
 

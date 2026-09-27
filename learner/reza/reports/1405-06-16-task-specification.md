@@ -24,7 +24,7 @@ Correctly identified concrete success conditions and bounded action in a fresh u
 
 ## Files or artifacts
 
-- `../notes/task-specification-and-verification.md`
+- `../notes/phase-1/task-specification-and-verification.md`
 - `../ROADMAP.md`
 - `../reviews/strengths-and-gaps.md`
 

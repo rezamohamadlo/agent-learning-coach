@@ -12,12 +12,49 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 - Overall progress: Phase 1 complete under its revised Build scope: 7/7 learning outcomes, 4/4 Build outcomes including 3 guided simulations (Practiced), and 3/3 exit criteria. Actual task-renaming execution and learner acceptance review are complete. No overall percentage assigned.
 - Weekly study/build ratio: 30% study, 70% practice
 - Next review date: 1405-07-05 (Week 4 checkpoint; Jalali, Asia/Tehran). The 1405-06-29 Week 3 checkpoint is overdue.
-- Current evidence: Phase 1 outcomes, Phase 2 discovery/triggering, independent trigger-condition authoring, and stage-specific lifecycle evidence reasoning: Demonstrated. The first recording-auditor contract and three cases are drafted with coaching (Practiced). [Contract report](reports/1405-07-04-recording-lifecycle-contract.md)
-- Next checkpoint: Complete the overdue capacity review, then study skill file organization and progressive disclosure before implementing the first skill.
+- Current evidence: Phase 1 outcomes, Phase 2 discovery/triggering, independent trigger-condition authoring, package organization, and stage-specific lifecycle evidence reasoning: Demonstrated. The first recording-auditor contract and three cases are drafted with coaching (Practiced). [Contract report](reports/1405-07-04-recording-lifecycle-contract.md)
+- Next checkpoint: Complete the overdue capacity review, then study progressive disclosure and platform formats before implementing the first skill.
 - Periodic review: Six-question review completed on 1405-06-22; 6/6 correct. Component explanation and actual bounded-task acceptance subsequently demonstrated; Phase 1 closed on 1405-06-25. Recheck preservation and evidence sufficiency during the first Phase 2 skill evaluation; next phase-boundary review at the end of Phase 2. See [review](reports/1405-06-22-phase-1-periodic-review.md) and [completion](reports/1405-06-25-phase-1-completed.md).
-- Current phase progress: Phase 2 Learn 2/5 (discovery/triggering and condition authoring demonstrated); Build 0/4; required-content checklist 0/8; Exit criteria 0/3. Phase 1 finished at Learn 7/7; revised Build 4/4; Exit 3/3.
+- Current phase progress: Phase 2 Learn 3/5 (discovery/triggering, condition authoring, and package organization demonstrated); Build 0/4; required-content checklist 0/8; Exit criteria 0/3. Phase 1 finished at Learn 7/7; revised Build 4/4; Exit 3/3.
 - Schedule status: Behind. Week 3 had 1/3 targets met by 1405-06-29; all 3/3 are now complete after two late completions. The capacity review remains overdue, and Week 4 targets remain 0/4 with the checkpoint on 1405-07-05.
-- Evidence trend: Phase 1 complete; Phase 2 triggering and stage-specific evidence reasoning demonstrated. One real skill contract and three evaluation cases are drafted with coaching; implementation and execution remain pending. Across 21 reports (1405-06-10 to 1405-07-04). [Contract report](reports/1405-07-04-recording-lifecycle-contract.md)
+- Evidence trend: Phase 1 complete; Phase 2 triggering and stage-specific evidence reasoning demonstrated. One real skill contract and three evaluation cases are drafted with coaching; implementation and execution remain pending. Package organization demonstrated after reassessment. Across 22 reports (1405-06-10 to 1405-07-05). [Organization report](reports/1405-07-05-skill-package-organization.md)
+
+## Study route and delivery sequence
+
+The six phases remain the learning sequence. Use the [learning library](notes/README.md) to read the previous phase's recap and upcoming phase's preview in each phase's first session, follow the ordered lessons, and read the current phase's recap in its last session. Phase 1 begins with an introductory orientation and preview. The original week ranges are planning baselines, not evidence that a prerequisite has been completed.
+
+| Phase | Reading route | Practical milestone |
+|---|---|---|
+| 1 | [Agent foundations](notes/phase-1/README.md) | Bounded request, review artifacts, and verified acceptance |
+| 2 | [First reusable skills](notes/phase-2/README.md) | One evaluated skill, then the remaining two |
+| 3 | [Tools and MCP](notes/phase-3/README.md) | Validated tools and one safe MCP diagnostic |
+| 4 | [Build a single-agent workflow](notes/phase-4/README.md) | Observable diagnose–fix–verify loop |
+| 5 | [Evaluations and reliability](notes/phase-5/README.md) | Versioned dataset, baseline, and regression evidence |
+| 6 | [Portability and advanced patterns](notes/phase-6/README.md) | Shared cases across two environments and a justified experiment |
+
+### Finish one skill before broadening Phase 2
+
+1. Review available study time and the overdue capacity checkpoint. Keep the original deadlines visible; set revised dates only from a capacity review.
+2. Study [package organization](notes/phase-2/skill-package-organization.md), [progressive disclosure](notes/phase-2/progressive-disclosure.md), and [formats and first evaluations](notes/phase-2/skill-formats-and-evaluation.md). Validate the three remaining learning outcomes.
+3. Turn the existing recording-auditor contract into one working skill. Check all eight required content elements for this skill and execute its three cases, including real repository evidence and a repeat run. Recheck independent case design and missing evidence versus a known defect.
+4. Use the lessons from that complete run to build the pipeline debugger and pytest diagnoser, with at least three cases and a repeat run each. Keep the phase-wide content checklist incomplete until all required skills meet it.
+5. Complete the Phase 2 boundary review and exit criteria, then proceed to tools and MCP.
+
+This changes the order of delivery, not the number of required skills or the recorded completion counts. Avoid building all three packages before any has been evaluated. Begin small evaluations in Phase 2, then expand to a versioned 15–30-case regression dataset in Phase 5.
+
+### Follow the evidence through later phases
+
+Carry one useful diagnostic workflow through tools (Phase 3), an observable single-agent loop (Phase 4), regression evaluation (Phase 5), and portability (Phase 6). Continue using varied teaching examples for transfer. Introduce MCP and multi-agent coordination only at their planned stages, with the required scope and authorization.
+
+## Review and retention schedule
+
+Use the [review plan and current queue](reviews/review-plan.md) alongside new learning. Begin ordinary sessions with one brief, relevant review; revisit demonstrated topics around one week and four weeks later or through suitable practical work. These intervals are adjustable to available study time.
+
+At phase entry, read the previous-phase recap and current-phase preview. At phase end, read the current-phase recap and complete the evidence-based boundary review. Include an older prerequisite in cumulative reviews so earlier phases remain active.
+
+Prioritize corrected gaps and practical transfer: package roles and evaluation cases, trigger conditions, missing evidence versus defects, and state preservation. Independent evaluation-case design remains an active practical gap. The queue names the relevant notes and checkpoints.
+
+Reviews happen when learning resumes. Missed reviews are prioritized rather than accumulated into a large catch-up session. Record actual results in dated reports and the strengths-and-gaps profile; rereading alone does not establish retention. Current phase completion counts and original deadlines remain unchanged.
 
 ## Priority review: build templates and worked examples
 
@@ -25,21 +62,21 @@ This is my personal, living roadmap for learning how AI agents work while buildi
 
 | Priority material | Direct links | When to revisit |
 |---|---|---|
-| **Build 1 — reusable task-request template** | [Template](notes/task-specification-and-verification.md#combined-reusable-request-draft) · [Book-search example](notes/task-specification-and-verification.md#applied-build-practice-book-search-request) · [Reservation example](notes/task-specification-and-verification.md#applied-build-practice-reservations) | Before assigning a bounded coding task; adapt scope, expected behavior, and verification to the new request |
-| **Build 2 — reusable code-review checklist** | [Final checklist](notes/reviewing-diffs-and-evidence.md#final-reusable-code-review-checklist) · [Username example and feedback](notes/reviewing-diffs-and-evidence.md#username-review-practice-first-response) · [Fix-versus-verify example](notes/reviewing-diffs-and-evidence.md#how-to-use-the-decision-rule) | Before accepting an agent's code change; compare requirements, changes, and actual evidence |
+| **Build 1 — reusable task-request template** | [Template](notes/phase-1/task-specification-and-verification.md#combined-reusable-request-draft) · [Book-search example](notes/phase-1/task-specification-and-verification.md#applied-build-practice-book-search-request) · [Reservation example](notes/phase-1/task-specification-and-verification.md#applied-build-practice-reservations) | Before assigning a bounded coding task; adapt scope, expected behavior, and verification to the new request |
+| **Build 2 — reusable code-review checklist** | [Final checklist](notes/phase-1/reviewing-diffs-and-evidence.md#final-reusable-code-review-checklist) · [Username example and feedback](notes/phase-1/reviewing-diffs-and-evidence.md#username-review-practice-first-response) · [Fix-versus-verify example](notes/phase-1/reviewing-diffs-and-evidence.md#how-to-use-the-decision-rule) | Before accepting an agent's code change; compare requirements, changes, and actual evidence |
 
 Future review approach: start with a saved template and one worked example, then apply it to a small new case if the learner wants practice. Keep useful templates and examples easy to find as later build items are completed. Earlier practice labels are historical; Builds 1, 2, and 3 are completed writing outcomes with coaching.
 
-**Paused here:** Phase 2 Learn 2/5; the first contract and three cases are drafted at Practiced level. Next: capacity review, then file organization and progressive disclosure. [Contract report](reports/1405-07-04-recording-lifecycle-contract.md)
+**Paused here:** Phase 2 Learn 3/5; the first contract and three cases are drafted at Practiced level. Next: capacity review, then progressive disclosure and platform formats. [Contract report](reports/1405-07-04-recording-lifecycle-contract.md)
 
 ## Visual progress roadmap
 
-Snapshot: 1405-07-04 (Jalali; Asia/Tehran). Phase labels retain the original planned sequence; the weekly targets below define the current schedule. Status comes from the phase checkboxes and latest session evidence; no overall percentage is assigned.
+Snapshot: 1405-07-05 (Jalali; Asia/Tehran). Phase labels retain the original planned sequence; the weekly targets below define the current schedule. Status comes from the phase checkboxes and latest session evidence; no overall percentage is assigned.
 
 ```mermaid
 flowchart TB
     P1["Phase 1: Agent foundations · Original Weeks 1–2<br/>COMPLETE · Closed in Week 3<br/>Learn 7/7 · Revised Build 4/4 · Exit criteria 3/3<br/>3 simulations + 1 actual verified task"]
-    P2["Phase 2: First reusable skills · Weeks 3–4<br/>CURRENT · In progress<br/>Learn 2/5 · Build 0/4 · Exit 0/3"]
+    P2["Phase 2: First reusable skills · Weeks 3–4<br/>CURRENT · In progress<br/>Learn 3/5 · Build 0/4 · Exit 0/3"]
     P3["Phase 3: Tools and MCP · Weeks 5–6<br/>Not started"]
     P4["Phase 4: Single-agent workflow · Weeks 7–8<br/>Not started"]
     P5["Phase 5: Evaluations and reliability · Weeks 9–10<br/>Not started"]
@@ -72,10 +109,10 @@ This is a saved snapshot. Refresh it alongside future roadmap status updates.
 
 ## Learning coach
 
-- Skill: `agent-learning/skills/codex/agent-learning-coach/`
+- Skill source: [Agent Learning Coach](../../SKILL.md)
 - Suggested invocation: `Use $agent-learning-coach to continue my roadmap.`
 - Supervision model: infer progress from recorded evidence, confirm the position with me, teach documented gaps, reassess adaptively, and update progress only from demonstrated evidence.
-- Gap notes: `learner/reza/notes/`
+- Learning and gap notes: [phase-based library](notes/README.md)
 - Session reports: `learner/reza/reports/`
 - Detailed step plans: `learner/reza/plans/`
 - Exercises and artifacts: `learner/reza/experiments/`
@@ -120,6 +157,8 @@ Create these subdirectories only when they are needed.
 
 ## Phase 1 — Agent foundations (Weeks 1–2)
 
+Reading: [Start summary](notes/phase-1/00-start-summary.md) · [Lessons](notes/phase-1/README.md) · [End summary](notes/phase-1/99-end-summary.md)
+
 ### Learn
 
 - [x] Explain the agent loop: observe, reason, act, inspect the result, and repeat.
@@ -132,9 +171,9 @@ Create these subdirectories only when they are needed.
 
 ### Build
 
-- [x] Write a reusable task-request template. — Writing criterion met through learner-authored draft and revisions with feedback; see `notes/task-specification-and-verification.md` and `reports/1405-06-17-task-request-template.md`. Independent verification design remains Practiced.
-- [x] Write a checklist for reviewing AI-generated code. — Writing criterion met by the learner-authored draft and application, consolidated with coach refinements; see `notes/reviewing-diffs-and-evidence.md` and `reports/1405-06-19-code-review-checklist-completed.md`. Practical evidence-aware acceptance demonstrated on 1405-06-25; fresh defect-versus-evidence transfer remains a review target.
-- [x] Draft project-independent agent operating instructions for bounded work, safety, and verification; review before reuse. — See `notes/agent-operating-instructions.md`.
+- [x] Write a reusable task-request template. — Writing criterion met through learner-authored draft and revisions with feedback; see `notes/phase-1/task-specification-and-verification.md` and `reports/1405-06-17-task-request-template.md`. Independent verification design remains Practiced.
+- [x] Write a checklist for reviewing AI-generated code. — Writing criterion met by the learner-authored draft and application, consolidated with coach refinements; see `notes/phase-1/reviewing-diffs-and-evidence.md` and `reports/1405-06-19-code-review-checklist-completed.md`. Practical evidence-aware acceptance demonstrated on 1405-06-25; fresh defect-versus-evidence transfer remains a review target.
+- [x] Draft project-independent agent operating instructions for bounded work, safety, and verification; review before reuse. — See `notes/phase-1/agent-operating-instructions.md`.
 - [x] Complete three bounded hypothetical task-specification/review exercises with explicit requirements and coached correction requests. — Revised from three executed coding tasks to match hypothetical practice: [late fees](experiments/hypothetical-task-1.md), [shipping](experiments/hypothetical-task-2.md), and [renaming](experiments/hypothetical-task-3.md). Practiced, not independently demonstrated implementation. See [completion report](reports/1405-06-21-build-simulations-completed.md).
 
 ### Exit criteria
@@ -145,11 +184,13 @@ Create these subdirectories only when they are needed.
 
 ## Phase 2 — First reusable skills (Weeks 3–4)
 
+Reading: [Start summary](notes/phase-2/00-start-summary.md) · [Lessons](notes/phase-2/README.md) · [End summary](notes/phase-2/99-end-summary.md)
+
 ### Learn
 
 - [x] Understand skill discovery and triggering. — Demonstrated by 3/3 correct choices across recall, application, and diagnosis; see [assessment](reports/1405-06-31-skill-discovery-and-triggering.md). Delayed retention is not claimed; independent condition authoring subsequently demonstrated on 1405-07-02.
 - [x] Define clear `use when` and `do not use when` conditions. Demonstrated on 1405-07-02 through an independently chosen applicant-filter example. [Authoring report](reports/1405-07-02-trigger-condition-authoring.md)
-- [ ] Separate core instructions, references, scripts, assets, and examples.
+- [x] Separate core instructions, references, scripts, assets, and examples. — Demonstrated after correction and fresh reassessment on 1405-07-05; [report](reports/1405-07-05-skill-package-organization.md).
 - [ ] Understand progressive disclosure and context efficiency.
 - [ ] Learn the relevant skill formats for Codex and OpenCode.
 
@@ -179,6 +220,8 @@ Create these subdirectories only when they are needed.
 
 ## Phase 3 — Tools and MCP (Weeks 5–6)
 
+Reading: [Start summary](notes/phase-3/00-start-summary.md) · [Lessons](notes/phase-3/README.md) · [End summary](notes/phase-3/99-end-summary.md)
+
 ### Learn
 
 - [ ] Understand function/tool calling and JSON Schema.
@@ -202,6 +245,8 @@ Create these subdirectories only when they are needed.
 - [ ] Mutating actions require explicit and appropriate authorization.
 
 ## Phase 4 — Build a single-agent workflow (Weeks 7–8)
+
+Reading: [Start summary](notes/phase-4/00-start-summary.md) · [Lessons](notes/phase-4/README.md) · [End summary](notes/phase-4/99-end-summary.md)
 
 ### Learn
 
@@ -228,6 +273,8 @@ Create these subdirectories only when they are needed.
 
 ## Phase 5 — Evaluations and reliability (Weeks 9–10)
 
+Reading: [Start summary](notes/phase-5/00-start-summary.md) · [Lessons](notes/phase-5/README.md) · [End summary](notes/phase-5/99-end-summary.md)
+
 ### Learn
 
 - [ ] Define task-level success criteria.
@@ -251,6 +298,8 @@ Create these subdirectories only when they are needed.
 - [ ] Results are recorded and comparable over time.
 
 ## Phase 6 — Portability and advanced patterns (Weeks 11–12)
+
+Reading: [Start summary](notes/phase-6/00-start-summary.md) · [Lessons](notes/phase-6/README.md) · [End summary](notes/phase-6/99-end-summary.md)
 
 ### Learn
 
@@ -316,7 +365,7 @@ Add one row at the end of every week.
 | 1 | 1405-06-09 to 1405-06-15 | Agent foundations | Demonstrated agent loop, context/instruction priority, prompt placement, skill/tool distinctions, tool selection, verification before retries, and permissions/safety | `reports/1405-06-10-agent-loop.md`; `reports/1405-06-11-context-and-instructions.md`; `reports/1405-06-12-prompts-and-repository-instructions.md`; `reports/1405-06-14-tools-and-actions.md`; `reports/1405-06-15-permissions-and-safety.md` | Corrected earlier gaps; discarded answer-leaked tools quiz and passed fresh assessment | Practice task scope, constraints, and acceptance criteria |
 | 2 | 1405-06-16 to 1405-06-22 | Agent foundations and Phase 1 evidence | Seven learning outcomes, revised Build 4/4, review 6/6; Exit 1/3 | [Periodic review](reports/1405-06-22-phase-1-periodic-review.md) | Component explanation and actual verified execution pending; full state-preservation coverage remains a practice target | Explain components without notes, then a bounded practical task |
 | 3 | 1405-06-23 to 1405-06-29 | Phase 1 exit; triggers and contract | 1/3 targets met by deadline; now 3/3 after late trigger and contract work | [Contract report](reports/1405-07-04-recording-lifecycle-contract.md) | All targets eventually completed; capacity review remains overdue | Review capacity and preserve the original deadline record |
-| 4 | 1405-06-30 to 1405-07-05 | Skill evaluation | Contract/cases drafted; stage-specific evidence reasoning demonstrated; Week 4 targets 0/4 | [Contract report](reports/1405-07-04-recording-lifecycle-contract.md) | File organization, progressive disclosure, formats, builds, executions, and boundary review pending | Capacity review; then file organization and progressive disclosure |
+| 4 | 1405-06-30 to 1405-07-05 | Skill evaluation | Contract/cases drafted; package organization demonstrated on 1405-07-05; Week 4 targets 0/4 | [Contract report](reports/1405-07-04-recording-lifecycle-contract.md) | Progressive disclosure, formats, builds, executions, and boundary review pending | Capacity review; then progressive disclosure. [Organization report](reports/1405-07-05-skill-package-organization.md) |
 | 5 | | Tools | | | | |
 | 6 | | MCP | | | | |
 | 7 | | Agent workflow | | | | |
@@ -342,6 +391,7 @@ Record important decisions so later changes have context.
 |---|---|---|---|---|
 | 1405-06-09 | Use a portable core with thin platform adapters | Avoid duplicating complete skills while allowing platform differences | Initial roadmap | After testing the first skill in two agents |
 | 1405-06-25 | Establish prospective measurable weekly targets through 1405-09-01, with Week 3 absorbing the remaining Phase 1 practical review | Learner requested a measurable way to judge weekly progress; keep original end date as a planning target until capacity is reviewed | [Planning and execution record](reports/1405-06-25-weekly-targets-and-practical-verification.md) | 1405-06-29; review workload and evidence before revising dates |
+| 1405-07-05 | Organize learning notes by all six phases and finish one evaluated skill before broadening Phase 2 | Learner requested a complete phase-based library and authorized roadmap improvements; one end-to-end result provides feedback before building the remaining skills | [Study route](#study-route-and-delivery-sequence) and [learning library](notes/README.md); planning change only, no new mastery evidence | Capacity review and first recording-auditor evaluation |
 
 ## Monthly review questions
 
@@ -355,6 +405,14 @@ Record important decisions so later changes have context.
 
 ## Immediate next actions
 
+The open sequence is listed first; completed actions below preserve the history.
+
+- [ ] Complete the overdue capacity review and record any agreed revised dates separately from the original baseline.
+- [x] Study and validate skill package organization. — [Reassessment report](reports/1405-07-05-skill-package-organization.md).
+- [ ] Study and validate progressive disclosure and platform formats.
+- [ ] Implement and evaluate the recording auditor before broadening to the other two skills.
+- [ ] Complete the remaining Phase 2 builds, cases, and phase-boundary review.
+
 - [x] Set the next review date in this document. — 1405-06-29; measurable weekly baseline set on 1405-06-25.
 - [x] Complete the Phase 1 agent-loop learning item.
 - [x] Complete the Phase 1 context and instruction-priority learning item.
@@ -364,7 +422,7 @@ Record important decisions so later changes have context.
 - [x] Practice defining task scope, constraints, and acceptance criteria.
 - [x] Write the reusable task-request template.
 - [x] Write the AI-generated-code review checklist with coach refinements.
-- [x] Draft project-independent agent operating instructions for review before reuse. — Completed as a reviewed writing outcome; see `notes/agent-operating-instructions.md` and `reports/1405-06-21-agent-operating-instructions.md`.
+- [x] Draft project-independent agent operating instructions for review before reuse. — Completed as a reviewed writing outcome; see `notes/phase-1/agent-operating-instructions.md` and `reports/1405-06-21-agent-operating-instructions.md`.
 - [x] Select one real recording-lifecycle problem as the first skill example. — Saving/playback lifecycle selected; [contract draft](experiments/recording-lifecycle-auditor-contract.md).
 - [x] Complete the first guided hypothetical task: specify, review, and request verification for overdue library fees. — Practiced; see [exercise and final request](experiments/hypothetical-task-1.md) and [report](reports/1405-06-21-hypothetical-late-fees.md).
 - [x] Complete the shipping and task-renaming hypothetical reviews with feedback. — Three exercises complete under revised Build 4 scope; independent transfer remains a review target.

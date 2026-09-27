@@ -41,7 +41,7 @@ The distinction between a diagnostic action and the final report initially requi
 ## Files or artifacts
 
 - Curriculum: `references/curriculum/phase-1/agent-loop.md`
-- Private gap note: `learner/reza/notes/agent-loop.md`
+- Private gap note: `learner/reza/notes/phase-1/agent-loop.md`
 
 ## Current position and next checkpoint
 

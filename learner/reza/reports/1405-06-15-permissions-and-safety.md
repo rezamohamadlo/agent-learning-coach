@@ -32,7 +32,7 @@ Calendar: Jalali (Solar Hijri), YYYY-MM-DD.
 
 ## Files or artifacts
 
-- Study note: `../notes/permissions-and-safety.md` clarified earlier in this session.
+- Study note: `../notes/phase-1/permissions-and-safety.md` clarified earlier in this session.
 - Updated `../ROADMAP.md` and `../reviews/strengths-and-gaps.md`.
 
 ## Progress against plan

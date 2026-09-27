@@ -14,7 +14,7 @@ The user requested continuing until Build 2 was finished. The final eight-questi
 
 ## Learning material and limits
 
-Saved the final checklist in ../notes/reviewing-diffs-and-evidence.md. Included a short booking-date example: an untested past date calls for evidence; an accepted past date contrary to the request calls for a fix followed by verification. This is instruction, not an independent reassessment. No actual project code was changed, and no software tests were run.
+Saved the final checklist in ../notes/phase-1/reviewing-diffs-and-evidence.md. Included a short booking-date example: an untested past date calls for evidence; an accepted past date contrary to the request calls for a fix followed by verification. This is instruction, not an independent reassessment. No actual project code was changed, and no software tests were run.
 
 The earlier _reza decision gap remains active. Do not erase earlier Demonstrated evidence or claim Retained status. The prior practice report remains unchanged as historical evidence.
 
@@ -28,7 +28,7 @@ The earlier _reza decision gap remains active. Do not erase earlier Demonstrated
 
 ## Files updated and verification
 
-- ../notes/reviewing-diffs-and-evidence.md — final reusable checklist, decision-rule example, and historical-status clarification.
+- ../notes/phase-1/reviewing-diffs-and-evidence.md — final reusable checklist, decision-rule example, and historical-status clarification.
 - ../ROADMAP.md — Build 2 completion, counts, visual snapshot, weekly row, and next actions.
 - ../reviews/strengths-and-gaps.md — writing outcome with attribution; active gap preserved.
 - This new completion report; earlier reports preserved.
