@@ -8,6 +8,8 @@ The [review plan and queue](review-plan.md) turn these evidence-backed prioritie
 
 ## Demonstrated strengths
 
+Progressive disclosure - 1405-07-07: 3/3 correct (B, A, C), covering conditional loading, core safety rules, and unsupported regional classification. Independently identified the missing input. Conceptual outcome Demonstrated; no practical execution or delayed retention claimed. [Report](../reports/1405-07-07-progressive-disclosure.md).
+
 | Concept or behavior | Evidence | Level | Last checked | Source report |
 |---|---|---|---|---|
 | Agent loop and verification | Explained why action alone does not prove completion; diagnosed unsafe sequencing and unsupported completion claims | Demonstrated | 1405-06-10 | `../reports/1405-06-10-agent-loop.md` |
@@ -49,6 +51,8 @@ Tools assessment on 1405-06-14 passed after replacing an answer-leaked quiz; dep
 | Independent verification design | The learner supplied a bounded request; the coach refined earlier coverage and substantially guided the first skill's three evaluation cases. Evidence-aware interpretation was demonstrated, but independent case design remains unverified. | Design checks from a new contract without relying on a supplied coverage list or scenario sequence. | Independently add or revise a case during the first skill evaluation. | `../reports/1405-06-25-phase-1-completed.md`; `../reports/1405-07-04-recording-lifecycle-contract.md` |
 
 ## Retention candidates
+
+Progressive disclosure - 1405-07-07: The learner selected the correct missing-region response but suggested no work should proceed. Coach clarified: pause dependent decisions; permitted independent inspection or clarification may continue. Recheck during first skill evaluation; this refinement has not been independently reassessed. [Report](../reports/1405-07-07-progressive-disclosure.md).
 
 Package organization, 1405-07-05: Initially treated a sample with expected findings as an input required on every run. A clearer note and fresh reassessment corrected this. Recheck ordinary task inputs versus evaluation cases during the first skill evaluation and Phase 2 boundary review. The answer-leaked round was discarded; the request for clearer source material and the AA/A formatting clarification are not failed attempts. [Report](../reports/1405-07-05-skill-package-organization.md).
 

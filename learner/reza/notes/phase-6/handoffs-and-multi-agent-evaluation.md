@@ -4,7 +4,15 @@
 
 A portable workflow preserves task meaning across environments. Additional agents should be judged against a working single-agent baseline.
 
-## Essential mental model
+## Concepts: delegation, handoff, and coordination
+
+**Delegation:** Assigning a bounded part of a task to another worker.
+
+**Handoff:** Transferring the goal, scope, evidence, and expected deliverable needed for another worker or human to continue.
+
+**Coordination:** Managing ownership, dependencies, shared information, and integration across workers.
+
+### When multiple agents may help
 
 Multiple agents can help when subtasks are separable, need different expertise, or benefit from independent review. They also add communication overhead, duplicate effort, and coordination failures. More agents do not automatically produce stronger evidence.
 
@@ -31,11 +39,19 @@ Use the same cases, versions, and scoring as the baseline. Compare success, safe
 
 ## Practice and evidence
 
-Attempt one small experiment only after the single-agent baseline works and the experiment is authorized. Record the handoffs, returned artifacts, integration decisions, and final checks. Explain whether the measurable benefit warrants the added coordination.
+### Exercise
+
+1. Attempt one small experiment only after the single-agent baseline works and the experiment is authorized.
+2. Record the handoffs, returned artifacts, integration decisions, and final checks.
+3. Explain whether the measurable benefit warrants the added coordination.
+
+### Evidence and completion criteria
 
 An evidence-backed rejection of the architecture is a valid experiment result; it does not establish that multi-agent complexity was justified. Keep that roadmap exit criterion open unless the evidence satisfies it or an explicit roadmap revision changes the requirement.
 
 Finish with a phase-boundary and final roadmap review listing any unmet criteria. Reading this lesson is not permission to spawn agents.
+
+**Evidence status:** These are planned exercises. This note does not record completed runs or assessment results.
 
 ## Summary
 

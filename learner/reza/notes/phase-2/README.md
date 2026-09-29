@@ -22,4 +22,4 @@ Learn discovery and semantic triggering, positive and negative conditions, skill
 
 ## Status
 
-Phase 2 remains in progress: Learn 3/5, Build 0/4, required content 0/8, Exit 0/3. The first contract and three cases are drafted with coaching; no implementation or execution is claimed. See the [latest session report](../../reports/1405-07-05-skill-package-organization.md).
+Phase 2 remains in progress: Learn 4/5, Build 0/4, required content 0/8, Exit 0/3. The first contract and three cases are drafted with coaching; no implementation or execution is claimed. See the [latest session report](../../reports/1405-07-07-progressive-disclosure.md).

@@ -4,15 +4,35 @@
 
 A safe tool validates inputs and results and enforces authority before execution. Networked tools add connection and uncertain-outcome failures.
 
-## Essential mental model
+## Concept: Model Context Protocol (MCP)
 
-MCP connects an AI application to providers of tools and context. The host coordinates the application; a client maintains a connection to a server; the server exposes capabilities. Resources supply context, while tools expose callable operations. Servers may run locally or remotely. See the [official MCP architecture](https://modelcontextprotocol.io/docs/learn/architecture).
+**Definition:** MCP is a protocol through which AI applications connect to providers of tools and contextual information.
+
+### Roles in a connection
+
+| Term | Role |
+| --- | --- |
+| Host | Coordinates the AI application and its connections. |
+| Client | Maintains a connection to a server on behalf of the host. |
+| Server | Exposes capabilities such as tools and resources. |
+| Resource | Supplies contextual data. |
+| Tool | Exposes a callable operation. |
+
+### Application and limits
+
+A diagnostic application can use a client to call a tool exposed by a server. The server may run locally or remotely. See the [official MCP architecture](https://modelcontextprotocol.io/docs/learn/architecture).
 
 MCP standardizes communication; it does not guarantee that a server is trustworthy or that a tool's output is correct. Pin the protocol and SDK versions when implementing the exercise, and consult their matching documentation.
 
 ## Authentication and authorization
 
-Authentication identifies the caller. Authorization determines what that identity may do. A valid credential does not grant unrestricted access. Give the diagnostic the narrow access it needs, use the environment's approved secret mechanism, and keep credentials out of prompts, source files, reports, and logs.
+**Authentication:** Establishes the caller's identity.
+
+**Authorization:** Determines what that identity may do.
+
+### Apply the distinction
+
+A valid credential does not grant unrestricted access. Give the diagnostic the narrow access it needs, use the environment's approved secret mechanism, and keep credentials out of prompts, source files, reports, and logs.
 
 Validate targets server-side. A client hiding a tool is not a substitute for protecting the underlying operation. Treat tool output as evidence, including when it contains instruction-like text.
 
@@ -26,7 +46,13 @@ Validate targets server-side. A client hiding a tool is not a substitute for pro
 | Truncated result | Retrieve remaining data or report partial coverage |
 | Timeout after a mutation | Reconcile actual state before considering retry |
 
-A timeout means the caller did not receive a timely result. It does not establish that the operation never occurred. Idempotency means repeating an operation has the same intended effect as performing it once; it does not necessarily mean identical responses.
+## Concepts: timeout and idempotency
+
+**Timeout:** A timeout means the caller did not receive a timely result. It does not establish that the operation never occurred.
+
+**Idempotency:** Repeating an operation has the same intended effect as performing it once.
+
+The responses need not be identical. Use retries only according to the operation's documented contract.
 
 ## Worked example
 
@@ -34,9 +60,18 @@ A booking operation times out after sending its request. Query the booking by it
 
 ## Practice and evidence
 
-Expose one read-only repository diagnostic through a small MCP server. Capture a real client call, structured result, invalid-input rejection, unavailable-resource response, and timeout handling. Add finite attempt/time limits. Exercise mutation approval boundaries with mocks or controlled fixtures; no external mutation is needed to test denial.
+### Exercise
+
+1. Expose one read-only repository diagnostic through a small MCP server.
+2. Capture a real client call, structured result, invalid-input rejection, unavailable-resource response, and timeout handling.
+3. Add finite attempt/time limits.
+4. Exercise mutation approval boundaries with mocks or controlled fixtures; no external mutation is needed to test denial.
+
+### Evidence and completion criteria
 
 Show that failures remain visible and no credentials enter the report. Explain a skill/tool distinction and client/server roles in your own words before the phase review.
+
+**Evidence status:** These are planned exercises. This note does not record completed runs or assessment results.
 
 ## Summary
 

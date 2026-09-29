@@ -17,7 +17,7 @@ Read one topic at a time, discuss unclear points, and apply its ideas to a bound
 
 The [roadmap](../ROADMAP.md) records progress: Phase 1 complete under its revised scope, Phase 2 in progress, Phases 3–6 not started. These notes do not change checkboxes, deadlines, or evidence levels. Historical discussion sections preserve earlier learning steps; later completion records and dated reports supersede old “next practice” instructions.
 
-For the next recorded study step, open [Progressive disclosure](phase-2/progressive-disclosure.md). Skill package organization was demonstrated on 1405-07-05. The overdue capacity review remains a separate roadmap action.
+Next: [Skill formats and first evaluations](phase-2/skill-formats-and-evaluation.md). Progressive disclosure demonstrated on 1405-07-07. Capacity review completed on 1405-07-06; next checkpoint 1405-07-12.
 
 ## Reviewing learned content
 

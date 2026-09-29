@@ -4,7 +4,16 @@
 
 Cases define expected behavior and graders judge it. A baseline makes later changes comparable.
 
-## Essential mental model
+## Concepts: baseline, candidate, and regression
+
+| Concept | Definition | Example |
+| --- | --- | --- |
+| Baseline | A recorded reference result from a known version under documented conditions. | Version A's results on 20 fixed cases. |
+| Candidate | The revised version being compared with the baseline. | Version B after an instruction change. |
+| Regression | A loss of previously satisfied behavior after a change. | B writes a file where A correctly stayed read-only. |
+| Trade-off | A gain in one measure accompanied by a loss in another. | Lower latency with higher total cost. |
+
+### Record a comparable baseline
 
 A baseline is a recorded run of a known version under described conditions. Save the skill and code revisions, case dataset version, model/environment details, tool availability, settings, and case-level outputs. Record permission differences because they may explain changes in success.
 
@@ -32,9 +41,17 @@ Record the baseline, make one purposeful revision, run the shared cases, inspect
 
 ## Practice and evidence
 
-Demonstrate at least one detected regression or unsafe behavior and its correction. If using an intentionally introduced fault, label it clearly as controlled. Record actual results and explain the decision to adopt, revise, or reject the candidate.
+### Exercise
+
+1. Demonstrate at least one detected regression or unsafe behavior and its correction.
+2. If using an intentionally introduced fault, label it clearly as controlled.
+3. Record actual results and explain the decision to adopt, revise, or reject the candidate.
+
+### Evidence and completion criteria
 
 The phase exit needs comparable records and a defensible improvement claim, not merely an evaluation script that runs without crashing.
+
+**Evidence status:** These are planned exercises. This note does not record completed runs or assessment results.
 
 ## Summary
 

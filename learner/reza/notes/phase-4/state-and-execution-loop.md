@@ -4,13 +4,21 @@
 
 Tools need validated contracts and bounded failure handling. A workflow coordinates those tools toward an evidence-based result.
 
-## Essential mental model
+## Concept: agent state
+
+**Definition:** Agent state is the workflow's current working record of its goal, authority, evidence, progress, and unresolved questions.
+
+### State versus conversation history
 
 Conversation history records messages. Agent state records what the workflow currently knows and may do: objective, authorized scope, observations, hypotheses, completed actions, unresolved questions, and stopping conditions. History can contain stale or contradictory information; do not treat every earlier statement as current state.
 
 Keep facts separate from hypotheses. “The test reports a missing key” is an observation. “The parser dropped that key” is a hypothesis until inspected. State should include source references so later decisions can recover the evidence.
 
-## A bounded diagnostic loop
+## Concept: execution loop
+
+**Definition:** An execution loop repeatedly chooses an action, inspects its result, and updates state until a stopping condition is met.
+
+### A bounded diagnostic loop
 
 ```text
 receive task -> validate scope -> collect evidence -> choose a check
@@ -30,9 +38,17 @@ If diagnosis is all that was requested, report the supported finding. If a bound
 
 ## Practice and evidence
 
-Create the roadmap's repository diagnostic agent starting with read-only investigation. Define state fields and transitions before adding automatic edits. Feed it one failing test or runtime error, capture the selected checks, and require each conclusion to cite evidence.
+### Exercise
+
+1. Create the roadmap's repository diagnostic agent starting with read-only investigation.
+2. Define state fields and transitions before adding automatic edits.
+3. Feed it one failing test or runtime error, capture the selected checks, and require each conclusion to cite evidence.
+
+### Evidence and completion criteria
 
 Exercise an unavailable file and a repeated failure. The agent should preserve unresolved questions and stop clearly instead of fabricating a diagnosis. These are proposed exercises, not completed runs.
+
+**Evidence status:** These are planned exercises. This note does not record completed runs or assessment results.
 
 ## Summary
 

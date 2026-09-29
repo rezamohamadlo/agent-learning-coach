@@ -4,7 +4,19 @@
 
 A contract defines behavior; package organization and progressive disclosure make that behavior available at the right time.
 
-## Essential mental model
+## Concept: skill format
+
+**Definition:** A skill format is the file structure and metadata an environment expects when discovering and loading a skill.
+
+**Application:** The contract defines behavior; the format packages that contract so the environment can find and read it.
+
+## Related concept: evaluation
+
+**Definition:** An evaluation compares observed behavior against criteria defined before a run. An evaluation case supplies inputs, expected behavior, and forbidden actions for that comparison.
+
+**Example:** A case with truncated test output checks whether the summarizer discloses that its counts are incomplete.
+
+## Platform format reference
 
 Platform documentation checked on 1405-07-05 (Jalali; Asia/Tehran). Recheck the linked official pages when implementing against a different version.
 
@@ -44,7 +56,13 @@ A test summary contains 8 passes, 1 failure, and truncated output. Expected beha
 
 ## Practice and evidence
 
-Draft a package layout and case table for one skill. Explain which fields are portable and which setup details need environment-specific verification. Retain the actual run evidence separately from the expected results.
+### Exercise
+
+1. Draft a package layout and case table for one skill.
+2. Explain which fields are portable and which setup details need environment-specific verification.
+3. Retain the actual run evidence separately from the expected results.
+
+**Evidence status:** These are planned exercises. This note does not record completed runs or assessment results.
 
 ## Summary
 
