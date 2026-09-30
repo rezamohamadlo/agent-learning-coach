@@ -64,7 +64,7 @@ A test summary contains 8 passes, 1 failure, and truncated output. Expected beha
 2. Explain which fields are portable and which setup details need environment-specific verification.
 3. Retain the actual run evidence separately from the expected results.
 
-**Evidence status:** These are planned exercises. This note does not record completed runs or assessment results.
+**Evidence status:** Conceptual understanding was Demonstrated on 1405-07-08 through a 3/3 validation covering format, portability, and written cases versus executed evidence. The exercises and actual skill runs remain pending. See the [session report](../../reports/1405-07-08-skill-formats-and-evaluation.md).
 
 ## Summary
 

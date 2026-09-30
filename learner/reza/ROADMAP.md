@@ -4,20 +4,28 @@ Calendar: Jalali (Solar Hijri), YYYY-MM-DD.
 
 This is my personal, living roadmap for learning how AI agents work while building reusable skills for Codex, GPT-based agents, OpenCode, and other compatible tools.
 
+## Journey progress
+
+```text
+All roadmap outcomes  [████░░░░░░░░░░░░░░░░] 19/86 (22%)
+```
+
+This bar counts completed Learn, Build, required-content, and Exit-criteria checkboxes across all six phases. Each checkbox has equal weight; the bar is rounded to 20 visual segments.
+
 ## Current status
 
 - Start date: 1405-06-09
 - Target duration: Original 12-week baseline retained; replanned near-term schedule uses five one-hour sessions per week and will be reviewed at the end of Phase 2.
 - Current phase: Phase 2 — First reusable skills (in progress)
-- Overall progress: Phase 1 complete under its revised Build scope: 7/7 learning outcomes, 4/4 Build outcomes including 3 guided simulations (Practiced), and 3/3 exit criteria. Actual task-renaming execution and learner acceptance review are complete. No overall percentage assigned.
+- Overall progress: 19/86 roadmap outcomes complete (22%, equal-weight checkbox count). Phase 1 is complete under its revised Build scope: 7/7 learning outcomes, 4/4 Build outcomes including 3 guided simulations (Practiced), and 3/3 exit criteria. Phase 2 learning is 5/5; its builds and exit criteria remain incomplete.
 - Weekly study/build ratio: 30% study, 70% practice
 - Next review date: 1405-07-12 (first checkpoint under the capacity-based replan; Jalali, Asia/Tehran).
-- Current evidence: Phase 1 outcomes, Phase 2 discovery/triggering, independent trigger-condition authoring, package organization, and stage-specific lifecycle evidence reasoning: Demonstrated. The first recording-auditor contract and three cases are drafted with coaching (Practiced). [Contract report](reports/1405-07-04-recording-lifecycle-contract.md)
-- Next checkpoint: Study and validate platform formats before implementing the first skill.
+- Current evidence: Phase 1 outcomes and all five Phase 2 learning outcomes are Demonstrated. Platform formats, portability limits, and written-versus-executed evaluation evidence were validated 3/3 on 1405-07-08. The first recording-auditor contract and three cases are drafted with coaching (Practiced). [Format report](reports/1405-07-08-skill-formats-and-evaluation.md) [Contract report](reports/1405-07-04-recording-lifecycle-contract.md)
+- Next checkpoint: Prepare and implement the recording-auditor package, then execute its cases.
 - Periodic review: Six-question review completed on 1405-06-22; 6/6 correct. Component explanation and actual bounded-task acceptance subsequently demonstrated; Phase 1 closed on 1405-06-25. Recheck preservation and evidence sufficiency during the first Phase 2 skill evaluation; next phase-boundary review at the end of Phase 2. See [review](reports/1405-06-22-phase-1-periodic-review.md) and [completion](reports/1405-06-25-phase-1-completed.md).
-- Current phase progress: Phase 2 Learn 4/5 (discovery/triggering, condition authoring, package organization, and progressive disclosure demonstrated); Build 0/4; required-content checklist 0/8; Exit criteria 0/3. Phase 1 finished at Learn 7/7; revised Build 4/4; Exit 3/3.
+- Current phase progress: Phase 2 Learn 5/5; Build 0/4; required-content checklist 0/8; Exit criteria 0/3. Phase 1 finished at Learn 7/7; revised Build 4/4; Exit 3/3.
 - Schedule status: Replanned on 1405-07-06 around five one-hour sessions per week. The original Week 3 and Week 4 misses remain recorded. The new near-term plan prioritizes one evaluated skill before the remaining two and targets the Phase 2 boundary review for 1405-08-03; feasibility will be checked weekly.
-- Evidence trend: Phase 1 complete; Phase 2 triggering and stage-specific evidence reasoning demonstrated. One real skill contract and three evaluation cases are drafted with coaching; implementation and execution remain pending. Package organization demonstrated after reassessment. Progressive disclosure demonstrated, 3/3 on 1405-07-07. Across 23 learning reports plus one planning review (1405-06-10 to 1405-07-07). [Report](reports/1405-07-07-progressive-disclosure.md) [Organization report](reports/1405-07-05-skill-package-organization.md)
+- Evidence trend: Phase 1 complete; all five Phase 2 learning outcomes demonstrated. One real skill contract and three evaluation cases are drafted with coaching; implementation and execution remain pending. Platform formats demonstrated 3/3 on 1405-07-08 and progressive disclosure 3/3 on 1405-07-07. Across 24 learning reports plus one planning review (1405-06-10 to 1405-07-08). [Format report](reports/1405-07-08-skill-formats-and-evaluation.md) [Progressive-disclosure report](reports/1405-07-07-progressive-disclosure.md)
 
 ## Study route and delivery sequence
 
@@ -35,7 +43,7 @@ The six phases remain the learning sequence. Use the [learning library](notes/RE
 ### Finish one skill before broadening Phase 2
 
 1. Capacity review completed on 1405-07-06: five one-hour sessions per week. Check feasibility on 1405-07-12; preserve original deadlines.
-2. Package organization and progressive disclosure are demonstrated. Study and validate [formats and first evaluations](notes/phase-2/skill-formats-and-evaluation.md), the remaining learning outcome.
+2. Package organization, progressive disclosure, and [formats and first evaluations](notes/phase-2/skill-formats-and-evaluation.md) are demonstrated. Phase 2 conceptual learning is complete.
 3. Turn the existing recording-auditor contract into one working skill. Check all eight required content elements for this skill and execute its three cases, including real repository evidence and a repeat run. Recheck independent case design and missing evidence versus a known defect.
 4. Use the lessons from that complete run to build the pipeline debugger and pytest diagnoser, with at least three cases and a repeat run each. Keep the phase-wide content checklist incomplete until all required skills meet it.
 5. Complete the Phase 2 boundary review and exit criteria, then proceed to tools and MCP.
@@ -67,7 +75,7 @@ Reviews happen when learning resumes. Missed reviews are prioritized rather than
 
 Future review approach: start with a saved template and one worked example, then apply it to a small new case if the learner wants practice. Keep useful templates and examples easy to find as later build items are completed. Earlier practice labels are historical; Builds 1, 2, and 3 are completed writing outcomes with coaching.
 
-**Paused here:** Phase 2 Learn 4/5; the first contract and three cases are drafted at Practiced level. Next: platform formats, then first skill implementation. Capacity review completed on 1405-07-06. [Contract report](reports/1405-07-04-recording-lifecycle-contract.md)
+**Paused here:** Phase 2 Learn 5/5; the first contract and three cases are drafted at Practiced level. Next: prepare and implement the first skill, then execute its cases. Capacity review completed on 1405-07-06. [Format report](reports/1405-07-08-skill-formats-and-evaluation.md)
 
 ## Visual progress roadmap
 
@@ -76,7 +84,7 @@ Snapshot: 1405-07-07 (Jalali; Asia/Tehran). Phase labels retain the original pla
 ```mermaid
 flowchart TB
     P1["Phase 1: Agent foundations · Original Weeks 1–2<br/>COMPLETE · Closed in Week 3<br/>Learn 7/7 · Revised Build 4/4 · Exit criteria 3/3<br/>3 simulations + 1 actual verified task"]
-    P2["Phase 2: First reusable skills · Weeks 3–4<br/>CURRENT · In progress<br/>Learn 4/5 · Build 0/4 · Exit 0/3"]
+    P2["Phase 2: First reusable skills · Weeks 3–4<br/>CURRENT · In progress<br/>Learn 5/5 · Build 0/4 · Exit 0/3"]
     P3["Phase 3: Tools and MCP · Weeks 5–6<br/>Not started"]
     P4["Phase 4: Single-agent workflow · Weeks 7–8<br/>Not started"]
     P5["Phase 5: Evaluations and reliability · Weeks 9–10<br/>Not started"]
@@ -192,7 +200,7 @@ Reading: [Start summary](notes/phase-2/00-start-summary.md) · [Lessons](notes/p
 - [x] Define clear `use when` and `do not use when` conditions. Demonstrated on 1405-07-02 through an independently chosen applicant-filter example. [Authoring report](reports/1405-07-02-trigger-condition-authoring.md)
 - [x] Separate core instructions, references, scripts, assets, and examples. — Demonstrated after correction and fresh reassessment on 1405-07-05; [report](reports/1405-07-05-skill-package-organization.md).
 - [x] Understand progressive disclosure and context efficiency. - Demonstrated, 3/3; [report](reports/1405-07-07-progressive-disclosure.md).
-- [ ] Learn the relevant skill formats for Codex and OpenCode.
+- [x] Learn the relevant skill formats for Codex and OpenCode. — Demonstrated 3/3 on 1405-07-08; distinguished format from behavior, rejected unsupported portability, and separated written cases from executed evidence. [Report](reports/1405-07-08-skill-formats-and-evaluation.md).
 
 ### Build
 
@@ -342,7 +350,7 @@ Each numbered target is one checkpoint unit. At review, report **units met / uni
 | Week | Dates (deadline is final day) | Observable targets | Current status |
 |---|---|---|---|
 | 3 | 1405-06-23–1405-06-29 | **1.** Close the last Phase 1 exit criterion with a bounded request, executed checks, and learner acceptance reasoning that covers state preservation. **2.** Demonstrate Phase 2 discovery/triggering and use/do-not-use conditions. **3.** Select one real recording-lifecycle problem and draft its skill contract plus three evaluation cases before implementation. | 1/3 met by deadline; now 3/3 complete. Target 2 completed late on 1405-07-02; target 3 completed late at Practiced level on 1405-07-04. Original deadline unchanged. |
-| 4 | 1405-06-30–1405-07-05 | **1.** Demonstrate the other three Phase 2 learning outcomes: file organization, progressive disclosure, and Codex/OpenCode formats. **2.** Build all three planned skills with the eight required content elements each. **3.** Run at least three realistic cases per skill; repeat one case per skill and compare results; at least one case must be a real repository task. **4.** Complete Phase 2 boundary review and demonstrate all three exit criteria. | 0/4 met |
+| 4 | 1405-06-30–1405-07-05 | **1.** Demonstrate the other three Phase 2 learning outcomes: file organization, progressive disclosure, and Codex/OpenCode formats. **2.** Build all three planned skills with the eight required content elements each. **3.** Run at least three realistic cases per skill; repeat one case per skill and compare results; at least one case must be a real repository task. **4.** Complete Phase 2 boundary review and demonstrate all three exit criteria. | 1/4 met, completed late on 1405-07-08; targets 2–4 remain incomplete. |
 | 5 | 1405-07-06–1405-07-12 | **1.** Demonstrate schemas/tool calling, read-only versus mutating tools, and approval boundaries. **2.** Build and execute the read-only configuration inspection tool on a valid and an invalid input. **3.** Build and execute the test-result summary tool on a successful and a failed-test example; validate structured output from both tools. | 0/3 met |
 | 6 | 1405-07-13–1405-07-19 | **1.** Demonstrate MCP roles, safe authentication, and errors/retries/timeouts/idempotency. **2.** Expose one read-only diagnostic through MCP and capture an actual client call. **3.** Run invalid-input and tool-failure tests and verify authorization boundaries for mutating actions using controlled checks. **4.** Complete Phase 3 boundary review and all exit criteria. | 0/4 met |
 | 7 | 1405-07-20–1405-07-26 | **1.** Demonstrate state/history, execution loops, and guardrails/output validation. **2.** Build the diagnostic agent through permitted read-only investigation, producing an evidence-backed diagnosis for one real failing test or runtime error. | 0/2 met |
@@ -377,7 +385,7 @@ Add one row at the end of every week.
 | 2 | 1405-06-16 to 1405-06-22 | Agent foundations and Phase 1 evidence | Seven learning outcomes, revised Build 4/4, review 6/6; Exit 1/3 | [Periodic review](reports/1405-06-22-phase-1-periodic-review.md) | Component explanation and actual verified execution pending; full state-preservation coverage remains a practice target | Explain components without notes, then a bounded practical task |
 | 3 | 1405-06-23 to 1405-06-29 | Phase 1 exit; triggers and contract | 1/3 targets met by deadline; now 3/3 after late trigger and contract work | [Contract report](reports/1405-07-04-recording-lifecycle-contract.md) | All targets eventually completed; capacity review remains overdue | Review capacity and preserve the original deadline record |
 | 4 | 1405-06-30 to 1405-07-05 | Skill evaluation | Contract/cases drafted; package organization demonstrated on 1405-07-05; Week 4 targets 0/4 | [Contract report](reports/1405-07-04-recording-lifecycle-contract.md) | Progressive disclosure, formats, builds, executions, and boundary review pending | Capacity review; then progressive disclosure. [Organization report](reports/1405-07-05-skill-package-organization.md) |
-| 5 | 1405-07-06 to 1405-07-12 (in progress) | Replanned: Phase 2 prerequisites | Progressive disclosure demonstrated, 3/3 | [Report](reports/1405-07-07-progressive-disclosure.md) | Missing-input refinement explained; practical transfer pending | Validate formats, prepare first package; checkpoint 1405-07-12 |
+| 5 | 1405-07-06 to 1405-07-12 (in progress) | Replanned: Phase 2 prerequisites | Progressive disclosure and platform formats demonstrated, both 3/3; Phase 2 Learn 5/5 | [Format report](reports/1405-07-08-skill-formats-and-evaluation.md); [progressive-disclosure report](reports/1405-07-07-progressive-disclosure.md) | Recording-auditor package preparation and practical transfer remain pending | Prepare first package for implementation; checkpoint 1405-07-12 |
 | 6 | | MCP | | | | |
 | 7 | | Agent workflow | | | | |
 | 8 | | Observability and safety | | | | |
@@ -422,7 +430,7 @@ The open sequence is listed first; completed actions below preserve the history.
 - [x] Complete the overdue capacity review and record any agreed revised dates separately from the original baseline. — Five one-hour sessions per week; [capacity review](reports/1405-07-06-capacity-review.md).
 - [x] Study and validate skill package organization. — [Reassessment report](reports/1405-07-05-skill-package-organization.md).
 - [x] Study and validate progressive disclosure. - [Report](reports/1405-07-07-progressive-disclosure.md).
-- [ ] Study and validate platform formats.
+- [x] Study and validate platform formats. — Demonstrated 3/3; [report](reports/1405-07-08-skill-formats-and-evaluation.md).
 - [ ] Implement and evaluate the recording auditor before broadening to the other two skills.
 - [ ] Complete the remaining Phase 2 builds, cases, and phase-boundary review.
 

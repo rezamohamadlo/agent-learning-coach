@@ -42,7 +42,7 @@ The order is a starting priority, not a requirement to finish all reviews before
 | Independent evaluation-case design | 1405-07-04: cases needed coaching | First skill evaluation, before claiming independent design | Design a fresh case from the contract without a supplied coverage list. [Task-contract note](../notes/phase-1/task-specification-and-verification.md) | Active practical gap |
 | Earlier foundations | Phase 1 completion: 1405-06-25 | Next cumulative review around four weeks later, or earlier when needed | Select one of authority, tool versus skill, context relevance, or acceptance versus verification. [Phase 1 recap](../notes/phase-1/99-end-summary.md) | Planned |
 
-Progressive disclosure demonstrated on 1405-07-07 (3/3). Platform formats are next. During first skill evaluation, recheck that missing inputs block dependent decisions while permitted independent work may continue. The capacity review was completed on 1405-07-06 and the near-term plan now assumes five one-hour sessions per week.
+Platform formats and evaluation-evidence distinctions were demonstrated on 1405-07-08 (3/3); progressive disclosure was demonstrated on 1405-07-07 (3/3). The recording-auditor package and first executed evaluation are next. During that evaluation, recheck that missing inputs block dependent decisions while permitted independent work may continue, and require actual run evidence before accepting a case. The capacity review was completed on 1405-07-06 and the near-term plan now assumes five one-hour sessions per week.
 
 ## Reviews across the phases
 

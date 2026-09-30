@@ -8,6 +8,8 @@ The [review plan and queue](review-plan.md) turn these evidence-backed prioritie
 
 ## Demonstrated strengths
 
+Skill formats and evaluation evidence — 1405-07-08: 3/3 correct (B, C, C), distinguishing platform packaging from behavior, rejecting unsupported portability from a shared file shape, and separating written expected cases from observed execution evidence. Conceptual outcome Demonstrated; no implementation, platform run, or delayed retention claimed. [Report](../reports/1405-07-08-skill-formats-and-evaluation.md).
+
 Progressive disclosure - 1405-07-07: 3/3 correct (B, A, C), covering conditional loading, core safety rules, and unsupported regional classification. Independently identified the missing input. Conceptual outcome Demonstrated; no practical execution or delayed retention claimed. [Report](../reports/1405-07-07-progressive-disclosure.md).
 
 | Concept or behavior | Evidence | Level | Last checked | Source report |
