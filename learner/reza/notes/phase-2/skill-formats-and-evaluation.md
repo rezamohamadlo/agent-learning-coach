@@ -2,17 +2,19 @@
 
 ## Previous-note recap
 
-A contract defines behavior; package organization and progressive disclosure make that behavior available at the right time.
+- "Contract": defines what the skill should and should not do.
+- "Package organization": places each resource according to its role.
+- "Progressive disclosure": loads extra detail only when needed.
 
-## Concept: skill format
+## Concept: "skill format"
 
-**Definition:** A skill format is the file structure and metadata an environment expects when discovering and loading a skill.
+**Definition:** A "skill format" is the file structure and metadata an environment expects when discovering and loading a skill.
 
 **Application:** The contract defines behavior; the format packages that contract so the environment can find and read it.
 
-## Related concept: evaluation
+## Related concept: "evaluation"
 
-**Definition:** An evaluation compares observed behavior against criteria defined before a run. An evaluation case supplies inputs, expected behavior, and forbidden actions for that comparison.
+**Definition:** An "evaluation" compares observed behavior against criteria defined before a run. An "evaluation case" supplies inputs, expected behavior, and forbidden actions for that comparison.
 
 **Example:** A case with truncated test output checks whether the summarizer discloses that its counts are incomplete.
 

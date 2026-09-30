@@ -44,7 +44,7 @@ An item is not completed merely because it was explained or read. Completion nor
 - Periodic assessments, normally at each phase boundary
 - Historical session reports that preserve learning evidence
 
-The bundled reusable curriculum covers Phase 1 agent foundations. Reza's [personal learning library](learner/reza/notes/README.md) covers all six roadmap phases, with ordered lessons and two session recaps per phase: the first session reviews the previous phase and previews the upcoming phase; the last session summarizes the current phase. Phase 1 opens with a starting orientation and preview. Prepared lessons do not change completion status or substitute for practice and assessment.
+The bundled reusable curriculum covers Phase 1 agent foundations. Reza's [personal learning library](learner/reza/notes/README.md) covers all six roadmap phases, with ordered lessons and two session recaps per phase: the first session reviews the previous phase and previews the upcoming phase; the last session summarizes the current phase. Previous-note recaps use short concept-and-memory-cue lists, and explicitly introduced or defined technical terms appear in straight quotation marks for clarity. Phase 1 opens with a starting orientation and preview. Prepared lessons do not change completion status or substitute for practice and assessment.
 
 The task-specification lesson includes a Mermaid workflow connecting the eight task-contract components, from objective to verification method.
 

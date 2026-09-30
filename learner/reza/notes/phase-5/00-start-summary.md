@@ -2,7 +2,10 @@
 
 ## Previous-note recap
 
-Read this in the first session of Phase 5. It is a brief review of **Phase 4: Build a single-agent workflow**, before starting the new material.
+- "Agent state": records the current goal, evidence, and authority.
+- "Execution loop": acts, inspects results, and updates state.
+- "Guardrails": enforce permitted behavior.
+- "Verification": checks the final result against requirements.
 
 ## Previous phase in brief
 

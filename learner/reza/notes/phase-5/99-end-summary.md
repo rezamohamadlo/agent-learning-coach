@@ -2,7 +2,10 @@
 
 ## Previous-note recap
 
-The lessons in this phase connect through one sequence: Define success → record a baseline → change one thing → compare cases → investigate regressions.
+- "Evaluation case": defines a situation and its success criteria.
+- "Grader": judges observed behavior against criteria.
+- "Baseline": records reference results for comparison.
+- "Regression": is a loss of previously satisfied behavior.
 
 ## Current phase recap
 

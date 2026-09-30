@@ -2,11 +2,13 @@
 
 ## Previous-note recap
 
-A safe tool validates inputs and results and enforces authority before execution. Networked tools add connection and uncertain-outcome failures.
+- "Tool contract": defines inputs, effects, outputs, and failures.
+- "Authorization": limits what an operation may do.
+- "Result validation": checks returned data before it is trusted.
 
-## Concept: Model Context Protocol (MCP)
+## Concept: "Model Context Protocol (MCP)"
 
-**Definition:** MCP is a protocol through which AI applications connect to providers of tools and contextual information.
+**Definition:** "Model Context Protocol (MCP)" is a protocol through which AI applications connect to providers of tools and contextual information.
 
 ### Roles in a connection
 
@@ -26,9 +28,9 @@ MCP standardizes communication; it does not guarantee that a server is trustwort
 
 ## Authentication and authorization
 
-**Authentication:** Establishes the caller's identity.
+**"Authentication":** Establishes the caller's identity.
 
-**Authorization:** Determines what that identity may do.
+**"Authorization":** Determines what that identity may do.
 
 ### Apply the distinction
 
@@ -46,11 +48,11 @@ Validate targets server-side. A client hiding a tool is not a substitute for pro
 | Truncated result | Retrieve remaining data or report partial coverage |
 | Timeout after a mutation | Reconcile actual state before considering retry |
 
-## Concepts: timeout and idempotency
+## Concepts: "timeout" and "idempotency"
 
-**Timeout:** A timeout means the caller did not receive a timely result. It does not establish that the operation never occurred.
+**"Timeout":** Means the caller did not receive a timely result. It does not establish that the operation never occurred.
 
-**Idempotency:** Repeating an operation has the same intended effect as performing it once.
+**"Idempotency":** Repeating an operation has the same intended effect as performing it once.
 
 The responses need not be identical. Use retries only according to the operation's documented contract.
 

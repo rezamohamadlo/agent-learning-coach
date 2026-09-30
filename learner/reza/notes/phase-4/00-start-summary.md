@@ -2,7 +2,10 @@
 
 ## Previous-note recap
 
-Read this in the first session of Phase 4. It is a brief review of **Phase 3: Tools and MCP**, before starting the new material.
+- "Tool contract": defines inputs, effects, outputs, and failures.
+- "MCP": connects AI applications to tools and resources.
+- "Authorization": limits permitted operations.
+- "Idempotency": makes a repeated operation preserve its intended effect.
 
 ## Previous phase in brief
 

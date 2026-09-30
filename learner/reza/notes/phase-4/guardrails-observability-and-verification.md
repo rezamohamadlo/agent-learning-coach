@@ -2,25 +2,27 @@
 
 ## Previous-note recap
 
-The execution loop chooses actions from current state. Reliable automation also needs enforced boundaries and a reviewable record.
+- "Agent state": records the workflow's current knowledge and authority.
+- "Execution loop": acts, inspects results, and updates state.
+- "Stopping condition": defines when the loop must finish or pause.
 
-## Concept: guardrails
+## Concept: "guardrails"
 
-**Definition:** Guardrails are constraints and checks intended to keep a workflow within its permitted behavior.
+**Definition:** "Guardrails" are constraints and checks intended to keep a workflow within its permitted behavior.
 
 ### Application to the execution loop
 
 Guardrails constrain behavior before or after a decision. Examples include allowed workspace roots, tool allowlists, argument validation, time limits, permission gates, and output checks. Instructions help guide choices, but technical controls should enforce critical boundaries.
 
-## Concept: output validation
+## Concept: "output validation"
 
-**Definition:** Output validation checks that a result meets its required format and content criteria.
+**Definition:** "Output validation" checks that a result meets its required format and content criteria.
 
 Output validation has two layers: structure and support. A result can contain all required JSON fields while making an unsupported claim. Check that cited evidence exists and that the conclusion follows from it.
 
-## Concept: observability
+## Concept: "observability"
 
-**Definition:** Observability is the ability to understand what happened in a workflow from the records it exposes.
+**Definition:** "Observability" is the ability to understand what happened in a workflow from the records it exposes.
 
 ### What to record
 
@@ -28,9 +30,9 @@ Record enough to reconstruct important actions: run ID, sequence or timestamp, s
 
 Record brief decision justifications and observable actions, not hidden internal reasoning. Logs should help a reviewer understand what happened and why the chosen check was relevant.
 
-## Concept: verification
+## Concept: "verification"
 
-**Definition:** Verification checks whether the actual result satisfies the task requirements. For a code change, evidence must apply to the final code being accepted.
+**Definition:** "Verification" checks whether the actual result satisfies the task requirements. For a code change, evidence must apply to the final code being accepted.
 
 ### Worked example
 
@@ -38,9 +40,9 @@ The agent proposes a parser fix. Its final report says tests passed, but the tra
 
 A denied tool call should produce a visible blocked status. It should not disappear from the trace or silently trigger a more powerful fallback.
 
-## Concept: handoff
+## Concept: "handoff"
 
-**Definition:** A handoff transfers the task context and expected next step to another worker or human.
+**Definition:** A "handoff" transfers the task context and expected next step to another worker or human.
 
 A handoff is useful when another role or a human has necessary expertise or authority. Include the goal, evidence, unresolved question, permitted scope, expected output, and return condition. A handoff does not expand permissions, and another agent's confident answer remains a claim to inspect.
 

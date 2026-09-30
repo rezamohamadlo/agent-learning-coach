@@ -2,7 +2,10 @@
 
 ## Previous-note recap
 
-The lessons in this phase connect through one sequence: Validate input and authority → execute a bounded operation → validate the result → reconcile uncertainty.
+- "Tool contract": defines a callable operation and its boundaries.
+- "Authorization": limits what the caller may do.
+- "Result validation": checks returned data before relying on it.
+- "Reconciliation": checks actual state after an uncertain outcome.
 
 ## Current phase recap
 

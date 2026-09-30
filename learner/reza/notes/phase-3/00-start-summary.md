@@ -2,7 +2,10 @@
 
 ## Previous-note recap
 
-Read this in the first session of Phase 3. It is a brief review of **Phase 2: First reusable skills**, before starting the new material.
+- "Triggering": matches a request to the right skill.
+- "Skill contract": defines the skill's behavior and limits.
+- "Package organization": places resources according to their roles.
+- "Evaluation": checks actual behavior against predefined criteria.
 
 ## Previous phase in brief
 

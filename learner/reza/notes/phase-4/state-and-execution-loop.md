@@ -2,11 +2,13 @@
 
 ## Previous-note recap
 
-Tools need validated contracts and bounded failure handling. A workflow coordinates those tools toward an evidence-based result.
+- "Tool contract": defines a tool's inputs, effects, and results.
+- "Failure handling": responds safely to errors and uncertainty.
+- "Workflow": coordinates tools toward a verified result.
 
-## Concept: agent state
+## Concept: "agent state"
 
-**Definition:** Agent state is the workflow's current working record of its goal, authority, evidence, progress, and unresolved questions.
+**Definition:** "Agent state" is the workflow's current working record of its goal, authority, evidence, progress, and unresolved questions.
 
 ### State versus conversation history
 
@@ -14,9 +16,9 @@ Conversation history records messages. Agent state records what the workflow cur
 
 Keep facts separate from hypotheses. “The test reports a missing key” is an observation. “The parser dropped that key” is a hypothesis until inspected. State should include source references so later decisions can recover the evidence.
 
-## Concept: execution loop
+## Concept: "execution loop"
 
-**Definition:** An execution loop repeatedly chooses an action, inspects its result, and updates state until a stopping condition is met.
+**Definition:** An "execution loop" repeatedly chooses an action, inspects its result, and updates state until a stopping condition is met.
 
 ### A bounded diagnostic loop
 

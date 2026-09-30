@@ -38,7 +38,7 @@ Pass evidence:
 Summary:
 ```
 
-Keep the note concise and reusable. End it with a `## Summary` section containing the essential mental model, key distinctions, and practical takeaway. For the second and later notes in an ordered sequence, add `## Previous-note recap` immediately after the title. Use brief concept names or one-line memory cues for earlier notes, such as `Agent loop: observe, reason, act, inspect, repeat/stop`; do not reteach those notes. Do not copy an entire general tutorial into the learning workspace.
+Keep the note concise and reusable. End it with a `## Summary` section containing the essential mental model, key distinctions, and practical takeaway. For the second and later notes in an ordered sequence, add `## Previous-note recap` immediately after the title. Format it as a short list of the main earlier concepts, with each concept followed by a one-line memory cue, such as `- "Agent loop": observe, reason, act, inspect, repeat/stop.`; do not reteach those notes. When explicitly introducing or defining a technical term, put the term in straight quotation marks, including in concept headings and definition labels where applicable. Do not quote every later use of the term in ordinary prose. Do not copy an entire general tutorial into the learning workspace.
 
 The instruction note supplies the mental model and worked example. Keep it concise enough to read before validation and end it with `## Summary`. Do not repeat the whole note in chat unless the learner asks for clarification.
 

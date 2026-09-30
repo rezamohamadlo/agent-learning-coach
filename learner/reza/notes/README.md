@@ -25,4 +25,6 @@ Follow the [review plan](../reviews/review-plan.md) for brief session reviews, s
 
 ## Maintaining this library
 
+Format each previous-note recap as a short list of main concepts with one-line memory cues. Put straight quotation marks around a technical term when it is explicitly introduced or defined, so it stands apart from ordinary text.
+
 Place new personal notes in `phase-N/<topic>.md`, add them to the phase reading list, start later lessons with a short previous-note recap, and finish educational notes with a concise Summary. When a phase’s content changes, update its start preview, its end summary, and the next phase’s start recap together. Keep summaries focused on concepts and examples; progress and requirements belong in the roadmap and phase indexes. Keep reusable curriculum under `references/curriculum/`; this personal library covers all six phases without expanding that separate curriculum collection.

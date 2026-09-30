@@ -2,16 +2,18 @@
 
 ## Previous-note recap
 
-Cases define expected behavior and graders judge it. A baseline makes later changes comparable.
+- "Evaluation case": defines a task situation and success criteria.
+- "Grader": judges observed behavior against those criteria.
+- "Held-out case": tests behavior without guiding development.
 
-## Concepts: baseline, candidate, and regression
+## Concepts: "baseline", "candidate", "regression", and "trade-off"
 
 | Concept | Definition | Example |
 | --- | --- | --- |
-| Baseline | A recorded reference result from a known version under documented conditions. | Version A's results on 20 fixed cases. |
-| Candidate | The revised version being compared with the baseline. | Version B after an instruction change. |
-| Regression | A loss of previously satisfied behavior after a change. | B writes a file where A correctly stayed read-only. |
-| Trade-off | A gain in one measure accompanied by a loss in another. | Lower latency with higher total cost. |
+| "Baseline" | A recorded reference result from a known version under documented conditions. | Version A's results on 20 fixed cases. |
+| "Candidate" | The revised version being compared with the baseline. | Version B after an instruction change. |
+| "Regression" | A loss of previously satisfied behavior after a change. | B writes a file where A correctly stayed read-only. |
+| "Trade-off" | A gain in one measure accompanied by a loss in another. | Lower latency with higher total cost. |
 
 ### Record a comparable baseline
 

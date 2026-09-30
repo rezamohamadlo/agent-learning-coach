@@ -2,7 +2,10 @@
 
 ## Previous-note recap
 
-The lessons in this phase connect through one sequence: Preserve workflow meaning → measure environment differences → protect authority → justify coordination with evidence.
+- "Portable core": preserves workflow meaning across environments.
+- "Adapter": handles measured platform differences.
+- "Prompt injection": is untrusted content that tries to redirect behavior.
+- "Coordination": manages work and evidence across workers.
 
 ## Current phase recap
 

@@ -2,19 +2,21 @@
 
 ## Previous-note recap
 
-Skills describe workflows. Tools provide callable operations whose inputs, effects, and results need explicit boundaries.
+- "Skill": describes a reusable workflow.
+- "Tool": provides a callable operation.
+- "Boundary": limits inputs, effects, access, and results.
 
-## Concept: tool contract
+## Concept: "tool contract"
 
-**Definition:** A tool contract specifies an operation's inputs, effects, access requirements, outputs, and possible failures.
+**Definition:** A "tool contract" specifies an operation's inputs, effects, access requirements, outputs, and possible failures.
 
 ### How a tool call uses the contract
 
 A model's tool call is a request to execute an operation. The surrounding program validates its arguments, checks authority, invokes the implementation, and returns a result. A convincing description or well-formed argument object does not make an unsafe implementation safe.
 
-## Concept: JSON Schema
+## Concept: "JSON Schema"
 
-**Definition:** JSON Schema describes the shape of JSON values: types, required fields, permitted values, and structural constraints. Runtime validation must also check meaning, such as whether a requested path belongs to the authorized workspace.
+**Definition:** "JSON Schema" describes the shape of JSON values: types, required fields, permitted values, and structural constraints. Runtime validation must also check meaning, such as whether a requested path belongs to the authorized workspace.
 
 ## Worked input contract
 
@@ -38,13 +40,13 @@ A fixed ID maps to an approved configuration in application code. It avoids acce
 
 Use a result contract with separate status, findings, evidence, and limitations. For example, `status: "partial"` with a missing section must not be converted into a clean bill of health. Validate returned data before relying on it.
 
-## Concepts: effects and authorization
+## Concepts: "effects" and "authorization"
 
-**Read-only operation:** Inspects information without changing the target data.
+**"Read-only operation":** Inspects information without changing the target data.
 
-**Mutating operation:** Changes state, such as editing a file or creating a record.
+**"Mutating operation":** Changes state, such as editing a file or creating a record.
 
-**Authorization:** The permission to perform a particular action on a particular target.
+**"Authorization":** The permission to perform a particular action on a particular target.
 
 ### Apply the distinction
 

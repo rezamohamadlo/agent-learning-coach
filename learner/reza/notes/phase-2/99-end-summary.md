@@ -2,7 +2,10 @@
 
 ## Previous-note recap
 
-The lessons in this phase connect through one sequence: Match the request → load the contract → use the relevant resources → evaluate actual behavior.
+- "Triggering": matches a request to the right skill.
+- "Skill contract": defines the skill's behavior and limits.
+- "Progressive disclosure": loads supporting detail only when needed.
+- "Evaluation": compares actual behavior with predefined criteria.
 
 ## Current phase recap
 

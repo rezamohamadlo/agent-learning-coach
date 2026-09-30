@@ -2,15 +2,17 @@
 
 ## Previous-note recap
 
-A portable workflow preserves task meaning across environments. Additional agents should be judged against a working single-agent baseline.
+- "Portable core": preserves workflow meaning across environments.
+- "Adapter": handles measured environment-specific differences.
+- "Prompt injection": is untrusted content that tries to redirect behavior.
 
-## Concepts: delegation, handoff, and coordination
+## Concepts: "delegation", "handoff", and "coordination"
 
-**Delegation:** Assigning a bounded part of a task to another worker.
+**"Delegation":** Assigning a bounded part of a task to another worker.
 
-**Handoff:** Transferring the goal, scope, evidence, and expected deliverable needed for another worker or human to continue.
+**"Handoff":** Transferring the goal, scope, evidence, and expected deliverable needed for another worker or human to continue.
 
-**Coordination:** Managing ownership, dependencies, shared information, and integration across workers.
+**"Coordination":** Managing ownership, dependencies, shared information, and integration across workers.
 
 ### When multiple agents may help
 

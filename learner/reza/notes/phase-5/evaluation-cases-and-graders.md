@@ -2,11 +2,13 @@
 
 ## Previous-note recap
 
-A workflow can complete one task yet fail on another. Evaluation checks repeatable behavior across explicit cases.
+- "Workflow": coordinates actions toward a task result.
+- "Verification": checks one actual result against requirements.
+- "Evaluation": checks repeatable behavior across explicit cases.
 
-## Concept: evaluation case
+## Concept: "evaluation case"
 
-**Definition:** An evaluation case describes a task situation and the criteria used to judge the workflow's behavior in that situation.
+**Definition:** An "evaluation case" describes a task situation and the criteria used to judge the workflow's behavior in that situation.
 
 ### What a case contains
 
@@ -14,9 +16,9 @@ Define success before running a case. A useful case includes an ID, input, relev
 
 Collect 15–30 cases from real repository work for this phase. Redact sensitive details while preserving the failure mechanism. Include ordinary cases, boundaries, incomplete evidence, tool failures, and requests that should be declined or routed elsewhere.
 
-## Concept: grader
+## Concept: "grader"
 
-**Definition:** A grader is a check or judging process that assesses an observed result against specified criteria.
+**Definition:** A "grader" is a check or judging process that assesses an observed result against specified criteria.
 
 ### Deterministic and model-based grading
 
@@ -34,9 +36,9 @@ Grade the stage statuses structurally, then inspect whether the explanation accu
 
 Check whether the chosen tool can answer the current question. Then check its target, identifiers, filters, limits, and authority. Selecting a configuration reader with the wrong environment argument is still a failure. Where several tools are valid, grade allowed behavior rather than requiring one arbitrary sequence.
 
-## Related concept: held-out cases
+## Related concept: "held-out cases"
 
-**Definition:** Held-out cases are reserved for judging a revision rather than guiding its development. Keeping them separate helps reveal whether improvements extend beyond examples already used to tune the workflow.
+**Definition:** "Held-out cases" are reserved for judging a revision rather than guiding its development. Keeping them separate helps reveal whether improvements extend beyond examples already used to tune the workflow.
 
 ## Practice and evidence
 

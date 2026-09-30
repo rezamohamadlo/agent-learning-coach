@@ -2,7 +2,10 @@
 
 ## Previous-note recap
 
-Read this in the first session of Phase 6. It is a brief review of **Phase 5: Evaluations and reliability**, before starting the new material.
+- "Evaluation case": defines a situation and its success criteria.
+- "Grader": judges observed behavior against criteria.
+- "Baseline": records reference results for comparison.
+- "Regression": is a loss of previously satisfied behavior.
 
 ## Previous phase in brief
 

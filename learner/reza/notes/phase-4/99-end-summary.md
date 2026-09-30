@@ -2,7 +2,10 @@
 
 ## Previous-note recap
 
-The lessons in this phase connect through one sequence: Observe → diagnose → act within authority → verify the final result → report evidence and uncertainty.
+- "Agent state": records the current goal, evidence, and authority.
+- "Execution loop": acts, inspects results, and updates state.
+- "Guardrails": enforce permitted behavior.
+- "Verification": checks the final result against requirements.
 
 ## Current phase recap
 
